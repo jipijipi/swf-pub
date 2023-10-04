@@ -68,7 +68,7 @@ function insertHTML(selector, html, position = 'afterbegin') {
 
 
 //change main logo
-replaceImageByQuerySelector('body > header > nav > div.logo.pull-left > a > img.hidden-md', 'https://storage.googleapis.com/swf-bucket/files/swf-new-logo-v1.png');
+replaceImageByQuerySelector('img[alt~="logo"]', 'https://storage.googleapis.com/swf-bucket/files/swf-new-logo-v1.png');
 
 //images home
 
