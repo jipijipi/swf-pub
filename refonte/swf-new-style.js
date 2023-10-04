@@ -37,13 +37,6 @@ function triggerOnCertainURLs(allowedURLs, callback) {
     }
 }
 
-// Example usage:
-triggerOnCertainURLs(() => {
-    console.log('Function triggered for the allowed URL.');
-});
-
-
-
 
 
 function replaceImageByQuerySelector(selector, src) {
