@@ -14,6 +14,36 @@ function delayFunction(fn, delay) {
     setTimeout(fn, delay);
 }
 
+/*function triggerOnCertainURLs(allowedURLs) {
+
+    // Check if the current URL is one of the allowed ones
+    if (allowedURLs.includes(window.location.href)) {
+        // The logic you want to execute for the specified URLs
+        console.log('Function triggered for the allowed URL.');
+    } else {
+        console.log('Function did not trigger. URL is not in the list.');
+    }
+}*/
+
+function triggerOnCertainURLs(allowedURLs, callback) {
+
+
+    if (allowedURLs.includes(window.location.href)) {
+
+        callback();
+
+    } else {
+        console.log('URL is not in the list. Callback not triggered.');
+    }
+}
+
+// Example usage:
+triggerOnCertainURLs(() => {
+    console.log('Function triggered for the allowed URL.');
+});
+
+
+
 
 
 function replaceImageByQuerySelector(selector, src) {
@@ -73,29 +103,43 @@ function insertHTML(selector, html, position = 'afterbegin') {
 //change main logo
 replaceImageByQuerySelector('img[alt~="logo"]', 'https://storage.googleapis.com/swf-bucket/files/swf-new-logo-v1.png');
 
-//images home
+//removes main link navbar
+removeClassFromDivByPath('.mainLink', 'mainLink');
 
-replaceAndResizeImage('#content-page > section:nth-child(1) > div > div:nth-child(3) > div > img', 'https://storage.googleapis.com/swf-bucket/home/sowefund-impact-investing@2x.png?v=2');
 
-replaceAndResizeImage('#content-page > section:nth-child(1) > div > div:nth-child(4) > div > img', 'https://storage.googleapis.com/swf-bucket/home/sowefund-defiscaliser-utile@2x.png');
-
-replaceAndResizeImage('#content-page > section:nth-child(1) > div > div:nth-child(5) > div > img', 'https://storage.googleapis.com/swf-bucket/home/sowefund-investir-librement@2x.png');
-
-replaceAndResizeImage('#content-page > section:nth-child(1) > div > div:nth-child(6) > div > img', 'https://storage.googleapis.com/swf-bucket/home/sowefund-entreprises-qualite@2x.png');
-
-replaceAndResizeImage('#content-page > section:nth-child(1) > div > div:nth-child(7) > div > img', 'https://storage.googleapis.com/swf-bucket/home/sowefund-conseiller-agree@2x.png');
-
-//Header home
-insertHTML('#content-page', '<div id="hero-container"><div id="hero"><h1 class="font-xxxl" ><span class="highlight">Investir</span> dans les <br>entreprises de demain</h1><p class = "font-m">Avec Sowefund, investissez et défiscalisez librement <br>dans les startups européennes les plus prometteuses </p></div></div>');
 
 //fiche startups
 
-//delayFunction(replaceImageByQuerySelector('.macaron-last-days','https://storage.googleapis.com/swf-bucket/files/last-days-macaron-anim-8.svg'), 5000)
+replaceImageByQuerySelector('.macaron-last-days', 'https://storage.googleapis.com/swf-bucket/files/last-days-macaron-anim-8.svg')
 
 
 
-//removes main link navbar
-removeClassFromDivByPath('.mainLink', 'mainLink');
+//HOME
+
+function homeChanges() {
+    //images home
+
+    replaceAndResizeImage('#content-page > section:nth-child(1) > div > div:nth-child(3) > div > img', 'https://storage.googleapis.com/swf-bucket/home/sowefund-impact-investing@2x.png?v=2');
+
+    replaceAndResizeImage('#content-page > section:nth-child(1) > div > div:nth-child(4) > div > img', 'https://storage.googleapis.com/swf-bucket/home/sowefund-defiscaliser-utile@2x.png');
+
+    replaceAndResizeImage('#content-page > section:nth-child(1) > div > div:nth-child(5) > div > img', 'https://storage.googleapis.com/swf-bucket/home/sowefund-investir-librement@2x.png');
+
+    replaceAndResizeImage('#content-page > section:nth-child(1) > div > div:nth-child(6) > div > img', 'https://storage.googleapis.com/swf-bucket/home/sowefund-entreprises-qualite@2x.png');
+
+    replaceAndResizeImage('#content-page > section:nth-child(1) > div > div:nth-child(7) > div > img', 'https://storage.googleapis.com/swf-bucket/home/sowefund-conseiller-agree@2x.png');
+
+    //Header home
+    insertHTML('#content-page', '<div id="hero-container"><div id="hero"><h1 class="font-xxxl" ><span class="highlight">Investir</span> dans les <br>entreprises de demain</h1><p class = "font-m">Avec Sowefund, investissez et défiscalisez librement <br>dans les startups européennes les plus prometteuses </p></div></div>');
+}
+
+triggerOnCertainURLs(['https://sowefund.com/'], homeChanges);
+
+
+
+//STARTUPS
+
+
 
 //load the css
 loadExternalCSS('https://jipijipi.github.io/swf-pub/refonte/swf-new-style.css');
