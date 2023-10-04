@@ -17,8 +17,15 @@ function delayFunction(fn, delay) {
 
 function replaceImageByQuerySelector(selector, src) {
     var imgElement = document.querySelector(selector);
-    imgElement.src = src;
-    imgElement.srcset = src;
+
+    if (img) {
+        imgElement.src = src;
+        imgElement.srcset = src;
+    } else {
+        console.warn(`No image found for selector: ${selector}`);
+    }
+
+
 }
 
 
