@@ -1,3 +1,15 @@
+function loadExternalCSS(filePath) {
+    const body = document.body;
+    const link = document.createElement('link');
+
+    link.type = 'text/css';
+    link.rel = 'stylesheet';
+    link.href = filePath;
+
+    body.appendChild(link);
+}
+
+
 function delayFunction(fn, delay) {
     setTimeout(fn, delay);
 }
@@ -46,6 +58,8 @@ function insertHTML(selector, html, position = 'afterbegin') {
     });
 }
 
+
+
 //change main logo
 replaceImageByQuerySelector('body > header > nav > div.logo.pull-left > a > img.hidden-md', 'https://storage.googleapis.com/swf-bucket/files/swf-new-logo-v1.png');
 
@@ -66,10 +80,12 @@ insertHTML('#content-page', '<div id="hero-container"><div id="hero"><h1 class="
 
 //fiche startups
 
-//delayFunction(replaceImageByQuerySelector('.macaron-last-days', 'https://storage.googleapis.com/swf-bucket/files/last-days-macaron-anim-8.svg'), 5000)
-
+//delayFunction(replaceImageByQuerySelector('.macaron-last-days','https://storage.googleapis.com/swf-bucket/files/last-days-macaron-anim-8.svg'), 5000)
 
 
 
 //removes main link navbar
 removeClassFromDivByPath('.mainLink', 'mainLink');
+
+//load the css
+loadExternalCSS('https://jipijipi.github.io/swf-pub/refonte/swf-new-style.css');
