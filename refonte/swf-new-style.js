@@ -15,18 +15,21 @@ function delayFunction(fn, delay) {
 }
 
 
-function replaceImageByQuerySelector(selector, src) {
-    var imgElement = document.querySelector(selector);
 
-    if (img) {
-        imgElement.src = src;
-        imgElement.srcset = src;
-    } else {
-        console.warn(`No image found for selector: ${selector}`);
+function replaceImageByQuerySelector(selector, src) {
+    var imgElements = document.querySelectorAll(selector);
+
+    if (imgElements.length === 0) {
+        console.warn(`No images found for selector: ${selector}`);
+        return;
     }
 
-
+    imgElements.forEach(function (imgElement) {
+        imgElement.src = src;
+        imgElement.srcset = src;
+    });
 }
+
 
 
 function resizeImage(selector, newWidth = 300, newHeight = 300) {
