@@ -209,7 +209,6 @@ h2 {
 .number-highlight {
     font-family: var(--title-font);
     font-weight: 600;
-    /*color: var(--light-set-primary);*/
 }
 
 .arrow-frame-diagonal-bottom {
