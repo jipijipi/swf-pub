@@ -14,16 +14,6 @@ function delayFunction(fn, delay) {
     setTimeout(fn, delay);
 }
 
-/*function triggerOnCertainURLs(allowedURLs) {
-
-    // Check if the current URL is one of the allowed ones
-    if (allowedURLs.includes(window.location.href)) {
-        // The logic you want to execute for the specified URLs
-        console.log('Function triggered for the allowed URL.');
-    } else {
-        console.log('Function did not trigger. URL is not in the list.');
-    }
-}*/
 
 function triggerOnCertainURLs(allowedURLs, callback) {
 
@@ -88,6 +78,7 @@ function insertHTML(selector, html, position = 'afterbegin') {
 
     elements.forEach(element => {
         element.insertAdjacentHTML(position, html);
+        console.log(`${selector} found ${elements.length} times`)
     });
 }
 
