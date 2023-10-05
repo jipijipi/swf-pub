@@ -286,9 +286,9 @@ h2 {
     border-radius: 2rem 0.3rem 0 0;
 }
 
-.project-side {
-    background-color: var(--light-set-secondary);
-    padding: 2rem;
+.project .project-side {
+    background-color: var(--light-set-secondary) !important;
+    padding: 2rem !important;
 }
 
 .project .project-head li.current a,
