@@ -290,3 +290,9 @@ h2 {
     background-color: var(--light-set-secondary);
     padding: 2rem;
 }
+
+.project .project-head li.current a,
+.project .project-head li:not(.disabled) a:hover {
+    background: var(--light-set-secondary);
+    color: #fff;
+}
