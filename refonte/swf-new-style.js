@@ -9,6 +9,21 @@ function loadExternalCSS(filePath) {
     body.appendChild(link);
 }
 
+function appendToHead(elementType, attributes) {
+    // Create the new element
+    var element = document.createElement(elementType);
+
+    // Add any passed attributes to the element
+    for (var key in attributes) {
+        element.setAttribute(key, attributes[key]);
+    }
+
+    // Append the element to the head of the document
+    document.head.appendChild(element);
+}
+
+
+
 
 function delayFunction(fn, delay) {
     setTimeout(fn, delay);
@@ -163,6 +178,11 @@ function projectChanges() {
 triggerOnCertainURLs(['https://sowefund.com/projet'], projectChanges, true);
 
 
+//favicons
+appendToHead('link', { 'rel': 'manifest', 'href': 'https://storage.googleapis.com/swf-bucket/favicon/manifest.webmanifest' });
+appendToHead('link', { 'rel': 'icon', 'href': 'https://storage.googleapis.com/swf-bucket/favicon/favicon.ico', 'sizes': '32x32' });
+appendToHead('link', { 'rel': 'icon', 'href': 'https://storage.googleapis.com/swf-bucket/favicon/icon.svg', 'type': 'image/svg+xml' });
+appendToHead('link', { 'rel': 'apple-touch-icon', 'href': 'https://storage.googleapis.com/swf-bucket/favicon/apple-touch-icon.png' });
 
 
 //load the css
