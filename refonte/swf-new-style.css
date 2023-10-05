@@ -50,6 +50,13 @@ body {
     font-weight: 600;
 }
 
+@media screen and (min-width: 480px) {
+    .project .project-head li.current a::after {
+        border-top-color: var(--dark-set-secondary);
+
+    }
+}
+
 
 /* BOXES */
 
@@ -235,6 +242,17 @@ h2 {
     font-size: 120%;
 }
 
+.btn:hover {
+    color: #fff !important;
+}
+
+.btn-default,
+.btn-default:hover,
+a.btn-default {
+    background: var(--dark-set-secondary);
+    color: #fff;
+}
+
 /* FOOTER */
 
 .footer section {
@@ -317,5 +335,4 @@ a.matter:hover {
 .project .project-head li.current a,
 .project .project-head li:not(.disabled) a:hover {
     background: var(--light-set-secondary);
-    color: #fff;
 }
