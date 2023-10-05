@@ -160,7 +160,7 @@ function projectChanges() {
 
 }
 
-triggerOnCertainURLs(['https://sowefund.com/projet'], homeChanges, true);
+triggerOnCertainURLs(['https://sowefund.com/projet'], projectChanges, true);
 
 
 
