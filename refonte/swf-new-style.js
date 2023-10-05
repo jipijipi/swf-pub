@@ -15,16 +15,20 @@ function delayFunction(fn, delay) {
 }
 
 
-function triggerOnCertainURLs(allowedURLs, callback) {
+function triggerOnCertainURLs(allowedURLs, callback, partialMatch = false) {
 
 
-    if (allowedURLs.includes(window.location.href)) {
+    const urlMatch = partialMatch
+        ? allowedURLs.some(allowedUrl => window.location.href.includes(allowedUrl))
+        : allowedURLs.includes(window.location.href);
 
+    if (urlMatch) {
+        // Call the provided function if there's a match
         callback();
-
     } else {
-        console.log('URL is not in the list. Callback not triggered.');
+        console.log('URL does not match. Callback not triggered.');
     }
+
 }
 
 
@@ -156,7 +160,7 @@ function projectChanges() {
 
 }
 
-triggerOnCertainURLs(['https://sowefund.com/projet'], homeChanges);
+triggerOnCertainURLs(['https://sowefund.com/projet'], homeChanges, true);
 
 
 
