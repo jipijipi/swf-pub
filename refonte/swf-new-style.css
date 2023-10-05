@@ -73,6 +73,13 @@ body {
     height: 150px;
 }
 
+.portrait {
+    border-radius: var(--default-rounding);
+    height: 200px;
+    width: 100px;
+    background-color: var(--light-grey);
+}
+
 
 /* BOXES */
 
