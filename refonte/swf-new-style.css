@@ -1,3 +1,5 @@
+/* SETUP */
+
 @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@500;600;700&family=Poppins:wght@500;600&display=swap');
 
 :root {
@@ -9,15 +11,60 @@
     --light-set-secondary: #eaf2ff;
     --light-set-highlight: #fffbf1;
 
-    --title-font: 'Poppins', sans-serif;
-    --body-font: 'Manrope', sans-serif;
+    --main-font: 'Poppins', sans-serif;
+    --secondary-font: 'Manrope', sans-serif;
 }
 
 body {
-    font-family: var(--body-font);
+    font-family: var(--secondary-font);
     font-weight: 300;
     text-shadow: unset !important;
 }
+
+/* GLOBAL */
+
+.main {
+
+    background-color: #fff;
+}
+
+#content-page {
+    border-right: 1px solid #fff;
+    border-left: 1px solid #fff;
+}
+
+.bg-default {
+    background-color: var(--dark-set-primary);
+
+}
+
+.number-highlight {
+    color: var(--dark-set-primary);
+    font-family: var(--main-font);
+    font-weight: 600;
+}
+
+
+/* BOX */
+
+.box-title {
+    padding: 3rem 4rem;
+}
+
+.box {
+    border: 1px #eee solid;
+    box-shadow: unset;
+}
+
+.arrow-frame-diagonal-bottom {
+    text-align: center;
+    border: 20px solid;
+    border-image-source: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 25 25"><path d="m15,.5v3.99c0,.28.23.5.5.5h3.99c.28,0,.5.23.5.5v3.99c0,.28.23.5.5.5h3.99c.28,0,.5-.23.5-.5V2.5c0-1.38-1.12-2.5-2.5-2.5h-6.99c-.28,0-.5.23-.5.5Z" fill="%230075ff"/><path d="m10,24.5v-3.99c0-.28-.23-.5-.5-.5h-3.99c-.28,0-.5-.23-.5-.5v-3.99c0-.28-.23-.5-.5-.5H.5c-.28,0-.5.23-.5.5v6.99c0,1.38,1.12,2.5,2.5,2.5h6.99c.28,0,.5-.23.5-.5Z" fill="%230075ff"/></svg>');
+    border-image-slice: 40%;
+}
+
+
+/* LINKS */
 
 
 a:link,
@@ -29,35 +76,36 @@ a:hover {
     color: var(--dark-set-primary);
 }
 
-.menu-links>li:hover,
-.menu-links>li:active {
-    background: var(--light-set-primary) !important;
-    color: #fff !important;
 
-}
 
-.menu-links>li>span:hover,
-.menu-links>li>span:active {
-    color: #fff !important;
-
-}
+/* FICHES */
 
 .title {
     font-size: 110%;
     line-height: 100%
 }
 
+.vignette {
+    border-radius: 18px;
+}
+
+.box-head img {
+    border-top-left-radius: 18px;
+
+}
+
+.vignette a {
+    color: #7A7A7A;
+}
+
+/* TYPOGRAPHY */
+
 h1,
 h2,
 h3 {
     color: #001538;
-    font-family: var(--title-font);
+    font-family: var(--main-font);
     /*text-transform: uppercase;*/
-}
-
-.header {
-    box-shadow: unset;
-    border-bottom: 1px solid #eee;
 }
 
 h1 {
@@ -77,29 +125,45 @@ h2 {
     line-height: 120%;
 }
 
-.box-title {
-    padding: 3rem 4rem;
+/*custom class*/
+.highlight {
+    color: var(--light-set-primary);
 }
+
+/* NAVBAR */
 
 .logo>a>img {
     margin-top: 6px;
     width: 160px;
 }
 
-.main {
-
-    background-color: #fff;
+.header {
+    box-shadow: unset;
+    border-bottom: 1px solid #eee;
 }
 
-#content-page {
-    border-right: 1px solid #fff;
-    border-left: 1px solid #fff;
+.menu-links {
+    text-transform: uppercase;
 }
 
-.bg-default {
-    background-color: var(--dark-set-primary);
+.menu-links>li:hover,
+.menu-links>li:active {
+    background: var(--light-set-primary) !important;
+    color: #fff !important;
 
 }
+
+.menu-links>li>span:hover,
+.menu-links>li>span:active {
+    color: #fff !important;
+
+}
+
+
+
+
+
+/* BUTTONS */
 
 
 .btn-primary {
@@ -113,14 +177,13 @@ h2 {
 
 }
 
-.vignette a {
-    color: #7A7A7A;
-}
 
 .btn-xl {
     text-transform: uppercase;
     font-size: 120%;
 }
+
+/* FOOTER */
 
 .footer section.mappage {
     background-color: var(--dark-set-primary);
@@ -144,30 +207,20 @@ h2 {
     color: var(--light-set-primary) !important;
 }
 
-.box {
-    border: 1px #eee solid;
-    box-shadow: unset;
-}
 
 .footer section h3 {
     color: var(--light-set-primary);
 }
 
-.number-highlight {
-    color: var(--dark-set-primary);
-}
 
-.menu-links {
-    text-transform: uppercase;
-}
+
+/*HOME*/
 
 .owl-theme .owl-controls .owl-page span {
     background: var(--light-set-primary);
 }
 
-.highlight {
-    color: var(--light-set-primary);
-}
+
 
 #content-page>section:nth-child(2)>h1 {
     display: none;
@@ -196,26 +249,3 @@ h2 {
 #carousel-home {
     display: none !important;
 }
-
-.vignette {
-    border-radius: 18px;
-}
-
-.box-head img {
-    border-top-left-radius: 18px;
-
-}
-
-.number-highlight {
-    font-family: var(--title-font);
-    font-weight: 600;
-}
-
-.arrow-frame-diagonal-bottom {
-    text-align: center;
-    border: 20px solid;
-    border-image-source: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 25 25"><path d="m15,.5v3.99c0,.28.23.5.5.5h3.99c.28,0,.5.23.5.5v3.99c0,.28.23.5.5.5h3.99c.28,0,.5-.23.5-.5V2.5c0-1.38-1.12-2.5-2.5-2.5h-6.99c-.28,0-.5.23-.5.5Z" fill="%230075ff"/><path d="m10,24.5v-3.99c0-.28-.23-.5-.5-.5h-3.99c-.28,0-.5-.23-.5-.5v-3.99c0-.28-.23-.5-.5-.5H.5c-.28,0-.5.23-.5.5v6.99c0,1.38,1.12,2.5,2.5,2.5h6.99c.28,0,.5-.23.5-.5Z" fill="%230075ff"/></svg>');
-    border-image-slice: 40%;
-}
-
-/*test*/
