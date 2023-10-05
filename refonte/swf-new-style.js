@@ -190,5 +190,3 @@ appendToHead('link', { 'rel': 'apple-touch-icon', 'href': 'https://storage.googl
 
 //load the css
 loadExternalCSS('https://jipijipi.github.io/swf-pub/refonte/swf-new-style.css');
-
-console.info(`last update : ${new Date()}`);
