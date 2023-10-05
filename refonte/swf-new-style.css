@@ -106,20 +106,26 @@ body {
 
 a:link,
 a:visited {
-    color: var(--light-set-primary);
+    color: var(--light-set-primary) !important;
 }
 
 a:hover {
-    color: var(--dark-set-primary);
+    color: var(--dark-set-primary) !important;
 }
 
+a:not(.btn):hover,
+a:not(.btn):hover strong {
+    color: var(--dark-set-primary) !important;
+}
 
 
 /* FICHES */
 
 .title {
     font-size: 110%;
-    line-height: 100%
+    line-height: 100%;
+    color: var(--light-set-primary);
+
 }
 
 .vignette {
@@ -254,6 +260,10 @@ h2 {
 
 .matter {
     color: var(--dark-set-secondary) !important;
+}
+
+a.matter:hover {
+    border-bottom: 1px solid var(--light-set-primary) !important;
 }
 
 
