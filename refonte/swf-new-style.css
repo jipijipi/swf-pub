@@ -17,6 +17,7 @@
     --main-font: 'Poppins', sans-serif;
     --secondary-font: 'Manrope', sans-serif;
 
+    --default-rounding: 25px 3px 25px 25px;
     --arrow: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 25 25"><path class="st0" d="M15,0.5v4C15,4.8,15.2,5,15.5,5h4C19.8,5,20,5.2,20,5.5v4c0,0.3,0.2,0.5,0.5,0.5h4c0.3,0,0.5-0.2,0.5-0.5v-7C25,1.1,23.9,0,22.5,0h-7C15.2,0,15,0.2,15,0.5L15,0.5z" fill="%230075ff"/></svg>');
 }
 
