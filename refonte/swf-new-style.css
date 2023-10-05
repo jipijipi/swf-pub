@@ -63,6 +63,8 @@ body {
 /* new class */
 .full-viewport {
     width: 100vw;
+    position: relative;
+    left: calc(-50vw + 50%);
 }
 
 #track-record {
