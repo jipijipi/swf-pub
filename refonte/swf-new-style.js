@@ -154,7 +154,7 @@ function homeChanges() {
     replaceAndResizeImage('#content-page > section:nth-child(1) > div > div:nth-child(7) > div > img', 'https://storage.googleapis.com/swf-bucket/home/sowefund-conseiller-agree@2x.png');
 
     //Remove elements
-    removeElementsBySelector('#content-page>section:nth-child(2)>h1');
+    removeElementsBySelector('.container > .row-layout > h1.text-center');
     removeElementsBySelector('#carousel-home');
     removeElementsBySelector('#mobile-content-video');
 
