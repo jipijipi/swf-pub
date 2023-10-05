@@ -228,6 +228,11 @@ h2 {
 
 /* FOOTER */
 
+.footer section {
+
+    padding: 2.5rem 2.35765%;
+}
+
 .footer section.mappage {
     background-color: var(--dark-set-primary);
     color: #fff !important;
@@ -235,11 +240,11 @@ h2 {
 }
 
 .footer section.network {
-    background-color: var(--dark-set-highlight);
+    background-color: var(--dark-set-secondary);
 }
 
 .footer section.press {
-    background-color: var(--dark-set-highlight);
+    background-color: var(--dark-set-secondary);
 }
 
 .footer section a {
@@ -247,12 +252,12 @@ h2 {
 }
 
 .matter {
-    color: var(--light-set-primary) !important;
+    color: var(--dark-set-secondary) !important;
 }
 
 
 .footer section h3 {
-    color: var(--light-set-primary);
+    color: var(--dark-set-secondary);
 }
 
 
