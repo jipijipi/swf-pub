@@ -145,11 +145,11 @@ h2 {
 
 .menu-links>li {
     text-transform: uppercase;
-    border: unset;
+    border: unset !important;
 }
 
 .menu-links>li.last {
-    border: unset;
+    border: unset !important;
 }
 
 .menu-links>li:hover,
