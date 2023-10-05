@@ -95,6 +95,13 @@ function removeElementsBySelector(selector) {
     }
 }
 
+//GLOBAL
+
+//remove social list side
+removeElementsBySelector('body > ul.fixed-panel-layout.list-unstyled.print-hidden');
+
+
+//NAVBAR
 
 //change main logo
 replaceImageByQuerySelector('img[alt~="logo"]', 'https://storage.googleapis.com/swf-bucket/files/swf-new-logo-v1.png');
@@ -104,7 +111,9 @@ removeClassFromDivByPath('.mainLink', 'mainLink');
 
 
 
-//fiche startups
+//FICHES
+
+//fiches startups
 
 replaceImageByQuerySelector('.macaron-last-days', 'https://storage.googleapis.com/swf-bucket/files/last-days-macaron-anim-8.svg')
 
