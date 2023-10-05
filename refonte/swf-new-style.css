@@ -45,7 +45,7 @@ body {
 }
 
 
-/* BOX */
+/* BOXES */
 
 .box-title {
     padding: 3rem 4rem;
@@ -142,8 +142,14 @@ h2 {
     border-bottom: 1px solid #eee;
 }
 
-.menu-links {
+
+.menu-links>li {
     text-transform: uppercase;
+    border: unset;
+}
+
+.menu-links>li.last {
+    border: unset;
 }
 
 .menu-links>li:hover,
@@ -222,10 +228,6 @@ h2 {
 
 
 
-#content-page>section:nth-child(2)>h1 {
-    display: none;
-}
-
 #hero-container {
     width: 100%;
     padding: 40px;
@@ -244,8 +246,4 @@ h2 {
     border-image-width: 1;
     border-image-outset: 1;
 
-}
-
-#carousel-home {
-    display: none !important;
 }

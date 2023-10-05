@@ -128,9 +128,10 @@ function homeChanges() {
     //Header home
     insertHTML('#content-page', '<div id="hero-container"><div id="hero"><h1 class="font-xxxl" ><span class="highlight">Investir</span> dans les <br>entreprises de demain</h1><p class = "font-m">Avec Sowefund, investissez et défiscalisez librement <br>dans les startups européennes les plus prometteuses </p></div></div>');
 
-    //Remove carousel
+    //Remove elements
 
     removeElementsBySelector('#carousel-home');
+    removeElementsBySelector('#content-page>section:nth-child(2)>h1');
 
 }
 
