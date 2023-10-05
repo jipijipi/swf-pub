@@ -148,7 +148,16 @@ triggerOnCertainURLs(['https://sowefund.com/'], homeChanges);
 
 
 
-//STARTUPS
+//PROJETS
+
+function projectChanges() {
+
+    removeElementsBySelector('.onglet');
+
+}
+
+triggerOnCertainURLs(['https://sowefund.com/projet'], homeChanges);
+
 
 
 
