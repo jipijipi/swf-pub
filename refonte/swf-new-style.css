@@ -283,7 +283,7 @@ h2 {
 /* PROJETS */
 
 .invest {
-    border-radius: 2rem 0.3rem 0 0;
+    border-radius: 2rem 0.3rem 0 0 !important;
 }
 
 .project .project-side {

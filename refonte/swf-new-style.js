@@ -148,7 +148,7 @@ function homeChanges() {
 
 }
 
-triggerOnCertainURLs(['https://sowefund.com/'], homeChanges);
+triggerOnCertainURLs(['https://sowefund.com/'], homeChanges, false);
 
 
 
