@@ -280,7 +280,11 @@ a.btn-default {
 
 .footer section.network {
     background-color: var(--dark-set-secondary);
+}
+
+.footer .network a {
     color: var(--dark-set-primary);
+
 }
 
 .footer section.press {
