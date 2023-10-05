@@ -154,9 +154,9 @@ function homeChanges() {
     replaceAndResizeImage('#content-page > section:nth-child(1) > div > div:nth-child(7) > div > img', 'https://storage.googleapis.com/swf-bucket/home/sowefund-conseiller-agree@2x.png');
 
     //Remove elements
+    removeElementsBySelector('#content-page>section:nth-child(2)>h1');
     removeElementsBySelector('#carousel-home');
     removeElementsBySelector('#mobile-content-video');
-    removeElementsBySelector('#content-page>section:nth-child(2)>h1');
 
     //Header home
     insertHTML('#content-page', '<div class="row full-viewport" id="track-record" height = 150px></div>');
