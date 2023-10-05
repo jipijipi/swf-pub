@@ -82,6 +82,18 @@ function insertHTML(selector, html, position = 'afterbegin') {
     });
 }
 
+function removeElementsBySelector(selector) {
+    var elements = document.querySelectorAll(selector);
+
+    if (elements.length === 0) {
+        console.warn(`No elements found for selector: ${selector}`);
+        return;
+    }
+
+    for (var i = 0; i < elements.length; i++) {
+        elements[i].parentNode.removeChild(elements[i]);
+    }
+}
 
 
 //change main logo
@@ -115,6 +127,11 @@ function homeChanges() {
 
     //Header home
     insertHTML('#content-page', '<div id="hero-container"><div id="hero"><h1 class="font-xxxl" ><span class="highlight">Investir</span> dans les <br>entreprises de demain</h1><p class = "font-m">Avec Sowefund, investissez et défiscalisez librement <br>dans les startups européennes les plus prometteuses </p></div></div>');
+
+    //Remove carousel
+
+    removeElementsBySelector('#carousel-home');
+
 }
 
 triggerOnCertainURLs(['https://sowefund.com/'], homeChanges);
