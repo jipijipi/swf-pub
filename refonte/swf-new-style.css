@@ -60,6 +60,15 @@ body {
     }
 }
 
+/* new class */
+.full-viewport {
+    width: 100vw;
+}
+
+#track-record {
+    border: solid 1px var(--dark-grey);
+}
+
 
 /* BOXES */
 
