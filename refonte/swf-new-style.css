@@ -58,9 +58,9 @@ body {
 
 .box,
 .box-side {
-    background-color: var(--dark-set-secondary);
+    background-color: var(--light-set-secondary);
     box-shadow: unset;
-
+    padding: 2rem;
 }
 
 
@@ -284,4 +284,9 @@ h2 {
 
 .invest {
     border-radius: 2rem 0.3rem 0 0;
+}
+
+.project-side {
+    background-color: var(--light-set-secondary);
+    padding: 2rem;
 }
