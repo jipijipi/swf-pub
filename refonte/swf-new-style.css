@@ -69,6 +69,7 @@ body {
 
 #track-record {
     border: solid 1px var(--dark-grey);
+    height: 150px;
 }
 
 
