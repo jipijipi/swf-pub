@@ -18,12 +18,12 @@
     --main-font: 'Poppins', sans-serif;
     --secondary-font: 'Manrope', sans-serif;
 
-    --default-round: 25px;
-    --default-sharp: 3px;
+    --default-round: 1.5rem;
+    --default-sharp: 0.3rem;
     --default-rounding: var(--default-round) var(--default-sharp) var(--default-round) var(--default-round);
 
-    --small-round: 1.2rem;
-    --small-sharp: 0.3rem;
+    --small-round: 0.8rem;
+    --small-sharp: 0.1rem;
     --small-rounding: var(--default-round) var(--default-sharp) var(--default-round) var(--default-round);
 
 
@@ -3813,7 +3813,7 @@ only screen and (min-resolution: 1.3dppx) {
     margin-bottom: 2%;
     height: 14rem;
     line-height: 14rem;
-    border-radius: var(--default-rounding);
+    border-radius: var(--default-round) var(--default-sharp 0 0);
     display: block;
 }
 
@@ -3961,7 +3961,7 @@ only screen and (min-resolution: 1.3dppx) {
 
 .project .project-head li.current a,
 .project .project-head li:not(.disabled) a:hover {
-    background: var(--light-set-secondary);
+    background: var(--dark-set-primary);
     color: #fff;
 }
 
@@ -4534,7 +4534,6 @@ only screen and (min-resolution: 1.3dppx) {
     color: #fff !important;
     line-height: normal;
     border-radius: 0 1em 1em 0;
-    box-shadow: 1px 1px 2px 0 #7a7a7a;
 }
 
 .vignette .box-head .ribbon::before {
