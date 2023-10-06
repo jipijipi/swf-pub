@@ -54,6 +54,10 @@ body {
     font-weight: 600;
 }
 
+.bg-info {
+    background-color: var(--light-set-secondary);
+}
+
 @media screen and (min-width: 480px) {
     .project .project-head li.current a::after {
         border-top-color: var(--dark-set-secondary);
@@ -94,7 +98,6 @@ body {
 
 .box,
 .box-side {
-    background-color: var(--light-set-secondary);
     box-shadow: unset;
     padding: 4rem;
     border-radius: 30px 4px 30px 30px;
