@@ -4486,7 +4486,7 @@ only screen and (min-resolution: 1.3dppx) {
     color: #FFF;
     display: inline-block;
     zoom: 1;
-    *display: inline;
+    /* *display: inline; */
     /*IE7 life-saver */
     margin: 5px;
     padding: 3px 10px;
@@ -4513,7 +4513,7 @@ only screen and (min-resolution: 1.3dppx) {
 .owl-theme .owl-controls .owl-page {
     display: inline-block;
     zoom: 1;
-    *display: inline;
+    /* *display: inline; */
     /*IE7 life-saver */
 }
 
@@ -4623,7 +4623,7 @@ only screen and (min-resolution: 1.3dppx) {
     margin: 0;
     padding: 0;
     width: 102%;
-    *zoom: 1;
+    /* *zoom: 1; */
 }
 
 .datepicker-content li {
