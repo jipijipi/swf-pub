@@ -218,7 +218,6 @@ h2 {
 
 
 .menu-links>li {
-    /* text-transform: uppercase; */
     border: unset !important;
 }
 
@@ -226,8 +225,8 @@ h2 {
     border: unset !important;
 }
 
-.menu-links>li:hover,
-.menu-links>li:active {
+nav>.menu>.menu-links>li:hover,
+nav>.menu>.menu-links>li:active {
     background: var(--light-set-primary) !important;
     color: #fff !important;
 
