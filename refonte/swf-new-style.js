@@ -116,6 +116,8 @@ function removeElementsBySelector(selector) {
 
 //GLOBAL
 
+//remove stylesheet
+removeElementsBySelector('link[href=https://d10ib5h62k7mu8.cloudfront.net/assets/css/7f00b3a26d0c1e22fd7c20785de84702-sowefund.min.css]');
 //remove social list side
 removeElementsBySelector('body > ul.fixed-panel-layout.list-unstyled.print-hidden');
 
@@ -161,7 +163,7 @@ function homeChanges() {
     //Header home
     // insertHTML('#content-page', '<div class="row full-viewport" id="track-record" height = 150px><div class="portrait"></div><div class="portrait"></div></div>');
     insertHTML('#content-page', '<div class="row " id="cta-home"><div class="text-center row"><a href="/startups" class="btn btn-primary btn-xl upper">Investir dès maintenant</a><br></div></div>');
-    insertHTML('#content-page', '<div id="hero-container"><div id="hero"><h1 class="font-xxxl" ><span class="highlight">Investir</span> dans les <br>entreprises de demain</h1><p class = "font-m">Devenez actionnaire des startups les plus innovantes <br>aux côtés des professionnels de l’investissement. </p></div></div>');
+    insertHTML('#content-page', '<div id="hero-container"><div id="hero"><h1 class="font-xxxl" ><span class="highlight">Investir</span> dans les <br>entreprises de demain</h1><p class = "font-md">Devenez actionnaire des startups les plus innovantes <br>aux côtés des professionnels de l’investissement. </p></div></div>');
 
 
 
