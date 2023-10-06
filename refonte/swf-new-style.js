@@ -111,6 +111,8 @@ function removeElementsBySelector(selector) {
 
     for (var i = 0; i < elements.length; i++) {
         elements[i].parentNode.removeChild(elements[i]);
+        console.info(`Element ${elements[i]} removed`);
+
     }
 }
 
