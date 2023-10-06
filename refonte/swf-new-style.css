@@ -180,7 +180,6 @@ h2,
 h3 {
     color: #001538;
     font-family: var(--main-font);
-    /*text-transform: uppercase;*/
 }
 
 h1 {
@@ -261,8 +260,8 @@ h2 {
 
 
 .btn-xl {
-    text-transform: uppercase;
     font-size: 120%;
+    padding: 1.5rem;
 }
 
 .btn:hover {
