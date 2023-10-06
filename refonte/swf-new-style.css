@@ -2300,7 +2300,7 @@ span.customSelect {
 }
 
 .box-side {
-    background: #fff;
+    background: var(--dark-set-secondary);
     padding: 4rem;
     border-radius: var(--default-rounding);
 }
