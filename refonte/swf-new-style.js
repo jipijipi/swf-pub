@@ -87,7 +87,7 @@ function removeClassFromDivByPath(path, className) {
     });
 }
 
-function insertHTML(selector, html, position = 'afterbegin') {
+function insertHTML(selector, html, position = 'afterbegin', checkById = true) {
     let elements = document.querySelectorAll(selector);
 
     if (elements.length === 0) {
@@ -95,11 +95,29 @@ function insertHTML(selector, html, position = 'afterbegin') {
         return;
     }
 
+    let shouldInsert = true;
+
+    if (checkById) {
+        // Extract id from the provided HTML string
+        const idMatch = html.match(/id="([^"]+)"/);
+        if (idMatch && idMatch[1]) {
+            const id = idMatch[1];
+            const existingElement = document.getElementById(id);
+            if (existingElement) {
+                shouldInsert = false;  // Don't insert if element with this ID already exists
+            }
+        }
+    }
+
     elements.forEach(element => {
-        element.insertAdjacentHTML(position, html);
-        console.log(`${selector} found ${elements.length} times`)
+        if (shouldInsert) {
+            element.insertAdjacentHTML(position, html);
+        }
+
+        console.log(`${selector} found ${elements.length} times`);
     });
 }
+
 
 function removeElementsBySelector(selector) {
     var elements = document.querySelectorAll(selector);
