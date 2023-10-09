@@ -145,8 +145,11 @@ function moveElement(sourceSelector, destinationSelector, appendToEnd = true) {
 
     if (appendToEnd) {
         destinationElement.appendChild(sourceElement);
+        console.warn("Element moved");
+
     } else {
         destinationElement.insertBefore(sourceElement, destinationElement.firstChild);
+        console.warn("Element moved");
     }
 }
 
@@ -219,6 +222,14 @@ function projectChanges() {
 
 triggerOnCertainURLs(['https://sowefund.com/projet'], projectChanges, true);
 
+//QSN
+
+function QsnChanges() {
+    moveElement('#content-page > section', 'content-page', false)
+}
+
+triggerOnCertainURLs(['https://sowefund.com/qui-sommes-nous'], QsnChanges, true);
+
 
 //favicons
 appendToHead('link', { 'rel': 'manifest', 'href': 'https://storage.googleapis.com/swf-bucket/favicon/manifest.webmanifest' });
@@ -230,8 +241,4 @@ appendToHead('link', { 'rel': 'apple-touch-icon', 'href': 'https://storage.googl
 //load the css
 loadExternalCSS('https://jipijipi.github.io/swf-pub/refonte/swf-new-style.css');
 
-//QSN
 
-function QsnChanges() {
-    moveElement('#content-page > section', 'content-page', false)
-}
