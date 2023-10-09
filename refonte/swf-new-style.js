@@ -134,6 +134,22 @@ function removeElementsBySelector(selector) {
     }
 }
 
+function moveElement(sourceSelector, destinationSelector, appendToEnd = true) {
+    const sourceElement = document.querySelector(sourceSelector);
+    const destinationElement = document.querySelector(destinationSelector);
+
+    if (!sourceElement || !destinationElement) {
+        console.warn("Source or destination element not found.");
+        return;
+    }
+
+    if (appendToEnd) {
+        destinationElement.appendChild(sourceElement);
+    } else {
+        destinationElement.insertBefore(sourceElement, destinationElement.firstChild);
+    }
+}
+
 //GLOBAL
 
 //remove stylesheet
@@ -213,3 +229,9 @@ appendToHead('link', { 'rel': 'apple-touch-icon', 'href': 'https://storage.googl
 
 //load the css
 loadExternalCSS('https://jipijipi.github.io/swf-pub/refonte/swf-new-style.css');
+
+//QSN
+
+function QsnChanges() {
+    moveElement('#content-page > section', 'content-page', false)
+}
