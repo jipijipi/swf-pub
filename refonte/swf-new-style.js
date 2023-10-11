@@ -242,4 +242,3 @@ appendToHead('link', { 'rel': 'apple-touch-icon', 'href': 'https://storage.googl
 loadExternalCSS('https://jipijipi.github.io/swf-pub/refonte/swf-new-style.css');
 
 
-javascript: (() => { const script = document.createElement('script'); script.src = 'https://jipijipi.github.io/swf-pub/refonte/swf-new-style.js'; document.body.appendChild(script); })();
