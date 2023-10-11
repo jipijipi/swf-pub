@@ -225,7 +225,7 @@ triggerOnCertainURLs(['https://sowefund.com/projet'], projectChanges, true);
 //QSN
 
 function QsnChanges() {
-    moveElement('#content-page > section', 'content-page', false)
+    moveElement('#content-page > section', '#content-page', false)
 }
 
 triggerOnCertainURLs(['https://sowefund.com/qui-sommes-nous'], QsnChanges, true);
@@ -242,3 +242,4 @@ appendToHead('link', { 'rel': 'apple-touch-icon', 'href': 'https://storage.googl
 loadExternalCSS('https://jipijipi.github.io/swf-pub/refonte/swf-new-style.css');
 
 
+javascript: (() => { const script = document.createElement('script'); script.src = 'https://jipijipi.github.io/swf-pub/refonte/swf-new-style.js'; document.body.appendChild(script); })();
