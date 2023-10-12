@@ -2587,8 +2587,8 @@ span.customSelect {
 }
 
 .box-title {
-    background: #f4f4f4;
-    border-bottom: 2px solid #e5e5e5;
+    background: var(--dark-set-secondary);
+    /* border-bottom: 2px solid #e5e5e5; */
     display: block;
     margin: 0;
     min-height: 5.5rem;
@@ -2596,6 +2596,7 @@ span.customSelect {
     padding: 3rem 4rem;
     position: relative;
     width: 100%;
+    border-radius: var(--default-round);
 }
 
 .box-block {
