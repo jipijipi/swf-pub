@@ -372,7 +372,7 @@ nav>.menu>.menu-links>li:active {
 /* FONTICONE */
 @font-face {
     font-family: "sowefont";
-    src: url("https://d10ib5h62k7mu8.cloudfront.net/assets/fonts/sowefont.eot?a4f58212e472359cd8372b6b8665db97");
+    src: url("https://d10ib5h62k/assets/7mu8.cloudfront.netfonts/sowefont.eot?a4f58212e472359cd8372b6b8665db97");
     src: url("https://d10ib5h62k7mu8.cloudfront.net/assets/fonts/sowefont.eot?a4f58212e472359cd8372b6b8665db97#iefix") format("embedded-opentype"), url("https://d10ib5h62k7mu8.cloudfront.net/assets/fonts/sowefont.woff?a4f58212e472359cd8372b6b8665db97") format("woff"), url("https://d10ib5h62k7mu8.cloudfront.net/assets/fonts/sowefont.ttf?a4f58212e472359cd8372b6b8665db97") format("truetype");
     font-weight: 400;
     font-style: normal
@@ -2526,7 +2526,7 @@ table.table tbody tr.success {
 }
 
 span.customSelect {
-    background: #fff url(../../assets/img/backgrounds/arrow-select.gif@v=76d669d) no-repeat 95% 50%;
+    background: #fff url(https://d10ib5h62k/assetsimg/backgrounds/arrow-select.gif@v=76d669d) no-repeat 95% 50%;
     padding: 0 .5rem;
     border: 1px solid #627b7b;
     box-shadow: 0 1px 2px -1px #929292 inset;
@@ -2723,7 +2723,7 @@ span.customSelect {
 }
 
 .status-progress {
-    background: url(../../assets/img/sprite/status-account.png@v=76d669d) no-repeat 0 0;
+    background: url(https://d10ib5h62k/assetsimg/sprite/status-account.png@v=76d669d) no-repeat 0 0;
     width: 12rem;
     height: 12rem;
     display: block;
@@ -3159,7 +3159,7 @@ a.text-white {
     z-index: 5;
     position: relative;
     top: 1.5rem;
-    background: url(../../assets/img/backgrounds/progress.png@v=ebbbbe6) no-repeat 0 0;
+    background: url(https://d10ib5h62k/assetsimg/backgrounds/progress.png@v=ebbbbe6) no-repeat 0 0;
 }
 
 @media screen and (min-width: 767px) {
@@ -3203,7 +3203,7 @@ a.text-white {
 }
 
 .sticker .stick {
-    background: url(../../assets/img/backgrounds/stick.png@v=ebbbbe6) no-repeat 0 0;
+    background: url(https://d10ib5h62k/assetsimg/backgrounds/stick.png@v=ebbbbe6) no-repeat 0 0;
     color: #fff;
     float: right;
     padding-left: 7px;
@@ -3212,7 +3212,7 @@ a.text-white {
 }
 
 .sticker .stick span {
-    background: url(../../assets/img/backgrounds/stick.png@v=ebbbbe6) no-repeat right 0;
+    background: url(https://d10ib5h62k/assetsimg/backgrounds/stick.png@v=ebbbbe6) no-repeat right 0;
     display: block;
     line-height: 26px;
     min-width: 21px;
@@ -3229,7 +3229,7 @@ a.text-white {
 
 .radio-panel .form-input::before {
     content: "";
-    background: url(../../assets/img/backgrounds/radio.png@v=ebbbbe6) no-repeat 0 bottom;
+    background: url(https://d10ib5h62k/assetsimg/backgrounds/radio.png@v=ebbbbe6) no-repeat 0 bottom;
     position: absolute;
     top: -webkit-calc(50% - 9px);
     top: calc(50% - 9px);
@@ -3374,7 +3374,7 @@ a.text-white {
     right: -18px;
     height: 100%;
     width: 18px;
-    background: url(../../assets/img/backgrounds/arrow-details.png@v=f32395b) no-repeat;
+    background: url(https://d10ib5h62k/assetsimg/backgrounds/arrow-details.png@v=f32395b) no-repeat;
 }
 
 .row,
@@ -3690,7 +3690,7 @@ a.text-white {
     }
 
     .header .nav-header .menu .menu-links>li.mainLink::after {
-        background: url(../../assets/img/backgrounds/menu-link.png@v=76d669d) no-repeat;
+        background: url(https://d10ib5h62k/assetsimg/backgrounds/menu-link.png@v=76d669d) no-repeat;
         bottom: 0;
         content: '';
         display: block;
@@ -3935,7 +3935,7 @@ a.text-white {
 }
 
 .progress-bar.wait span {
-    background-image: url("../../assets/img/backgrounds/orange-dot-project.png");
+    background-image: url("https://d10ib5h62k/assetsimg/backgrounds/orange-dot-project.png");
 }
 
 @media only screen and (-webkit-min-device-pixel-ratio: 1.3),
@@ -3944,7 +3944,7 @@ only screen and (-o-min-device-pixel-ratio: 1.3 / 1),
 only screen and (min-resolution: 125dpi),
 only screen and (min-resolution: 1.3dppx) {
     .progress-bar.wait span {
-        background-image: url("../../assets/img/backgrounds/orange-dot-project@2x.png");
+        background-image: url("https://d10ib5h62k/assetsimg/backgrounds/orange-dot-project@2x.png");
         background-size: 14px 14px;
     }
 }
@@ -3958,7 +3958,7 @@ only screen and (min-resolution: 1.3dppx) {
     height: 6px;
     background-repeat: no-repeat;
     background-position: center center;
-    background-image: url("../../assets/img/backgrounds/green-dot-project.png");
+    background-image: url("https://d10ib5h62k/assetsimg/backgrounds/green-dot-project.png");
 }
 
 @media only screen and (-webkit-min-device-pixel-ratio: 1.3),
@@ -3967,7 +3967,7 @@ only screen and (-o-min-device-pixel-ratio: 1.3 / 1),
 only screen and (min-resolution: 125dpi),
 only screen and (min-resolution: 1.3dppx) {
     .progress-bar span {
-        background-image: url("../../assets/img/backgrounds/green-dot-project@2x.png");
+        background-image: url("https://d10ib5h62k/assetsimg/backgrounds/green-dot-project@2x.png");
         background-size: 14px 14px;
     }
 }
@@ -4123,7 +4123,7 @@ only screen and (min-resolution: 1.3dppx) {
 }
 
 .filter-div>div .subFilter::before {
-    content: url(../../assets/img/backgrounds/arrow.png@v=76d669d);
+    content: url(https://d10ib5h62k/assetsimg/backgrounds/arrow.png@v=76d669d);
     left: 1rem;
     position: absolute;
     top: -14px;
@@ -4787,7 +4787,7 @@ only screen and (min-resolution: 1.3dppx) {
 
 .project .project-footer::after {
     content: "";
-    background: url(../../assets/img/backgrounds/logo-footer.png@v=5eabee8) no-repeat 0 0;
+    background: url(https://d10ib5h62k/assetsimg/backgrounds/logo-footer.png@v=5eabee8) no-repeat 0 0;
     width: 52px;
     height: 47px;
     position: absolute;
@@ -5154,7 +5154,7 @@ only screen and (min-resolution: 1.3dppx) {
     height: 100%;
     z-index: 3;
     top: 0px;
-    background: url(../../assets/img/backgrounds/play.png@v=76d669d) no-repeat center center;
+    background: url(https://d10ib5h62k/assetsimg/backgrounds/play.png@v=76d669d) no-repeat center center;
 }
 
 .chart-placeholder {
