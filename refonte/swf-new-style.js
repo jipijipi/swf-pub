@@ -51,6 +51,7 @@ function triggerOnCertainURLs(allowedURLs, callback, partialMatch = false) {
 function replaceImageByQuerySelector(selector, src) {
     var imgElements = document.querySelectorAll(selector);
 
+
     if (imgElements.length === 0) {
         console.warn(`No images found for selector: ${selector}`);
         return;
@@ -91,8 +92,13 @@ function removeClassFromDivByPath(path, className) {
 function addClassToSelector(selector, className) {
     const elements = document.querySelectorAll(selector);
 
+    console.log(`Found ${elements.length ?? 0} elements for selector ${selector}`)
+
+
     elements.forEach((element) => {
         element.classList.add(className);
+        console.log(`Added class ${className} to ${selector}`);
+
     });
 }
 
