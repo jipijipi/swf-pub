@@ -367,6 +367,377 @@ nav>.menu>.menu-links>li:active {
 
 
 
+
+
+/* FONTICONE */
+@font-face {
+    font-family: "sowefont";
+    src: url("/assets/fonts/sowefont.eot?a4f58212e472359cd8372b6b8665db97");
+    src: url("/assets/fonts/sowefont.eot?a4f58212e472359cd8372b6b8665db97#iefix") format("embedded-opentype"), url("/assets/fonts/sowefont.woff?a4f58212e472359cd8372b6b8665db97") format("woff"), url("/assets/fonts/sowefont.ttf?a4f58212e472359cd8372b6b8665db97") format("truetype");
+    font-weight: 400;
+    font-style: normal
+}
+
+[class^="icon-"]:before,
+[class*=" icon-"]:before {
+    font-family: "sowefont";
+    display: inline-block;
+    line-height: 1;
+    font-weight: 400;
+    font-style: normal;
+    speak: none;
+    text-decoration: inherit;
+    text-transform: none;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale
+}
+
+.icon-asterisque:before {
+    content: "\f101"
+}
+
+.icon-attente:before {
+    content: "\f102"
+}
+
+.icon-attention:before {
+    content: "\f103"
+}
+
+.icon-avis:before {
+    content: "\f104"
+}
+
+.icon-cadenas-rond:before {
+    content: "\f105"
+}
+
+.icon-cadenas:before {
+    content: "\f106"
+}
+
+.icon-carte-rond:before {
+    content: "\f107"
+}
+
+.icon-carte:before {
+    content: "\f108"
+}
+
+.icon-cheque-rond:before {
+    content: "\f109"
+}
+
+.icon-cheque:before {
+    content: "\f10a"
+}
+
+.icon-coeur-rond:before {
+    content: "\f10b"
+}
+
+.icon-coeur:before {
+    content: "\f10c"
+}
+
+.icon-commentaire:before {
+    content: "\f10d"
+}
+
+.icon-contact:before {
+    content: "\f10e"
+}
+
+.icon-couronne:before {
+    content: "\f10f"
+}
+
+.icon-croix-rond:before {
+    content: "\f110"
+}
+
+.icon-croix:before {
+    content: "\f111"
+}
+
+.icon-divers:before {
+    content: "\f112"
+}
+
+.icon-document:before {
+    content: "\f113"
+}
+
+.icon-embed:before {
+    content: "\f114"
+}
+
+.icon-en-cours-rond:before {
+    content: "\f115"
+}
+
+.icon-en-cours:before {
+    content: "\f116"
+}
+
+.icon-engrenage-rond:before {
+    content: "\f117"
+}
+
+.icon-engrenage:before {
+    content: "\f118"
+}
+
+.icon-entrepreneur:before {
+    content: "\f119"
+}
+
+.icon-entreprise:before {
+    content: "\f11a"
+}
+
+.icon-etoile-tour:before {
+    content: "\f11b"
+}
+
+.icon-etoile:before {
+    content: "\f11c"
+}
+
+.icon-euro-rond:before {
+    content: "\f11d"
+}
+
+.icon-euro:before {
+    content: "\f11e"
+}
+
+.icon-face:before {
+    content: "\f11f"
+}
+
+.icon-facebook-rond:before {
+    content: "\f120"
+}
+
+.icon-facebook:before {
+    content: "\f121"
+}
+
+.icon-finance:before {
+    content: "\f122"
+}
+
+.icon-fleche-bas-rond:before {
+    content: "\f123"
+}
+
+.icon-fleche-bas:before {
+    content: "\f124"
+}
+
+.icon-fleche-droite-rond:before {
+    content: "\f125"
+}
+
+.icon-fleche-droite:before {
+    content: "\f126"
+}
+
+.icon-fleche-gauche-rond:before {
+    content: "\f127"
+}
+
+.icon-fleche-gauche:before {
+    content: "\f128"
+}
+
+.icon-fleche-haut-rond:before {
+    content: "\f129"
+}
+
+.icon-fleche-haut:before {
+    content: "\f12a"
+}
+
+.icon-fleche-top:before {
+    content: "\f12b"
+}
+
+.icon-fleche-user:before {
+    content: "\f12c"
+}
+
+.icon-fleche:before {
+    content: "\f12d"
+}
+
+.icon-google-rond:before {
+    content: "\f12e"
+}
+
+.icon-google:before {
+    content: "\f12f"
+}
+
+.icon-identite-rond:before {
+    content: "\f130"
+}
+
+.icon-identite:before {
+    content: "\f131"
+}
+
+.icon-lieu:before {
+    content: "\f132"
+}
+
+.icon-linkedin-rond:before {
+    content: "\f133"
+}
+
+.icon-linkedin:before {
+    content: "\f134"
+}
+
+.icon-loupe:before {
+    content: "\f135"
+}
+
+.icon-mail-rond:before {
+    content: "\f136"
+}
+
+.icon-mail:before {
+    content: "\f137"
+}
+
+.icon-membre-rond:before {
+    content: "\f138"
+}
+
+.icon-membre:before {
+    content: "\f139"
+}
+
+.icon-moins:before {
+    content: "\f13a"
+}
+
+.icon-organigramme:before {
+    content: "\f13b"
+}
+
+.icon-partenaire-rond:before {
+    content: "\f13c"
+}
+
+.icon-partenaire:before {
+    content: "\f13d"
+}
+
+.icon-photo:before {
+    content: "\f13e"
+}
+
+.icon-plus:before {
+    content: "\f13f"
+}
+
+.icon-podcast:before {
+    content: "\f140"
+}
+
+.icon-pourcentage:before {
+    content: "\f141"
+}
+
+.icon-preference:before {
+    content: "\f142"
+}
+
+.icon-question:before {
+    content: "\f143"
+}
+
+.icon-remboursement-rond:before {
+    content: "\f144"
+}
+
+.icon-remboursement:before {
+    content: "\f145"
+}
+
+.icon-sharpn:before {
+    content: "\f146"
+}
+
+.icon-signature:before {
+    content: "\f147"
+}
+
+.icon-site:before {
+    content: "\f148"
+}
+
+.icon-situation:before {
+    content: "\f149"
+}
+
+.icon-sowefund:before {
+    content: "\f14a"
+}
+
+.icon-suivant:before {
+    content: "\f14b"
+}
+
+.icon-tooltip:before {
+    content: "\f14c"
+}
+
+.icon-total:before {
+    content: "\f14d"
+}
+
+.icon-transactions-rond:before {
+    content: "\f14e"
+}
+
+.icon-transactions:before {
+    content: "\f14f"
+}
+
+.icon-transfer-rond:before {
+    content: "\f150"
+}
+
+.icon-transfer:before {
+    content: "\f151"
+}
+
+.icon-truck:before {
+    content: "\f152"
+}
+
+.icon-twitter-rond:before {
+    content: "\f153"
+}
+
+.icon-twitter:before {
+    content: "\f154"
+}
+
+.icon-valide:before {
+    content: "\f155"
+}
+
+.icon-voir:before {
+    content: "\f156"
+}
+
+
 /* SWF OLD STYLE */
 
 @charset "UTF-8";
