@@ -1063,7 +1063,7 @@ ul li {
 ul li::before {
     content: "•";
     position: absolute;
-    left: -1rem;
+    left: -3rem;
     color: var(--light-set-primary);
 }
 
@@ -4388,7 +4388,7 @@ only screen and (min-resolution: 1.3dppx) {
 
     .project .project-head li.current a::after {
         border: 11px solid transparent;
-        border-top-color: var(--dark-set-secondary);
+        border-top-color: var(--dark-set-primary);
         content: "";
         left: -webkit-calc(50% - 11px);
         left: calc(50% - 11px);
