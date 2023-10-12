@@ -2539,7 +2539,7 @@ span.customSelect {
 }
 
 .box {
-    padding: 4rem;
+    /* padding: 4rem; */
     border-radius: var(--default-rounding);
     display: block;
 }
