@@ -1032,7 +1032,7 @@ blockquote {
 }
 
 article> :first-child {
-    margin-top: 0;
+    /* margin-top: 0; */
 }
 
 .lead {
@@ -4306,15 +4306,15 @@ only screen and (min-resolution: 1.3dppx) {
 }
 
 .project .video-block .project-info {
-    padding: 0 1rem 1rem 0;
+    /* padding: 0 1rem 1rem 0; */
 }
 
 .project .video-block .project-info .description {
     /* border-bottom: 1px solid #f4f4f4; */
-    margin-bottom: 1rem;
-    padding: 2rem 0;
+    margin: 2rem 0 2rem 0;
+    padding: 2rem;
     background-color: var(--dark-set-secondary);
-    border-radius: var(--default-rounding);
+    border-radius: var(--default-round);
     color: var(--dark-set-primary);
 }
 
