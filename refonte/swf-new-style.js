@@ -234,7 +234,7 @@ triggerOnCertainURLs(['https://sowefund.com/'], homeChanges, false);
 function projectChanges() {
 
     removeElementsBySelector('.onglet');
-    addClassToSelector('h1', '.arrow-frame-diagonal-bottom');
+    addClassToSelector('h1', 'arrow-frame-diagonal-bottom');
 
 }
 
