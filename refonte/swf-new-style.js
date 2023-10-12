@@ -198,12 +198,13 @@ function homeChanges() {
     removeElementsBySelector('.container > .row-layout > h1.text-center');
     removeElementsBySelector('#carousel-home');
     removeElementsBySelector('#mobile-content-video');
+    removeElementsBySelector('.box-block');
 
     //Header home
     // insertHTML('#content-page', '<div class="row full-viewport" id="track-record" height = 150px><div class="portrait"></div><div class="portrait"></div></div>');
     insertHTML('#content-page', '<div class="row " id="cta-home"><div class="text-center row"><a href="/startups" class="btn btn-primary btn-xl upper">Investir dès maintenant</a><br></div></div>');
     insertHTML('#content-page', '<div id="hero-container"><div id="hero"><h1 class="font-xxxl" ><span class="highlight">Investir</span> dans les <br>entreprises de demain</h1><p class = "font-md">Devenez actionnaire des startups les plus innovantes <br>aux côtés des professionnels de l’investissement. </p></div></div>');
-
+    insertHTML('.bg-info:nth-of-type(2)', `<div class="row box-block"><h2 class="upper col-md-offset-1">Ils Aiment Sowefund</h2><br><div class="row"><div class="col-md-6 testimonial"><img class="lazyload" src="https://d3i3cp443mmogz.cloudfront.net/public/entrepreneur/logo-extracadabra.svg" alt="Logo Extracadabra" width="200px"><blockquote>" Cette levée de fonds a permis à Extracadabra de bénéficier de la forte communauté d'investisseurs engagés de Sowefund tout en permettant à nos clients restaurateurs de prendre part à cette belle aventure. Nous avons réuni plus de 400K€ en moins de 2 mois, en co-investissement avec les fonds Side Capital et Bpifrance via son fonds tourisme. Un succès rapide et efficace ! "<br><br><footer>Frederic Nardon, Extracadabra</footer></blockquote></div><div class="col-md-6 testimonial"><img class="lazyload" src="https://d3i3cp443mmogz.cloudfront.net/public/entrepreneur/logo-ekwateur.svg" alt="Logo Ekwateur" width="200px"><blockquote>" L’opération faite avec Sowefund était pour nous une évidence dans l’esprit collaboratif d’ekWateur. Ce que nous n’avions pas anticipé par contre, c’est l’engouement que cette campagne allait créer. On a plus que doublé l’objectif, avec 1,12 M€ levés alors qu’on tablait sur 0,5M€ ! "<br><br><footer>Julien Tchernia, Ekwateur</footer></blockquote></div></div></div>`);
 
 
 }
