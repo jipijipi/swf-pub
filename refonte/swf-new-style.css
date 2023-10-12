@@ -1221,6 +1221,15 @@ hr {
     line-height: 3rem;
 }
 
+.markdownable h2:not(:first-child):before {
+    content: "";
+    border-top: solid 1px var(--light-set-primary);
+    position: relative;
+    top: -30px;
+    display: block;
+    width: 100px;
+}
+
 .markdownable h3 {
     font-size: 2rem;
     margin: 7rem 0rem 1.2rem 0rem;
@@ -2594,7 +2603,7 @@ span.customSelect {
 }
 
 .box-block {
-    padding: 5%;
+    /* padding: 5%; */
     background: #fff;
     position: relative;
     display: block;
