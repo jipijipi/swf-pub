@@ -156,7 +156,7 @@ function moveElement(sourceSelector, destinationSelector, appendToEnd = true) {
 //GLOBAL
 
 //remove stylesheet
-removeElementsBySelector('link[href="https://d10ib5h62k7mu8.cloudfront.net/assets/css/7f00b3a26d0c1e22fd7c20785de84702-sowefund.min.css"]');
+removeElementsBySelector('link[href*="sowefund.min.css"]');
 //remove social list side
 removeElementsBySelector('body > ul.fixed-panel-layout.list-unstyled.print-hidden');
 
