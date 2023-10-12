@@ -4320,6 +4320,7 @@ only screen and (min-resolution: 1.3dppx) {
 
 .project .video-block .project-info .share a {
     margin-left: .4rem;
+    color: var(--dark-set-secondary);
 }
 
 .project .project-head {
