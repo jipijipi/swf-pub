@@ -87,6 +87,16 @@ function removeClassFromDivByPath(path, className) {
     });
 }
 
+
+function addClassToSelector(selector, className) {
+    const elements = document.querySelectorAll(selector);
+
+    elements.forEach((element) => {
+        element.classList.add(className);
+    });
+}
+
+
 function insertHTML(selector, html, position = 'afterbegin', checkById = true) {
     let elements = document.querySelectorAll(selector);
 
@@ -218,10 +228,12 @@ triggerOnCertainURLs(['https://sowefund.com/'], homeChanges, false);
 function projectChanges() {
 
     removeElementsBySelector('.onglet');
+    addClassToSelector('h1', '.arrow-frame-diagonal-bottom');
 
 }
 
 triggerOnCertainURLs(['https://sowefund.com/projet'], projectChanges, true);
+
 
 //QSN
 
