@@ -372,8 +372,8 @@ nav>.menu>.menu-links>li:active {
 /* FONTICONE */
 @font-face {
     font-family: "sowefont";
-    src: url("/assets/fonts/sowefont.eot?a4f58212e472359cd8372b6b8665db97");
-    src: url("/assets/fonts/sowefont.eot?a4f58212e472359cd8372b6b8665db97#iefix") format("embedded-opentype"), url("/assets/fonts/sowefont.woff?a4f58212e472359cd8372b6b8665db97") format("woff"), url("/assets/fonts/sowefont.ttf?a4f58212e472359cd8372b6b8665db97") format("truetype");
+    src: url("https://d10ib5h62k7mu8.cloudfront.net/assets/fonts/sowefont.eot?a4f58212e472359cd8372b6b8665db97");
+    src: url("https://d10ib5h62k7mu8.cloudfront.net/assets/fonts/sowefont.eot?a4f58212e472359cd8372b6b8665db97#iefix") format("embedded-opentype"), url("https://d10ib5h62k7mu8.cloudfront.net/assets/fonts/sowefont.woff?a4f58212e472359cd8372b6b8665db97") format("woff"), url("https://d10ib5h62k7mu8.cloudfront.net/assets/fonts/sowefont.ttf?a4f58212e472359cd8372b6b8665db97") format("truetype");
     font-weight: 400;
     font-style: normal
 }
