@@ -3104,17 +3104,21 @@ a.text-white {
 
 .onglet li a:link,
 .onglet li a:visited {
-    background: #e5e5e5;
-    color: #7a7a7a;
-    padding: .4rem 1.2rem;
+    background: var(--light-set-secondary);
+    color: var(--dark-set-primary);
+    padding: 0.4rem 1.2rem;
     display: inline-block;
+    border-radius: 9px;
+    margin: 6px 0;
 }
 
 .onglet li a:link:hover,
 .onglet li a:link.current,
 .onglet li a:visited:hover,
 .onglet li a:visited.current {
-    background: #fff;
+    background: transparent;
+    border: solid 2px var(--dark-set-secondary);
+    border-radius: 7px 2px 7px 7px;
 }
 
 .onglet li.is-investor a:link,
