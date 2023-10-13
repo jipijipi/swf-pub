@@ -3693,7 +3693,7 @@ a.text-white {
 
     .header .nav-header .menu .menu-links>li,
     .header .nav-header .menu .menu-links>li a {
-        color: #7a7a7a;
+        color: var(--dark-set-primary);
     }
 
     .header .nav-header .menu .menu-links li.break {
@@ -3821,16 +3821,17 @@ a.text-white {
     .header .nav-header .menu .menu-links .notification {
         display: none;
         background: #fff;
-        border: 5px solid #f4f4f4;
+        border: 0 5px 5px 5px solid #f4f4f4;
         right: -webkit-calc((-250px + 50%) / 2);
         right: calc((-250px + 50%) / 2);
         position: absolute;
         width: 250px;
         box-shadow: 0 1px 2px -1px #929292;
+        border-radius: 0 0 var(--default-round) var(--default-round);
     }
 
     .header .nav-header .menu .menu-links .notification>div {
-        border-top: 1px dashed #e5e5e5;
+        border-top: 1px solid #e5e5e5;
         padding: .75em;
     }
 
