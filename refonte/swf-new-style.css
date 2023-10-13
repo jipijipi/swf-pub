@@ -312,9 +312,6 @@ nav>.menu>.menu-links>li:active {
 
 /* arrow frames */
 
-h1.arrow-frame-diagonal-bottom {
-    margin: 2.5em 0;
-}
 
 .arrow-frame-diagonal-bottom {
     border: 20px solid;
@@ -5108,7 +5105,7 @@ only screen and (min-resolution: 1.3dppx) {
 
 /* title bar style */
 #miniTip_t {
-    background-color: #f5edc2;
+    background-color: var(--dark-set-highlight);
     font-weight: 700;
     padding: 4px 6px;
 }
@@ -5131,7 +5128,7 @@ only screen and (min-resolution: 1.3dppx) {
 #miniTip .n {
     border-left: 8px solid transparent;
     border-right: 8px solid transparent;
-    border-top: 8px solid #e5e5e5;
+    border-top: 8px solid var(--dark-set-secondary);
     border-bottom: 0;
 }
 
@@ -5139,7 +5136,7 @@ only screen and (min-resolution: 1.3dppx) {
 #miniTip .s {
     border-left: 8px solid transparent;
     border-right: 8px solid transparent;
-    border-bottom: 8px solid #e5e5e5;
+    border-bottom: 8px solid var(--dark-set-secondary);
     border-top: 0;
 }
 
@@ -5147,7 +5144,7 @@ only screen and (min-resolution: 1.3dppx) {
 #miniTip .e {
     border-bottom: 8px solid transparent;
     border-top: 8px solid transparent;
-    border-right: 8px solid #e5e5e5;
+    border-right: 8px solid var(--dark-set-secondary);
     border-left: 0;
 }
 
@@ -5155,7 +5152,7 @@ only screen and (min-resolution: 1.3dppx) {
 #miniTip .w {
     border-bottom: 8px solid transparent;
     border-top: 8px solid transparent;
-    border-left: 8px solid #e5e5e5;
+    border-left: 8px solid var(--dark-set-secondary);
     border-right: 0;
 }
 
