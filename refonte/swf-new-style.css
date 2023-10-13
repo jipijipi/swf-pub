@@ -2259,7 +2259,7 @@ hr {
     display: inline-block;
     border: 2px solid transparent;
     border-radius: var(--small-rounding);
-    margin: 1rem;
+    margin: 3rem 1rem;
 
 
 }
@@ -3466,7 +3466,7 @@ a.text-white {
 }
 
 .header .nav-header .menu .menu-links .account ul a {
-    padding: .3rem;
+    padding: .7rem;
 }
 
 @media screen and (max-width: 991px) {
@@ -3637,12 +3637,12 @@ a.text-white {
         right: calc(-100% - 5rem);
         top: 0;
         z-index: -1;
-        background: #7a7a7a;
+        background: var(--light-set-secondary);
         bottom: 0;
     }
 
     .header .nav-header .menu .menu-links .account ul li {
-        background: #7a7a7a;
+        background: var(--light-set-secondary);
     }
 
     .header .nav-header .menu .menu-links .account ul li a {
@@ -3805,7 +3805,7 @@ a.text-white {
     }
 
     .header .nav-header .menu .menu-links .account a {
-        color: #7a7a7a;
+        color: var(--dark-set-primary);
     }
 
     .header .nav-header .menu .menu-links .account>a .icon-attention {
@@ -3846,7 +3846,7 @@ a.text-white {
     }
 
     .header .nav-header .menu .menu-links .account ul li a {
-        background: #e5e5e5;
+        background: var(--dark-set-secondary);
         line-height: normal;
     }
 
