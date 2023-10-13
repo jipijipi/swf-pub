@@ -2567,7 +2567,7 @@ span.customSelect {
 }
 
 .box .notifications .message {
-    border-left: 3px solid #7b8e8d;
+    border-left: 3px solid var(--dark-set-secondary);
     padding-left: 1.5rem;
 }
 
@@ -3750,7 +3750,7 @@ a.text-white {
     }
 
     .header .nav-header .menu .menu-links>li .notification li:hover {
-        background: #dae6ea;
+        background: var(--light-set-secondary);
     }
 
     .header .nav-header .menu .menu-links>li .notification a {
@@ -3846,7 +3846,7 @@ a.text-white {
     }
 
     .header .nav-header .menu .menu-links .account ul li a {
-        background: var(--dark-set-secondary);
+        background: var(--light-set-secondary);
         line-height: normal;
     }
 
@@ -3875,7 +3875,7 @@ a.text-white {
 }
 
 .footer section h3 {
-    border-bottom: 1px solid #7b8e8d;
+    border-bottom: 1px solid var(--dark-set-secondary);
     color: var(--dark-set-secondary);
 }
 
@@ -3904,7 +3904,7 @@ a.text-white {
 }
 
 .footer .press span.active.active::before {
-    border-bottom: 1rem solid #dae6ea;
+    border-bottom: 1rem solid var(--light-set-secondary);
     border-left: 1rem solid transparent;
     border-right: 1rem solid transparent;
     content: "";
