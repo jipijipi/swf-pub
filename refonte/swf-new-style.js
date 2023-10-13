@@ -236,7 +236,7 @@ function projectChanges() {
     removeElementsBySelector('.onglet');
     removeElementsBySelector('a[href*="participate"]');
 
-    addClassToSelector('h1', 'arrow-frame-diagonal-bottom');
+    // addClassToSelector('h1', 'arrow-frame-diagonal-bottom');
 
 }
 
