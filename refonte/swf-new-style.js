@@ -215,7 +215,6 @@ function homeChanges() {
     removeElementsBySelector('#carousel-home');
     removeElementsBySelector('#mobile-content-video');
     removeElementsBySelector('.box-block');
-    removeElementsBySelector('a[href="<a href*="participate"]');
 
     //Header home
     // insertHTML('#content-page', '<div class="row full-viewport" id="track-record" height = 150px><div class="portrait"></div><div class="portrait"></div></div>');
@@ -235,6 +234,8 @@ triggerOnCertainURLs(['https://sowefund.com/'], homeChanges, false);
 function projectChanges() {
 
     removeElementsBySelector('.onglet');
+    removeElementsBySelector('a[href*="participate"]');
+
     addClassToSelector('h1', 'arrow-frame-diagonal-bottom');
 
 }
