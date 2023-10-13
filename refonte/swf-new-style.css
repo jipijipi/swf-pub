@@ -1213,7 +1213,7 @@ hr {
 
 .markdownable h2 {
     font-size: 2.5rem;
-    margin: 10rem 0rem 1.8rem 0rem;
+    margin: 15rem 0rem 1.8rem 0rem;
     line-height: 3rem;
 }
 
@@ -2781,7 +2781,7 @@ span.customSelect {
 #popup .row:not(:last-child),
 #popup .project .project-side:not(:last-child),
 .project #popup .project-side:not(:last-child) {
-    margin-bottom: 5rem;
+    margin-bottom: 4rem;
 }
 
 #content-page {
@@ -4242,7 +4242,7 @@ only screen and (min-resolution: 1.3dppx) {
 .project .project-side {
     background-color: var(--light-set-secondary) !important;
     padding: 2rem !important;
-    border-radius: var(--default-rounding);
+    border-radius: var(--default-round);
 
 }
 
