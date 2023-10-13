@@ -2542,7 +2542,7 @@ table.table tbody tr.success {
 }
 
 span.customSelect {
-    background: #fff url(https://d10ib5h62k7mu8.cloudfront.net/assets/img/backgrounds/arrow-select.gif@v=76d669d) no-repeat 95% 50%;
+    background: #fff url(https://d10ib5h62k7mu8.cloudfront.net/assets/img/backgrounds/arrow-select.gif?v=76d669d) no-repeat 95% 50%;
     padding: 0 .5rem;
     border: 1px solid #627b7b;
     box-shadow: 0 1px 2px -1px #929292 inset;
@@ -2740,7 +2740,7 @@ span.customSelect {
 }
 
 .status-progress {
-    background: url(https://d10ib5h62k7mu8.cloudfront.net/assets/img/sprite/status-account.png@v=76d669d) no-repeat 0 0;
+    background: url(https://d10ib5h62k7mu8.cloudfront.net/assets/img/sprite/status-account.png?v=76d669d) no-repeat 0 0;
     width: 12rem;
     height: 12rem;
     display: block;
@@ -3180,7 +3180,7 @@ a.text-white {
     z-index: 5;
     position: relative;
     top: 1.5rem;
-    background: url(https://d10ib5h62k7mu8.cloudfront.net/assets/img/backgrounds/progress.png@v=ebbbbe6) no-repeat 0 0;
+    background: url(https://d10ib5h62k7mu8.cloudfront.net/assets/img/backgrounds/progress.png?v=ebbbbe6) no-repeat 0 0;
 }
 
 @media screen and (min-width: 767px) {
@@ -3224,7 +3224,7 @@ a.text-white {
 }
 
 .sticker .stick {
-    background: url(https://d10ib5h62k7mu8.cloudfront.net/assets/img/backgrounds/stick.png@v=ebbbbe6) no-repeat 0 0;
+    background: url(https://d10ib5h62k7mu8.cloudfront.net/assets/img/backgrounds/stick.png?v=ebbbbe6) no-repeat 0 0;
     color: #fff;
     float: right;
     padding-left: 7px;
@@ -3233,7 +3233,7 @@ a.text-white {
 }
 
 .sticker .stick span {
-    background: url(https://d10ib5h62k7mu8.cloudfront.net/assets/img/backgrounds/stick.png@v=ebbbbe6) no-repeat right 0;
+    background: url(https://d10ib5h62k7mu8.cloudfront.net/assets/img/backgrounds/stick.png?v=ebbbbe6) no-repeat right 0;
     display: block;
     line-height: 26px;
     min-width: 21px;
@@ -3250,7 +3250,7 @@ a.text-white {
 
 .radio-panel .form-input::before {
     content: "";
-    background: url(https://d10ib5h62k7mu8.cloudfront.net/assets/img/backgrounds/radio.png@v=ebbbbe6) no-repeat 0 bottom;
+    background: url(https://d10ib5h62k7mu8.cloudfront.net/assets/img/backgrounds/radio.png?v=ebbbbe6) no-repeat 0 bottom;
     position: absolute;
     top: -webkit-calc(50% - 9px);
     top: calc(50% - 9px);
@@ -3395,7 +3395,7 @@ a.text-white {
     right: -18px;
     height: 100%;
     width: 18px;
-    background: url(https://d10ib5h62k7mu8.cloudfront.net/assets/img/backgrounds/arrow-details.png@v=f32395b) no-repeat;
+    background: url(https://d10ib5h62k7mu8.cloudfront.net/assets/img/backgrounds/arrow-details.png?v=f32395b) no-repeat;
 }
 
 .row,
@@ -3711,7 +3711,7 @@ a.text-white {
     }
 
     .header .nav-header .menu .menu-links>li.mainLink::after {
-        background: url(https://d10ib5h62k7mu8.cloudfront.net/assets/img/backgrounds/menu-link.png@v=76d669d) no-repeat;
+        background: url(https://d10ib5h62k7mu8.cloudfront.net/assets/img/backgrounds/menu-link.png?v=76d669d) no-repeat;
         bottom: 0;
         content: '';
         display: block;
@@ -4144,7 +4144,7 @@ only screen and (min-resolution: 1.3dppx) {
 }
 
 .filter-div>div .subFilter::before {
-    content: url(https://d10ib5h62k7mu8.cloudfront.net/assets/img/backgrounds/arrow.png@v=76d669d);
+    content: url(https://d10ib5h62k7mu8.cloudfront.net/assets/img/backgrounds/arrow.png?v=76d669d);
     left: 1rem;
     position: absolute;
     top: -14px;
@@ -4813,7 +4813,7 @@ only screen and (min-resolution: 1.3dppx) {
 
 .project .project-footer::after {
     content: "";
-    background: url(https://d10ib5h62k7mu8.cloudfront.net/assets/img/backgrounds/logo-footer.png@v=5eabee8) no-repeat 0 0;
+    background: url(https://d10ib5h62k7mu8.cloudfront.net/assets/img/backgrounds/logo-footer.png?v=5eabee8) no-repeat 0 0;
     width: 52px;
     height: 47px;
     position: absolute;
@@ -5180,7 +5180,7 @@ only screen and (min-resolution: 1.3dppx) {
     height: 100%;
     z-index: 3;
     top: 0px;
-    background: url(https://d10ib5h62k7mu8.cloudfront.net/assets/img/backgrounds/play.png@v=76d669d) no-repeat center center;
+    background: url(https://d10ib5h62k7mu8.cloudfront.net/assets/img/backgrounds/play.png?v=76d669d) no-repeat center center;
 }
 
 .chart-placeholder {
