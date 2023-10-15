@@ -4262,6 +4262,14 @@ div#search-bar {
     margin-right: 3px;
     white-space: nowrap;
     cursor: pointer;
+    max-width: 14rem;
+}
+
+.filter-btn:hover,
+.filter-btn:focus,
+.filter-btn:active {
+    background-color: var(--light-set-secondary);
+    border-color: var(--dark-set-secondary);
 }
 
 
