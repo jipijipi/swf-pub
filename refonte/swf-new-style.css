@@ -2615,7 +2615,8 @@ span.customSelect {
 }
 
 .box-title {
-    background: var(--dark-set-secondary);
+    background: var(--dark-set-highlight);
+    /* background: var(--dark-set-secondary); */
     /* border-bottom: 2px solid var(--light-grey); */
     display: block;
     margin: 0 0 1em 0;
