@@ -39,9 +39,10 @@ function triggerOnCertainURLs(allowedURLs, callback, partialMatch = false) {
 
     if (urlMatch) {
         // Call the provided function if there's a match
+        console.log(`${allowedURLs} found in ${window.location.href}, launching function`)
         callback();
     } else {
-        console.log('URL does not match. Callback not triggered.');
+        console.log(`URL ${allowedURLs}does not match. Callback not triggered.`);
     }
 
 }
@@ -234,7 +235,7 @@ function startupsChanges() {
 
 }
 
-//triggerOnCertainURLs('https://sowefund.com/startups', startupsChanges, false);
+triggerOnCertainURLs(['https://sowefund.com/startups'], startupsChanges, false);
 
 //PROJETS
 
