@@ -2707,8 +2707,8 @@ span.customSelect {
 .box-side {
     background: var(--dark-set-secondary);
     padding: 4rem;
-    border-radius: var(--default-rounding);
-    margin: 1rem 0;
+    border-radius: var(--default-round);
+    margin: 1rem 0.2rem;
 }
 
 .box-side .progress-rank li {
