@@ -234,7 +234,7 @@ function startupsChanges() {
 
 }
 
-triggerOnCertainURLs('https://sowefund.com/startups', 'startupsChanges', false)
+triggerOnCertainURLs('https://sowefund.com/startups', startupsChanges, false)
 
 //PROJETS
 
