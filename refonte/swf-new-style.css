@@ -5270,9 +5270,11 @@ section.vignette {
     background-color: var(--dark-set-secondary);
 }
 
-.vignette-grid .vignette {
+.vignette-grid.vignette {
     border: none;
     background-color: #eee;
+    border-radius: var(--default-rounding);
+
 }
 
 /*! miniTip CSS - v1.5.3 */
