@@ -129,7 +129,7 @@ a:not(.btn):hover strong {
 } */
 
 /* .vignette a {
-    color: #7A7A7A;
+    color: var(--dark-grey);
 } */
 
 /* TYPOGRAPHY */
@@ -1204,7 +1204,7 @@ img {
 }
 
 hr {
-    border: 1px solid #e5e5e5;
+    border: 1px solid var(--dark-set-secondary);
     margin: auto;
     width: 85%;
 }
@@ -1257,7 +1257,7 @@ hr {
 
 .markdownable h5,
 .markdownable h6 {
-    color: #7a7a7a;
+    color: var(--dark-grey);
     text-transform: unset;
 }
 
@@ -1321,7 +1321,7 @@ hr {
 }
 
 .markdownable table {
-    color: #7A7A7A;
+    color: var(--dark-grey);
     width: 100%;
     border-collapse: collapse;
     border-spacing: 0;
@@ -1336,13 +1336,13 @@ hr {
 }
 
 .markdownable th {
-    background: #ffe4bf;
+    background: var(--dark-set-highlight);
     height: 60px;
     font-weight: bold;
 }
 
 .markdownable tr:nth-child(even) td {
-    background: #f9F9F9;
+    background: var(--dark-grey);
 }
 
 .markdownable tr:nth-child(odd) td {
@@ -1350,8 +1350,8 @@ hr {
 }
 
 .markdownable tr:hover td {
-    background: #ffe4bf;
-    color: #7a7a7a;
+    background: var(--dark-set-highlight);
+    color: var(--dark-grey);
 }
 
 .markdownable h1+h2,
@@ -2346,7 +2346,7 @@ table.table {
 
 table.table td,
 table.table th {
-    border: 1px solid #e5e5e5;
+    border: 1px solid var(--light-grey);
     padding: 1rem;
 }
 
@@ -2357,7 +2357,7 @@ table.table[border="0"] th {
 
 table.table thead+tbody,
 table.table tbody+tfoot {
-    border-top: 2px solid #e5e5e5;
+    border-top: 2px solid var(--light-grey);
 }
 
 table.table thead,
@@ -2394,15 +2394,15 @@ table.table tbody tr.success {
 }
 
 .tab tbody tr {
-    border-bottom: 1px solid #e5e5e5;
+    border-bottom: 1px solid var(--light-grey);
 }
 
 .tab tbody tr:hover {
-    background: #e5e5e5;
+    background: var(--light-grey);
 }
 
 .tab tbody tr.info:hover {
-    background: #c1dce5;
+    background: var(--light-set-secondary);
 }
 
 .tab tbody tr.success:hover {
@@ -2443,7 +2443,7 @@ table.table tbody tr.success {
 }
 
 .form input:not([type="file"]) {
-    border: 1px solid #627b7b;
+    border: 1px solid var(--dark-set-primary);
     box-shadow: 0 1px 2px -1px #929292 inset;
 }
 
@@ -2453,7 +2453,7 @@ table.table tbody tr.success {
 }
 
 .form input[disabled] {
-    background: #e7e7e7;
+    background: var(--light-grey);
     border: 0;
     box-shadow: none;
 }
@@ -2480,7 +2480,7 @@ table.table tbody tr.success {
 .form .form-radio input[type="radio"]+label::before {
     content: "";
     display: inline-block;
-    border: 1px solid #627b7b;
+    border: 1px solid var(--dark-set-primary);
     box-shadow: 0 1px 2px -1px #929292 inset;
     height: 1em;
     width: 1em;
@@ -2506,13 +2506,13 @@ table.table tbody tr.success {
 }
 
 .form .form-radio input[type="radio"]:checked+*::before {
-    background: #627b7b;
+    background: var(--dark-set-primary);
 }
 
 .form .form-switch .radio-switch {
     width: 7.5rem;
     height: 3rem;
-    background: #e5e5e5;
+    background: var(--light-grey);
     display: inline-block;
     border-radius: 2rem;
     position: relative;
@@ -2526,7 +2526,7 @@ table.table tbody tr.success {
     height: 2.4rem;
     top: .2rem;
     background: #fff;
-    box-shadow: -0.05rem 1px 2px #7a7a7a;
+    box-shadow: -0.05rem 1px 2px var(--dark-grey);
     right: .25rem;
 }
 
@@ -2548,7 +2548,7 @@ table.table tbody tr.success {
 
 .form .form-switch input[type="checkbox"]:checked+.radio-switch .switch-btn {
     left: .25rem;
-    box-shadow: 0.05rem 1px 2px #7a7a7a;
+    box-shadow: 0.05rem 1px 2px var(--dark-grey);
 }
 
 .form .form-switch input[type="checkbox"]:checked+.radio-switch .switch-btn::before {
@@ -2560,7 +2560,7 @@ table.table tbody tr.success {
 span.customSelect {
     background: #fff url(https://d10ib5h62k7mu8.cloudfront.net/assets/img/backgrounds/arrow-select.gif?v=76d669d) no-repeat 95% 50%;
     padding: 0 .5rem;
-    border: 1px solid #627b7b;
+    border: 1px solid var(--dark-set-primary);
     box-shadow: 0 1px 2px -1px #929292 inset;
     height: 30px;
     vertical-align: middle;
@@ -2615,7 +2615,7 @@ span.customSelect {
 
 .box-title {
     background: var(--dark-set-secondary);
-    /* border-bottom: 2px solid #e5e5e5; */
+    /* border-bottom: 2px solid var(--light-grey); */
     display: block;
     margin: 0 0 1em 0;
     min-height: 5.5rem;
@@ -2718,7 +2718,7 @@ span.customSelect {
 }
 
 .box-side .progress-rank li.done {
-    color: #7a7a7a;
+    color: var(--dark-grey);
 }
 
 .box-side .progress-rank li.done span {
@@ -2840,7 +2840,7 @@ span.customSelect {
 }
 
 .icon-etoile-tour {
-    color: #e5e5e5 !important;
+    color: var(--light-grey) !important;
 }
 
 .show-hide {
@@ -2873,7 +2873,7 @@ span.customSelect {
 
 .list-items>li {
     display: block;
-    border-bottom: 1px dashed #e5e5e5;
+    border-bottom: 1px dashed var(--light-grey);
     padding: .75em;
     word-break: break-word;
 }
@@ -3149,12 +3149,12 @@ a.text-white {
 .onglet li.is-investor a:link,
 .onglet li.is-investor a:visited {
     color: #fff;
-    background: #7ed584;
+    background: var(--light-set-primary);
 }
 
 .progress {
     margin-bottom: 3rem;
-    color: #7a7a7a;
+    color: var(--dark-grey);
     width: 100%;
     padding-left: 16px;
 }
@@ -3170,7 +3170,7 @@ a.text-white {
 }
 
 .progress li:not(:first-child)::before {
-    border-left: 1px solid #7a7a7a;
+    border-left: 1px solid var(--dark-grey);
 }
 
 .progress li.past span::before {
@@ -3182,7 +3182,7 @@ a.text-white {
 }
 
 .progress li a {
-    color: #7a7a7a;
+    color: var(--dark-grey);
 }
 
 .progress li span {
@@ -3219,7 +3219,7 @@ a.text-white {
     }
 
     .progress li:not(:first-child)::before {
-        border-top: 1px solid #7a7a7a;
+        border-top: 1px solid var(--dark-grey);
         border-left: 0;
     }
 
@@ -3296,7 +3296,7 @@ a.text-white {
     cursor: default;
     text-align: center;
     padding: 7% 0;
-    text-shadow: 0 2px 2px #7a7a7a;
+    text-shadow: 0 2px 2px var(--dark-grey);
     margin: 0 !important;
 }
 
@@ -3382,7 +3382,7 @@ a.text-white {
 
 .vehicule label>div:last-child {
     width: 30%;
-    background: #f9f9f9;
+    background: var(--dark-grey);
     line-height: 1.5em;
 }
 
@@ -3468,7 +3468,7 @@ a.text-white {
 
 .header a,
 .header a:hover {
-    color: #7a7a7a;
+    color: var(--dark-grey);
     text-decoration: none;
 }
 
@@ -3626,7 +3626,7 @@ a.text-white {
     }
 
     .header .nav-header .menu .menu-links {
-        background: #7a7a7a;
+        background: var(--dark-grey);
         right: -70%;
         position: fixed;
         top: 64px;
@@ -3645,7 +3645,7 @@ a.text-white {
     }
 
     .header .nav-header .menu .menu-links>li {
-        background: #7a7a7a;
+        background: var(--dark-grey);
     }
 
     .header .nav-header .menu .menu-links>li:hover {
@@ -3840,7 +3840,7 @@ a.text-white {
 
     .header .nav-header .menu .menu-links .icon-sowefund {
         display: inline;
-        color: #e5e5e5;
+        color: var(--light-grey);
         vertical-align: sub;
     }
 
@@ -3857,7 +3857,7 @@ a.text-white {
     }
 
     .header .nav-header .menu .menu-links .notification>div {
-        border-top: 1px solid #e5e5e5;
+        border-top: 1px solid var(--light-grey);
         padding: .75em;
     }
 
@@ -3897,7 +3897,7 @@ a.text-white {
 }
 
 .footer section a:hover {
-    color: #5f5f5f;
+    color: var(--light-grey);
     text-decoration: none;
 }
 
@@ -4115,7 +4115,7 @@ only screen and (min-resolution: 1.3dppx) {
     width: 365px;
     border-radius: 0 2rem 2rem 0;
     padding: .5rem 1rem;
-    box-shadow: 0px 1px 7px 0px #e5e5e5;
+    box-shadow: 0px 1px 7px 0px var(--light-grey);
 }
 
 @media screen and (max-width: 479px) {
@@ -4155,7 +4155,7 @@ only screen and (min-resolution: 1.3dppx) {
 }
 
 .filter-div>div a {
-    color: #7a7a7a;
+    color: var(--dark-grey);
 }
 
 .filter-div>div .subFilter {
@@ -4198,7 +4198,7 @@ only screen and (min-resolution: 1.3dppx) {
 }
 
 .filter-div>div .subFilter li:first-of-type .badge {
-    border: 1px solid #7a7a7a;
+    border: 1px solid var(--dark-grey);
 }
 
 .filter-div .icon-fleche-user {
@@ -4208,7 +4208,7 @@ only screen and (min-resolution: 1.3dppx) {
 
 .project .discreet-links a:not(.btn),
 .project.discreet-links a:not(.btn) {
-    color: #7a7a7a;
+    color: var(--dark-grey);
 }
 
 .project .discreet-links a:not(.btn):hover,
@@ -4237,7 +4237,7 @@ only screen and (min-resolution: 1.3dppx) {
 }
 
 .project .investBox .invest.precollect {
-    background: #9dc7ce;
+    background: var(--light-set-secondary);
 }
 
 .project .investBox .invest:link {
@@ -4245,12 +4245,12 @@ only screen and (min-resolution: 1.3dppx) {
 }
 
 .project .investBox .invest:link:hover {
-    background: #bfeac2;
+    background: var(--dark-set-secondary);
     color: #fff;
 }
 
 .project .investBox .invest:link:hover.precollect {
-    background: #c1dce5;
+    background: var(--light-set-secondary);
 }
 
 .project .investBox .invest span {
@@ -4267,7 +4267,7 @@ only screen and (min-resolution: 1.3dppx) {
 }
 
 .project .investBox .ticket.precollect {
-    background: #c1dce5;
+    background: var(--light-set-secondary);
 }
 
 .project .investBox .ticket span {
@@ -4301,7 +4301,7 @@ only screen and (min-resolution: 1.3dppx) {
 }
 
 .project .project-side h2 {
-    color: #7a7a7a;
+    color: var(--dark-grey);
     margin-bottom: .8rem;
     margin-top: 0;
 }
@@ -4374,7 +4374,7 @@ only screen and (min-resolution: 1.3dppx) {
     display: table;
     margin-bottom: 0;
     width: 100%;
-    border-bottom: 1px solid #e5e5e5;
+    border-bottom: 1px solid var(--light-grey);
 }
 
 .project .project-head li {
@@ -4384,7 +4384,7 @@ only screen and (min-resolution: 1.3dppx) {
 }
 
 .project .project-head li.disabled a {
-    color: #e5e5e5;
+    color: var(--light-grey);
     cursor: default;
 }
 
@@ -4406,7 +4406,7 @@ only screen and (min-resolution: 1.3dppx) {
     background: #f7f7f7;
     padding: 1rem .5rem;
     text-decoration: none;
-    color: #7a7a7a;
+    color: var(--dark-grey);
 }
 
 @media screen and (min-width: 480px) {
@@ -4552,11 +4552,11 @@ only screen and (min-resolution: 1.3dppx) {
 }
 
 .project .project-entreprise .timelinetop .category .all {
-    background: #e5e5e5;
+    background: var(--light-grey);
 }
 
 .project .project-entreprise .timelinetop .category .activity {
-    background: #c1dce5;
+    background: var(--light-set-secondary);
 }
 
 .project .project-entreprise .timelinetop .category .team {
@@ -4572,7 +4572,7 @@ only screen and (min-resolution: 1.3dppx) {
 }
 
 .project .project-entreprise .timeline {
-    border-left: 2px solid #c1dce5;
+    border-left: 2px solid var(--light-set-secondary);
     margin-left: 10rem;
 }
 
@@ -4587,7 +4587,7 @@ only screen and (min-resolution: 1.3dppx) {
 
 .project .project-entreprise .timeline .timeblock.today::before {
     content: "";
-    border-left: 2px dotted #c1dce5;
+    border-left: 2px dotted var(--light-set-secondary);
     position: absolute;
     height: 6rem;
     bottom: 1rem;
@@ -4596,7 +4596,7 @@ only screen and (min-resolution: 1.3dppx) {
 }
 
 .project .project-entreprise .timeline .timeblock.today .timedate {
-    background: #c1dce5;
+    background: var(--light-set-secondary);
     text-align: center;
     color: #fff;
     text-transform: uppercase;
@@ -4606,7 +4606,7 @@ only screen and (min-resolution: 1.3dppx) {
 .project .project-entreprise .timeline .timeblock.today .timedate::after {
     border-style: solid;
     border-width: 1.5rem 0 1.5rem 8px;
-    border-color: transparent transparent transparent #c1dce5;
+    border-color: transparent transparent transparent var(--light-set-secondary);
     content: "";
     right: -8px;
     position: absolute;
@@ -4617,7 +4617,7 @@ only screen and (min-resolution: 1.3dppx) {
     content: "";
     width: .5rem;
     height: .2rem;
-    background: #c1dce5;
+    background: var(--light-set-secondary);
     position: absolute;
     top: 0;
     left: -.7rem;
@@ -4700,11 +4700,11 @@ only screen and (min-resolution: 1.3dppx) {
 }
 
 .project .project-entreprise .timeline .timeblock .timelinelist li .filter-activity details>summary {
-    background: #c1dce5;
+    background: var(--light-set-secondary);
 }
 
 .project .project-entreprise .timeline .timeblock .timelinelist li .filter-activity details>summary::after {
-    border-right-color: #c1dce5;
+    border-right-color: var(--light-set-secondary);
 }
 
 .project .project-entreprise .timeline .timeblock .timelinelist li .filter-team details .togglebody {
@@ -4876,7 +4876,7 @@ only screen and (min-resolution: 1.3dppx) {
 
 .vignette {
     background: #f8f8f8;
-    /* box-shadow: 3px 4px 7px 0px #e5e5e5; */
+    /* box-shadow: 3px 4px 7px 0px var(--light-grey); */
     display: inline-block;
     position: relative;
     margin-bottom: 3rem;
@@ -4910,7 +4910,7 @@ only screen and (min-resolution: 1.3dppx) {
 
 .vignette.vignette-move:hover {
     top: -5px;
-    /* box-shadow: 3px 9px 7px 0px #e5e5e5; */
+    /* box-shadow: 3px 9px 7px 0px var(--light-grey); */
     box-shadow: var(--default-shadow);
 }
 
@@ -4991,7 +4991,7 @@ only screen and (min-resolution: 1.3dppx) {
     margin: 0;
     max-height: 3.6rem;
     word-wrap: break-word;
-    color: #7a7a7a;
+    color: var(--dark-grey);
 }
 
 .vignette .box-body h2.title,
@@ -5022,7 +5022,7 @@ only screen and (min-resolution: 1.3dppx) {
 
 .vignette .box-body .icon-en-cours,
 .vignette .box-body .icon-total {
-    color: #76a5ad;
+    color: var(--light-set-secondary);
 }
 
 .vignette.vignette-square {
@@ -5093,7 +5093,7 @@ only screen and (min-resolution: 1.3dppx) {
 }
 
 .vignette-grid a:hover {
-    color: #7a7a7a;
+    color: var(--dark-grey);
 }
 
 .vignette-grid .box-head {
@@ -5115,7 +5115,7 @@ only screen and (min-resolution: 1.3dppx) {
 
 .vignette-mini {
     background: #fff;
-    box-shadow: 3px 4px 7px 0px #e5e5e5;
+    box-shadow: 3px 4px 7px 0px var(--light-grey);
 }
 
 section.vignette {
@@ -5500,7 +5500,7 @@ section.vignette {
 
 .datepicker-content .selected,
 .datepicker-content .selected:hover {
-    color: #36f;
+    color: var(--light-set-primary);
 }
 
 .datepicker-content .disabled,
@@ -5540,7 +5540,7 @@ section.vignette {
 
 #popup {
     background: #fff;
-    box-shadow: 0 0 7px 0px #7a7a7a;
+    box-shadow: 0 0 7px 0px var(--dark-grey);
     position: absolute;
     z-index: 9999;
     padding: 1em;
@@ -5566,7 +5566,7 @@ section.vignette {
 
 .fixed-panel-layout.support-panel {
     bottom: 120px;
-    background: #88bcc5;
+    background: var(--light-set-secondary);
 }
 
 .fixed-panel-layout.support-panel .support {
