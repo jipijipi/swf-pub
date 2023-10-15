@@ -4361,6 +4361,10 @@ only screen and (min-resolution: 1.3dppx) {
     color: var(--dark-set-secondary);
 }
 
+#content-video {
+    border-radius: var(--default-round) var(--default-sharp) 0 0;
+}
+
 .project .project-head {
     display: table;
     margin-bottom: 0;
