@@ -4828,7 +4828,7 @@ only screen and (min-resolution: 1.3dppx) {
 
 .project .project-footer .investir,
 .project .project-footer .investir:hover {
-    background: #7ed584;
+    background: var(--light-set-primary);
     color: #fff;
     display: inline-block;
     padding-bottom: .8rem;
@@ -4840,10 +4840,10 @@ only screen and (min-resolution: 1.3dppx) {
 
 .project .project-footer .investir:hover,
 .project .project-footer .investir:hover:hover {
-    background: #bfeac2;
+    background: var(--dark-set-secondary);
 }
 
-.project .project-footer::after {
+/* .project .project-footer::after {
     content: "";
     background: url(https://d10ib5h62k7mu8.cloudfront.net/assets/img/backgrounds/logo-footer.png?v=5eabee8) no-repeat 0 0;
     width: 52px;
@@ -4852,7 +4852,7 @@ only screen and (min-resolution: 1.3dppx) {
     top: -31px;
     left: 50%;
     margin-left: -26px;
-}
+} */
 
 .menu-guide li {
     margin: 25px 0px;
