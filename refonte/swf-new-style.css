@@ -4998,7 +4998,7 @@ div#search-bar {
     transition: all 0.3s ease-in-out;
 }
 
-.vignette.vignette-move>.box-head {
+.vignette.vignette-move>.box-body {
     top: 0;
     transition: all 0.3s ease-in-out;
 }
@@ -5030,14 +5030,14 @@ div#search-bar {
     box-shadow: var(--default-shadow);
 }
 
-.vignette.vignette-move:hover>.box-head {
-    bottom: 18px;
+.vignette.vignette-move:hover>.box-body {
+    top: -5px;
     box-shadow: var(--default-shadow);
 
 }
 
 .vignette.vignette-move:hover>.box-foot {
-    top: -18px;
+    bottom: 18px;
     box-shadow: var(--default-shadow);
 
 }
