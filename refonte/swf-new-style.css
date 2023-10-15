@@ -2705,6 +2705,7 @@ span.customSelect {
     background: var(--dark-set-secondary);
     padding: 4rem;
     border-radius: var(--default-rounding);
+    margin: 2rem 0;
 }
 
 .box-side .progress-rank li {
@@ -2995,7 +2996,7 @@ a.text-white {
 }
 
 .bg-info {
-    background: var(--light-set-secondary);
+    background: #fff;
 }
 
 .bg-default {
@@ -3015,7 +3016,7 @@ a.text-white {
 }
 
 .bg-audacious {
-    background: var(--light-set-primary);
+    background: var(--light-set-secondary);
 }
 
 .maturity-preseed {
