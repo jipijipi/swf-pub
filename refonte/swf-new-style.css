@@ -4207,6 +4207,64 @@ only screen and (min-resolution: 1.3dppx) {
     font-size: .7em;
 }
 
+div#filter-bar {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.filter-group {
+    font-size: 1.2rem;
+}
+
+.filter-group>div {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    align-content: center;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.filter-group img {
+    width: 17px;
+}
+
+div#opportunity-filter {
+    flex-grow: 1;
+}
+
+div#focus-filter {
+    flex-grow: 2;
+}
+
+div#maturity-filter {
+    flex-grow: 4;
+}
+
+div#search-bar {
+    flex-grow: 2;
+}
+
+.filter-btn {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    flex-grow: 1;
+    border-radius: var(--small-round);
+    border: var(--default-border);
+    padding: 0.3em 1em;
+    margin-right: 2%;
+    white-space: nowrap;
+    cursor: pointer;
+}
+
+
+
 .project .discreet-links a:not(.btn),
 .project.discreet-links a:not(.btn) {
     color: var(--dark-grey);
