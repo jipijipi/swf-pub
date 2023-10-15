@@ -1174,7 +1174,7 @@ a:active {
 
 a:not(.btn):hover,
 a:not(.btn):hover strong {
-    color: var(--dark-set-secondary);
+    color: var(--dark-set-primary);
 }
 
 .link-next::after {
