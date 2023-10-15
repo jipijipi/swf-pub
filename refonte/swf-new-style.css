@@ -2324,6 +2324,12 @@ a.btn-danger {
     color: #fff;
 }
 
+.pagination .btn {
+    padding: 1em;
+    margin: 2px;
+    border-radius: var(--small-round);
+}
+
 table.table {
     text-align: center;
     margin: 0 auto 2rem;
