@@ -2632,8 +2632,6 @@ span.customSelect {
     position: relative;
     display: block;
 
-    border: var(--default-border);
-    border-radius: var(--default-round);
 }
 
 .box-block::after {
@@ -2812,7 +2810,7 @@ span.customSelect {
 #popup .row:not(:last-child),
 #popup .project .project-side:not(:last-child),
 .project #popup .project-side:not(:last-child) {
-    margin-bottom: 4rem;
+    margin-bottom: 3rem;
 }
 
 #content-page {
@@ -4265,7 +4263,7 @@ only screen and (min-resolution: 1.3dppx) {
 .project .investBox .ticket {
     height: 3rem;
     border-radius: 0 0 2rem 2rem;
-    background: var(--dark-set-secondary);
+    background: var(--dark-set-primary);
 }
 
 .project .investBox .ticket.precollect {
@@ -4883,7 +4881,7 @@ only screen and (min-resolution: 1.3dppx) {
     margin-bottom: 3rem;
     line-height: normal;
     cursor: pointer;
-    border-radius: var(--default-rounding);
+    border-radius: var(--default-round);
 }
 
 .vignette.vignette-move {
@@ -5121,6 +5119,7 @@ only screen and (min-resolution: 1.3dppx) {
 
 section.vignette {
     border: var(--default-border);
+    background-color: var(--dark-set-secondary);
 }
 
 /*! miniTip CSS - v1.5.3 */
