@@ -4335,6 +4335,7 @@ only screen and (min-resolution: 1.3dppx) {
     background: #fff;
     padding: 1rem;
     margin: 0 -.8rem -.8rem;
+    border-radius: var(--small-round);
 }
 
 .project .project-side.side-contact img {
@@ -4948,7 +4949,7 @@ only screen and (min-resolution: 1.3dppx) {
     width: 100%;
     vertical-align: middle;
     display: inline-block;
-    border-top-left-radius: var(--default-round);
+    border: var(--default-round) var(--default-round) 0 0;
 
 }
 
