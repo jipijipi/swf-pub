@@ -14,6 +14,7 @@
 
     --dark-grey: #818B92;
     --light-grey: #B3BABE;
+    --lighter-grey: #f9f9f9;
 
     --main-font: 'Poppins', sans-serif;
     --secondary-font: 'Manrope', sans-serif;
@@ -3382,7 +3383,7 @@ a.text-white {
 
 .vehicule label>div:last-child {
     width: 30%;
-    background: var(--dark-grey);
+    background: var(--lighter-grey);
     line-height: 1.5em;
 }
 
