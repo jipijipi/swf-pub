@@ -5205,7 +5205,7 @@ div#search-bar {
 .vignette-grid .box-head {
     height: 149px;
     line-height: 149px;
-    /* visibility: hidden; */
+    visibility: hidden;
 }
 
 .vignette-grid .box-head .ribbon {
@@ -5244,6 +5244,11 @@ div#search-bar {
 section.vignette {
     border: var(--default-border);
     background-color: var(--dark-set-secondary);
+}
+
+.vignette-grid .vignette {
+    border: none;
+    background-color: #eee;
 }
 
 /*! miniTip CSS - v1.5.3 */
