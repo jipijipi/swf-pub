@@ -5119,7 +5119,7 @@ only screen and (min-resolution: 1.3dppx) {
     box-shadow: 3px 4px 7px 0px #e5e5e5;
 }
 
-section .vignette {
+section.vignette {
     border: var(--default-border);
 }
 
