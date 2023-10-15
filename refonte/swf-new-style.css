@@ -4998,6 +4998,16 @@ div#search-bar {
     transition: all 0.3s ease-in-out;
 }
 
+.vignette.vignette-move>.box-head {
+    top: 0;
+    transition: all 0.3s ease-in-out;
+}
+
+.vignette.vignette-move>.box-foot {
+    bottom: 13px;
+    transition: all 0.3s ease-in-out;
+}
+
 .vignette.vignette-move a.ribbon {
     width: 0;
     -webkit-transition: all 0.3s ease-in-out;
@@ -5018,6 +5028,18 @@ div#search-bar {
     top: -5px;
     /* box-shadow: 3px 9px 7px 0px var(--light-grey); */
     box-shadow: var(--default-shadow);
+}
+
+.vignette.vignette-move:hover>.box-head {
+    bottom: 18px;
+    box-shadow: var(--default-shadow);
+
+}
+
+.vignette.vignette-move:hover>.box-foot {
+    top: -18px;
+    box-shadow: var(--default-shadow);
+
 }
 
 .vignette.vignette-move:hover .ribbon {
