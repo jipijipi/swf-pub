@@ -4233,6 +4233,7 @@ div#filter-bar {
 
 .filter-group img {
     width: 17px;
+    margin-left: 2px;
 }
 
 div#opportunity-filter {
@@ -4247,9 +4248,6 @@ div#maturity-filter {
     flex-grow: 4;
 }
 
-div#search-bar {
-    flex-grow: 2;
-}
 
 .filter-btn {
     display: flex;
@@ -4272,6 +4270,33 @@ div#search-bar {
     border-color: var(--dark-set-secondary);
 }
 
+div#search-bar {
+    flex-grow: 2;
+}
+
+
+#search-bar button {
+    height: 24px;
+    border: 0;
+    margin: 0;
+    background-color: transparent;
+}
+
+#search-bar form {
+    border: var(--default-border);
+    padding: 0.3em 1em;
+    border-radius: var(--small-round);
+    max-width: 20rem;
+}
+
+
+#search-bar input {
+    height: 17px;
+    background: #ddd;
+    border: 0;
+    padding-left: 0.7em;
+    border-radius: 1rem;
+}
 
 
 .project .discreet-links a:not(.btn),
