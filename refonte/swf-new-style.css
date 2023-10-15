@@ -2324,10 +2324,16 @@ a.btn-danger {
     color: #fff;
 }
 
-.pagination .btn {
+.pagination .btn-default {
     padding: 1em;
     margin: 2px;
     border-radius: var(--small-round);
+}
+
+.pagination .btn-primary {
+    padding: 1em;
+    margin: 2px;
+    border-radius: var(--small-rounding);
 }
 
 table.table {
