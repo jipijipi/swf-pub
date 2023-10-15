@@ -4272,7 +4272,6 @@ div#maturity-filter {
 }
 
 .filter-btn:first-of-type {
-    /* background-color: azure; */
     border-radius: var(--small-round) 0 0 var(--small-round);
 }
 
