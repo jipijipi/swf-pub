@@ -4229,12 +4229,12 @@ only screen and (min-resolution: 1.3dppx) {
 }
 
 .project .investBox .invest {
-    background: #7ed584;
+    background: var(--light-set-primary);
     color: #fff;
     margin-bottom: 2%;
     height: 14rem;
     line-height: 14rem;
-    border-radius: var(--default-round) var(--default-sharp 0 0);
+    border-radius: var(--default-round) var(--default-sharp) 0 0;
     display: block;
 }
 
@@ -4265,7 +4265,7 @@ only screen and (min-resolution: 1.3dppx) {
 .project .investBox .ticket {
     height: 3rem;
     border-radius: 0 0 2rem 2rem;
-    background: #bfeac2;
+    background: var(--dark-set-secondary);
 }
 
 .project .investBox .ticket.precollect {
@@ -4357,7 +4357,7 @@ only screen and (min-resolution: 1.3dppx) {
     /* border-bottom: 1px solid #f4f4f4; */
     margin-bottom: 2rem;
     padding: 2rem;
-    background-color: var(--dark-set-secondary);
+    background-color: var(--light-set-secondary);
     border-radius: 0 0 var(--default-round) var(--default-round);
     color: var(--dark-set-primary);
 }
