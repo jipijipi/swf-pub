@@ -4349,7 +4349,8 @@ div#search-bar {
     color: #fff;
 }
 
-.project .investBox .invest:link:hover {
+.project .investBox .invest:link:hover,
+.project .investBox .invest:hover {
     background: var(--dark-set-secondary);
     color: #fff;
 }
