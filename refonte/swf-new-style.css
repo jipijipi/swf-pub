@@ -3199,7 +3199,7 @@ a.text-white {
     z-index: 5;
     position: relative;
     top: 1.5rem;
-    background: url(https://d10ib5h62k7mu8.cloudfront.net/assets/img/backgrounds/progress.png?v=ebbbbe6) no-repeat 0 0;
+    background: url(https://storage.googleapis.com/swf-bucket/assets/progress.png) no-repeat 0 0;
 }
 
 @media screen and (min-width: 767px) {
@@ -3269,7 +3269,7 @@ a.text-white {
 
 .radio-panel .form-input::before {
     content: "";
-    background: url(https://d10ib5h62k7mu8.cloudfront.net/assets/img/backgrounds/radio.png?v=ebbbbe6) no-repeat 0 bottom;
+    background: url(https://storage.googleapis.com/swf-bucket/assets/radio.png) no-repeat 0 bottom;
     position: absolute;
     top: -webkit-calc(50% - 9px);
     top: calc(50% - 9px);
@@ -5369,7 +5369,7 @@ section.vignette {
     height: 100%;
     z-index: 3;
     top: 0px;
-    background: url(https://d10ib5h62k7mu8.cloudfront.net/assets/img/backgrounds/play.png?v=76d669d) no-repeat center center;
+    background: url(https://storage.googleapis.com/swf-bucket/assets/play.png) no-repeat center center;
 }
 
 .chart-placeholder {
