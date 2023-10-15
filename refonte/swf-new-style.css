@@ -4219,6 +4219,7 @@ div#filter-bar {
 
 .filter-group {
     font-size: 1.2rem;
+    margin-right: 1%;
 }
 
 .filter-group>div {
@@ -4258,7 +4259,7 @@ div#search-bar {
     border-radius: var(--small-round);
     border: var(--default-border);
     padding: 0.3em 1em;
-    margin-right: 2%;
+    margin-right: 3px;
     white-space: nowrap;
     cursor: pointer;
 }
