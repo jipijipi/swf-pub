@@ -2836,7 +2836,7 @@ span.customSelect {
 
 .icon-etoile,
 .icon-etoile-tour:hover {
-    color: #84b214 !important;
+    color: var(--light-set-primary) !important;
 }
 
 .icon-etoile-tour {
@@ -4223,7 +4223,7 @@ only screen and (min-resolution: 1.3dppx) {
 }
 
 .project .investBox {
-    color: #fff;
+    color: var(--dark-grey);
 }
 
 .project .investBox .invest {
@@ -4263,7 +4263,7 @@ only screen and (min-resolution: 1.3dppx) {
 .project .investBox .ticket {
     height: 3rem;
     border-radius: 0 0 2rem 2rem;
-    background: var(--dark-set-primary);
+    background: var(--dark-set-secondary);
 }
 
 .project .investBox .ticket.precollect {
@@ -4976,7 +4976,7 @@ only screen and (min-resolution: 1.3dppx) {
 
 .vignette .box-body {
     position: relative;
-    padding: 0 1rem .5rem;
+    padding: .5rem 1rem;
 }
 
 .vignette .box-body .title,
