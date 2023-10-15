@@ -2418,7 +2418,7 @@ table.table tbody tr.success {
 }
 
 .label {
-    color: var(--light-set-primary);
+    color: var(--dark-set-primary);
     display: inline-block;
     font-size: 1.75rem;
     margin-bottom: .5rem;
