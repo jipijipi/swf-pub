@@ -4349,10 +4349,10 @@ only screen and (min-resolution: 1.3dppx) {
 
 .project .video-block .project-info .description {
     /* border-bottom: 1px solid #f4f4f4; */
-    margin: 2rem 0 2rem 0;
+    margin-bottom: 2rem;
     padding: 2rem;
     background-color: var(--dark-set-secondary);
-    border-radius: var(--default-round);
+    border-radius: 0 0 var(--default-round) var(--default-round);
     color: var(--dark-set-primary);
 }
 
