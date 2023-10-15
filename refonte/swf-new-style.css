@@ -26,6 +26,8 @@
     --small-sharp: 0.1rem;
     --small-rounding: var(--default-round) var(--default-sharp) var(--default-round) var(--default-round);
 
+    --default-shadow: 0px 5px 26px 0px rgba(101, 153, 181, 0.40);
+
 
     --arrow: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 25 25"><path class="st0" d="M15,0.5v4C15,4.8,15.2,5,15.5,5h4C19.8,5,20,5.2,20,5.5v4c0,0.3,0.2,0.5,0.5,0.5h4c0.3,0,0.5-0.2,0.5-0.5v-7C25,1.1,23.9,0,22.5,0h-7C15.2,0,15,0.2,15,0.5L15,0.5z" fill="%230075ff"/></svg>');
 }
@@ -3826,7 +3828,7 @@ a.text-white {
         right: calc((-250px + 50%) / 2);
         position: absolute;
         width: 250px;
-        box-shadow: 0 1px 2px -1px #929292;
+        box-shadow: var(--default-shadow);
         border-radius: 0 0 var(--default-round) var(--default-round);
     }
 
