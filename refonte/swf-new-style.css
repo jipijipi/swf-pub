@@ -5001,6 +5001,7 @@ div#search-bar {
 .vignette.vignette-move>.box-body {
     top: 0;
     transition: all 0.3s ease-in-out;
+    z-index: 1;
 }
 
 .vignette.vignette-move>.box-foot {
@@ -5032,7 +5033,7 @@ div#search-bar {
 
 .vignette.vignette-move:hover>.box-body {
     top: -5px;
-    box-shadow: var(--default-shadow);
+    /* box-shadow: var(--default-shadow); */
 
 }
 
