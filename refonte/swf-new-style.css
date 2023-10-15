@@ -18,6 +18,8 @@
     --main-font: 'Poppins', sans-serif;
     --secondary-font: 'Manrope', sans-serif;
 
+    --default-border: solid 2px var(--dark-set-secondary);
+
     --default-round: 1.5rem;
     --default-sharp: 0.3rem;
     --default-rounding: var(--default-round) var(--default-sharp) var(--default-round) var(--default-round);
@@ -2625,10 +2627,13 @@ span.customSelect {
 }
 
 .box-block {
-    /* padding: 5%; */
+    padding: 1rem;
     background: #fff;
     position: relative;
     display: block;
+
+    border: var(--default-border);
+    border-radius: var(--default-round);
 }
 
 .box-block::after {
@@ -3139,7 +3144,7 @@ a.text-white {
 .onglet li a:visited:hover,
 .onglet li a:visited.current {
     background: transparent;
-    border: solid 2px var(--dark-set-secondary);
+    border: var(--default-border);
     border-radius: 7px 2px 7px 7px;
 }
 
@@ -5115,7 +5120,7 @@ only screen and (min-resolution: 1.3dppx) {
 }
 
 section .vignette {
-    border: 2px solid var(--dark-set-secondary);
+    border: var(--default-border);
 }
 
 /*! miniTip CSS - v1.5.3 */
