@@ -5204,6 +5204,7 @@ div#search-bar {
 .vignette-grid .box-head {
     height: 149px;
     line-height: 149px;
+    /* visibility: hidden; */
 }
 
 .vignette-grid .box-head .ribbon {
@@ -5212,6 +5213,22 @@ div#search-bar {
 
 .vignette-grid .box-body {
     padding: 1rem 2rem;
+    width: 190px;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: var(--small-round) var(--small-round) 0 0;
+    background-color: #fff;
+}
+
+.vignette-grid .box-foot {
+    padding: 0 2rem 0.6rem;
+    width: 190px;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 0 0 var(--small-round) var(--small-round);
+    background-color: #fff;
+    position: relative;
+    bottom: 15px;
 }
 
 .vignette-grid .box-body p {
