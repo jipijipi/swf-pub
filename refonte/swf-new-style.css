@@ -3509,6 +3509,7 @@ a.text-white {
     color: #fff;
     padding: 0 1.5rem;
     display: block;
+    cursor: pointer;
 }
 
 .header .nav-header .menu .menu-links .account ul {
@@ -5079,7 +5080,7 @@ div#search-bar {
 .vignette a,
 .vignette a:hover {
     text-decoration: none;
-    color: var(--dark-grey);
+    color: var(--dark-set-primary);
 }
 
 .vignette a:hover {
