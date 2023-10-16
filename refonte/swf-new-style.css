@@ -3324,12 +3324,17 @@ a.text-white {
 }
 
 .radio-panel label {
-    background: #f4f4f4;
+    background: var(--light-set-secondary);
     padding: 0;
     color: #929292;
     line-height: 1em;
     cursor: pointer;
     overflow: hidden;
+    /* box-shadow: var(--default-shadow); */
+}
+
+.radio-panel label:hover {
+    background: var(--dark-set-secondary);
     box-shadow: var(--default-shadow);
 }
 
