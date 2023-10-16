@@ -4488,7 +4488,8 @@ div#search-bar {
     /* border-bottom: 1px solid #f4f4f4; */
     margin-bottom: 2rem;
     padding: 2rem;
-    background-color: var(--light-set-secondary);
+    /* background-color: var(--light-set-secondary); */
+    border: var(--default-border);
     border-radius: 0 0 var(--default-round) var(--default-round);
     color: var(--dark-set-primary);
 }
@@ -4557,6 +4558,18 @@ div#search-bar {
 
     .project .project-head li span.nav-project.first {
         margin-left: 0;
+    }
+
+    .nav-project>a:only-of-type {
+        border-radius: var(--small-rounding);
+    }
+
+    .nav-project>a:last-of-type {
+        border-radius: 0 var(--small-sharp) var(--small-round) 0;
+    }
+
+    .nav-project>a:first-of-type {
+        border-radius: var(--small-round) 0 0 var(--small-round);
     }
 
     .project .project-head li a {
