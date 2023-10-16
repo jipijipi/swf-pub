@@ -4255,7 +4255,7 @@ div#maturity-filter {
     flex-direction: row;
     flex-wrap: nowrap;
     flex-grow: 1;
-    border-radius: var(--small-round);
+    /* border-radius: var(--small-round); */
     border: var(--default-border);
     padding: 0.3em 1em;
     margin-right: 3px;
