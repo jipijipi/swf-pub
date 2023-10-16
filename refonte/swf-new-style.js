@@ -496,9 +496,7 @@ appendToHead('link', { 'rel': 'apple-touch-icon', 'href': 'https://storage.googl
 loadExternalCSS('https://jipijipi.github.io/swf-pub/refonte/swf-new-style.css');
 
 
-/*TODO
-Swap participer autrement
-*/
+
 
 
 
