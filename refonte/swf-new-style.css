@@ -1343,7 +1343,7 @@ hr {
 }
 
 .markdownable tr:nth-child(even) td {
-    background: var(--dark-grey);
+    background: #efefef;
 }
 
 .markdownable tr:nth-child(odd) td {
