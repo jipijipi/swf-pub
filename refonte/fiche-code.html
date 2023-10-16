@@ -1,0 +1,86 @@
+@(communitySlug: String)(implicit uRequest: utils.UserRequest[_])
+<script id="startup_container" type="text/html">
+  <% if(lastDays === true) { %>
+  <section style="background-color:<%= mainColor =%>; background-image: url('<%=bgImgUrl=%>');" class="vignette vignette-move vignette-grid last-days" <% if(soon) {%> onclick="showPopupOverlay(<%= projectID %>)" <%  } %>>
+  <% } else { %>
+  <section style="background-color:<%= mainColor =%>; background-image: url('<%=bgImgUrl=%>');" class="vignette vignette-move vignette-grid" <% if(soon) {%> onclick="showPopupOverlay(<%= projectID %>)" <%  } %>>
+  <% } %>
+    <div class="sticker font-xs">
+      <% for (var tax in taxElements) { %>
+        <span class="stick font-xs"><span><%= taxElements[tax] %></span></span>
+      <% } %>
+    </div>
+    <div class="box-head">
+      <% if(soon) {%>
+        <% if(imgUrl !== null) { %>
+          <img src="<%= imgUrl %>" alt="<%= projectName %>">
+        <%  } %>
+        <% if (category && category !="") { %>
+          <a href="javascript:;" class="ribbon text-right" <% if(color) { %>style="background-color:<%= color %>"<% } %>><span><%= category.label %></span></a>
+        <% } %>
+      <% } else { %>
+        <a href="<%=projectUrl%>" title="<%= projectName %>">
+          <% if(imgUrl !== null) { %>
+            <img src="<%= imgUrl %>" alt="<%= projectName %>">
+          <%  } %>
+        </a>
+        <% if (category && category !="") { %>
+          <a href="<%=projectUrl%>" title="<%= projectName %>" class="ribbon text-right" <% if(color) { %>style="background-color:<%= color %>"<% } %>><span><%= category.label %></span></a>
+        <% } %>
+      <% } %>
+    </div>
+    <div class="box-body font-xs">
+      <div class="favorite">
+        @uRequest.optLoggedMember.map(_.member) match {
+          case Some(investor) => {
+            <% if (isFavorite) { %>
+              <span class="bookmark icon-etoile font-md" data-bookmark-project="<%= projectID %>"></span>
+            <% } else { %>
+              <span class="bookmark icon-etoile-tour font-md" data-bookmark-project="<%= projectID %>"></span>
+            <% } %>
+          }
+          case _ => {
+            <span class="icon-etoile-tour font-md"></span>
+          }
+        }
+      </div>
+      <% if(!soon) {%><a href="<%=projectUrl%>" title="<%= projectName %>"><% } %>
+        <h2 class="title font-md"><%= projectName %></h2>
+        <% if(maturity !== null) { %>
+          <small>
+            <% if(maturity == "PreSeed") { %>
+              <span class="maturity-preseed-dark">pre-seed</span>
+            <% } else if (maturity == "Seed") { %>
+              <span class="maturity-seed-dark">seed</span>
+            <% } else if (maturity == "PreSerieA") { %>
+              <span class="maturity-preseriea-dark">pre-serie A</span>
+            <% } else if (maturity == "SerieA") { %>
+              <span class="maturity-seriea-dark">serie A</span>
+            <% } %>
+          </small>
+        <% } %>
+        <p><%= smallDescription %></p>
+      <% if(!soon) {%></a><% } %>
+    </div>
+    <div class="box-foot" style="padding: 0 2rem 0.6rem;">
+      <% if(!soon) {%><a href="<%=projectUrl%>" title="<%= projectName %>"><% } %>
+        <div class="col-xs-12 text-center stats">
+          <div class="text-left">
+            <p class="font-xs">Objectif</p>
+            <span class="font-md"><%= totalAmount %></span>
+          </div>
+        </div>
+        <% if(showsProgressBar) { %>
+        <div class="col-xs-12 progress-bar <%=(status != @models.Project.Status.Visible.id  ? 'wait' : '')%>" style="width:100% !important; height: 6px; background: lightgray;">
+          <div class="col-xs-12 progress-bar <%=(status != @models.Project.Status.Visible.id  ? 'wait' : '')%>" style="width:<%= montantFinancé %>% !important; height: 6px; margin-right: <%= 100 - montantFinancé %>%; margin-top: 0;">
+            <div style="width:<%= montantFinancé %>px !important; height: 6px;"></div>
+          </div>
+        </div>
+        <% } else { %>
+            <div class="col-xs-12 progress-bar <%=(status != @models.Project.Status.Visible.id  ? 'wait' : '')%>"><span></span></div>
+        <% } %>
+        <p class="font-xs text-center <%=(status != @models.Project.Status.Visible.id  ? 'wait' : '')%>"><%= statutMiniFiche %></p>
+      <% if(!soon) {%></a><% } %>
+    </div>
+  </section>
+</script>
