@@ -2425,7 +2425,7 @@ table.table tbody tr.success {
     margin-bottom: .5rem;
 }
 
-.row.box {
+.row.box:not(form > *) {
     border: var(--default-border);
     padding: 2em;
     border-radius: var(--default-round);
