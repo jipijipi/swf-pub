@@ -2941,7 +2941,7 @@ span.customSelect {
 
 .font-xs,
 .project .project-head li {
-    font-size: 80%;
+    font-size: 70%;
 }
 
 .font-md,
@@ -5282,7 +5282,7 @@ div#search-bar {
 }
 
 .vignette-grid .box-body p {
-    height: 5.5rem;
+    height: 80px;
 }
 
 .vignette-mini {
