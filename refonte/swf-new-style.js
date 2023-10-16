@@ -1,3 +1,136 @@
+//HTML BaNK
+
+const homeArgs = `<div class="bg-info row">
+
+<div class="row">
+    <div class="col-md-4 box-over-under-framed text-center">
+        <span class="font-xxl number-highlight">112&nbsp;353</span>
+        <br><span data-gtm-vis-recent-on-screen10563913_50="66" data-gtm-vis-first-on-screen10563913_50="66"
+            data-gtm-vis-total-visible-time10563913_50="100" data-gtm-vis-has-fired10563913_50="1">membres</span>
+    </div>
+    <div class="col-md-4 box-over-under-framed text-center">
+        <span class="font-xxl number-highlight">80&nbsp;727&nbsp;786</span>
+        <br><span data-gtm-vis-has-fired10563913_50="1">d'euros levés</span>
+    </div>
+    <div class="col-md-4 box-over-under-framed text-center">
+        <span class="font-xxl number-highlight">103</span>
+        <br><span data-gtm-vis-has-fired10563913_50="1">campagnes financées</span>
+    </div>
+</div>
+
+<div class="col-xs-10 col-xs-offset-1 align-middle row">
+    <div class="col-xs-12 col-sm-8 col-md-6">
+        <h2 class="upper">Investissez avec les professionnels</h2>
+        <p>
+            Rejoignez l'aventure entrepreneuriale en co-investissant aux côtés des professionnels du financement,
+            family
+            office, business angels de renom et fonds professionnels.
+        </p>
+        <p>
+            Grâce au financement participatif devenez plus qu'un investisseur, soyez acteur du changement, partagez
+            l’histoire des entreprises qui font le monde de demain.
+        </p>
+        <p>Investir son argent dans l’économie réelle et être business angel n’a jamais été aussi simple.</p>
+        .
+    </div>
+    <div class="col-xs-12 col-sm-4 col-md-6 omega-sm omega-md text-center hidden-xs">
+
+        <img alt="Liberté avec votre épargne"
+            srcset="https://storage.googleapis.com/swf-bucket/home/sowefund-investir-librement@2x.png"
+            src="https://storage.googleapis.com/swf-bucket/home/sowefund-investir-librement@2x.png" width="300"
+            height="300">
+
+    </div>
+</div>
+<div class="col-xs-10 col-xs-offset-1 align-middle row">
+    <div class="col-xs-12 col-sm-4 col-md-6 text-center hidden-xs">
+
+        <img alt="Qualité des projets proposés"
+            srcset="https://storage.googleapis.com/swf-bucket/home/sowefund-entreprises-qualite@2x.png"
+            src="https://storage.googleapis.com/swf-bucket/home/sowefund-entreprises-qualite@2x.png" width="300"
+            height="300">
+
+    </div>
+
+    <div class="col-xs-12 col-sm-8 col-md-6 omega-sm omega-md">
+        <h2 class="upper">Accédez à des opportunités à fort potentiel</h2>
+        <p>Une jeune entreprise est toujours un défi, mais avec de grands risques viennent de grandes récompenses.
+        </p>
+        <p>
+            Pour limiter les risques, nos équipes de spécialistes sélectionnent chaque projet selon les critères
+            méthodiques dignes des meilleurs professionnels de l’investissement pour ne vous offrir que les plus
+            prometteurs.
+        </p>
+        <p>
+            Vous pouvez diversifier ainsi votre portefeuille et maximiser vos chances de réussite sans perdre de vue
+            les <a href="/mentions-legales#risque_investissement" title="Risques liés à l'investissement">risques
+                liés
+                à l'investissement</a>.
+        </p>
+    </div>
+</div>
+<div class="col-xs-10 col-xs-offset-1 align-middle row">
+    <div class="col-xs-12 col-sm-8 col-md-6">
+        <h2 class="upper">Construisez le monde de demain </h2>
+        <p>
+            Donnez vie aux innovations qui façonnent l’avenir. En investissant dans des startups engagées et
+            soucieuses
+            de leur impact social et environnemental, vous participez à l’économie réelle durable.
+        </p>
+        <p>
+            On vous guide en
+            toute transparence, vous choisissez les projets qui vous correspondent.
+        </p><a href="https://sowefund.com/startups?categories=547"
+            title="Les investissements impact investing Sowefund"> Découvrez dès maintenant nos projets
+            "impact"</a>.
+    </div>
+    <div class="col-xs-12 col-sm-4 col-md-6 omega-sm omega-md text-center hidden-xs">
+
+        <img alt="Les opportunités impact investing Sowefund"
+            srcset="https://storage.googleapis.com/swf-bucket/home/sowefund-impact-investing@2x.png?v=2"
+            src="https://storage.googleapis.com/swf-bucket/home/sowefund-impact-investing@2x.png?v=2" width="300"
+            height="300">
+
+    </div>
+
+</div>
+<div class="col-xs-10 col-xs-offset-1 align-middle row">
+    <div class="col-xs-12 col-sm-4 col-md-6 text-center hidden-xs">
+
+        <img alt="Sowefund et la défiscalisation"
+            srcset="https://storage.googleapis.com/swf-bucket/home/sowefund-defiscaliser-utile@2x.png"
+            src="https://storage.googleapis.com/swf-bucket/home/sowefund-defiscaliser-utile@2x.png" width="300"
+            height="300">
+
+    </div>
+
+    <div class="col-xs-12 col-sm-8 col-md-6 omega-sm omega-md">
+        <h2 class="upper">Défiscalisez, investissez malin</h2>
+
+        En plus d'un potentiel de rendement élevé, bénéficiez d'avantages fiscaux sur la majorité de nos
+        opportunités. Vous pouvez déduire jusqu’à 25 % de vos investissements sur votre impôt sur le revenu, ou
+        défiscaliser vos plus-values en souscrivant via un PEA ou un PEA-PME.
+    </div>
+</div>
+<div class="col-xs-10 col-xs-offset-1 align-middle row">
+    <div class="col-xs-12 col-sm-8 col-md-6">
+        <h2 class="upper">Profitez d’une plateforme simple et sécurisée</h2>
+        Sowefund est une Fintech agréée Prestataire européen de services de Financement Participatif (PSFP) par
+        l’Autorité des Marchés Financiers. On vous offre une plateforme ergonomique, un parcours d'investissement
+        robuste et un accompagnement régulier dans le suivi de vos placements.
+    </div>
+    <div class="col-xs-12 col-sm-4 col-md-6 omega-sm omega-md text-center hidden-xs">
+
+        <img alt="Tranquilité d'investissement"
+            srcset="https://storage.googleapis.com/swf-bucket/home/sowefund-conseiller-agree@2x.png"
+            src="https://storage.googleapis.com/swf-bucket/home/sowefund-conseiller-agree@2x.png" width="300"
+            height="300">
+
+    </div>
+</div>
+<br>
+</div>`;
+
 function loadExternalCSS(filePath) {
     const body = document.body;
     const link = document.createElement('link');
@@ -63,6 +196,36 @@ function replaceImageByQuerySelector(selector, src) {
         imgElement.srcset = src;
     });
 }
+
+function swapElements(selector1, selector2) {
+    const el1 = document.querySelector(selector1);
+    const el2 = document.querySelector(selector2);
+
+    if (!el1 || !el2) {
+        console.error("One or both elements not found!");
+        return;
+    }
+
+    // Clone nodes to swap
+    const el1Clone = el1.cloneNode(true);
+    const el2Clone = el2.cloneNode(true);
+
+    // Replace nodes with their clones
+    el1.parentNode.replaceChild(el2Clone, el1);
+    el2.parentNode.replaceChild(el1Clone, el2);
+}
+
+function replaceElementWithHTML(selector, newHTML) {
+    const element = document.querySelector(selector);
+
+    if (!element) {
+        console.error("Element not found!");
+        return;
+    }
+
+    element.outerHTML = newHTML;
+}
+
 
 
 
@@ -199,9 +362,11 @@ replaceImageByQuerySelector('.macaron-last-days', 'https://storage.googleapis.co
 //HOME
 
 function homeChanges() {
+
+    replaceElementWithHTML('div.bg-info.row', homeArgs);
     //images home
 
-    replaceAndResizeImage('#content-page > section:nth-child(1) > div > div:nth-child(3) > div > img', 'https://storage.googleapis.com/swf-bucket/home/sowefund-impact-investing@2x.png?v=2');
+    /* replaceAndResizeImage('#content-page > section:nth-child(1) > div > div:nth-child(3) > div > img', 'https://storage.googleapis.com/swf-bucket/home/sowefund-impact-investing@2x.png?v=2');
 
     replaceAndResizeImage('#content-page > section:nth-child(1) > div > div:nth-child(4) > div > img', 'https://storage.googleapis.com/swf-bucket/home/sowefund-defiscaliser-utile@2x.png');
 
@@ -209,7 +374,7 @@ function homeChanges() {
 
     replaceAndResizeImage('#content-page > section:nth-child(1) > div > div:nth-child(6) > div > img', 'https://storage.googleapis.com/swf-bucket/home/sowefund-entreprises-qualite@2x.png');
 
-    replaceAndResizeImage('#content-page > section:nth-child(1) > div > div:nth-child(7) > div > img', 'https://storage.googleapis.com/swf-bucket/home/sowefund-conseiller-agree@2x.png');
+    replaceAndResizeImage('#content-page > section:nth-child(1) > div > div:nth-child(7) > div > img', 'https://storage.googleapis.com/swf-bucket/home/sowefund-conseiller-agree@2x.png'); */
 
     //Remove elements
     removeElementsBySelector('.container > .row-layout > h1.text-center');
@@ -274,3 +439,9 @@ loadExternalCSS('https://jipijipi.github.io/swf-pub/refonte/swf-new-style.css');
 /*TODO
 Swap participer autrement
 */
+
+
+
+
+
+
