@@ -181,10 +181,10 @@ removeElementsBySelector('body > ul.fixed-panel-layout.list-unstyled.print-hidde
 //NAVBAR
 
 //change main logo
-replaceImageByQuerySelector('img[alt~="logo"]', 'https://storage.googleapis.com/swf-bucket/files/swf-new-logo-v1.png');
+replaceImageByQuerySelector('img[alt~="logo"]', 'https://storage.googleapis.com/swf-bucket/new-logo/logo-swf@2x.png');
 
 //removes main link navbar
-removeClassFromDivByPath('.mainLink', 'mainLink');
+// removeClassFromDivByPath('.mainLink', 'mainLink');
 
 
 

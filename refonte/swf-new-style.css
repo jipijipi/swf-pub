@@ -3764,7 +3764,7 @@ a.text-white {
     }
 
     .header .nav-header .menu .menu-links>li.mainLink::after {
-        background: url(https://d10ib5h62k7mu8.cloudfront.net/assets/img/backgrounds/menu-link.png?v=76d669d) no-repeat;
+        /* background: url(https://d10ib5h62k7mu8.cloudfront.net/assets/img/backgrounds/menu-link.png?v=76d669d) no-repeat; */
         bottom: 0;
         content: '';
         display: block;
