@@ -131,6 +131,66 @@ const homeArgs = `<div class="bg-info row">
 <br>
 </div>`;
 
+const testimonials = `<div class="row box-block">
+<h2 class="upper col-md-offset-1">Ils Aiment Sowefund</h2><br>
+<div class="row">
+    <div class="col-md-6 testimonial"><img class="lazyload"
+            src="https://storage.googleapis.com/swf-bucket/files/1697499038592-stars.png" alt="five stars"
+            width="200px">
+        <blockquote>“Des entreprises innovantes, des tickets accessibles permettant une bonne diversification, des
+            perspectives de marges financières motivantes, une équipe très accessible et de bons conseils !”
+            <br><br>
+            <footer>2023, Investisseur dans XX</footer>
+        </blockquote>
+    </div>
+    <div class="col-md-6 testimonial"><img class="lazyload"
+            src="https://storage.googleapis.com/swf-bucket/files/1697499038592-stars.png" alt="five stars"
+            width="200px">
+        <blockquote>“De belles opportunités d'investissement et un professionnalisme fort.”
+            <br><br>
+            <footer>2023, Investisseur dans XX</footer>
+        </blockquote>
+    </div>
+</div>
+<div class="row">
+    <div class="col-md-6 testimonial"><img class="lazyload"
+            src="https://storage.googleapis.com/swf-bucket/files/1697499038592-stars.png" alt="five stars"
+            width="200px">
+        <blockquote>“Efficace, professionnel, pédagogue et humain”
+            <br><br>
+            <footer>2023, Investisseur dans XX</footer>
+        </blockquote>
+    </div>
+    <div class="col-md-6 testimonial"><img class="lazyload"
+            src="https://storage.googleapis.com/swf-bucket/files/1697499038592-stars.png" alt="five stars"
+            width="200px">
+        <blockquote>“Très bon contact et excellente communication sur les suivis.”
+            <br><br>
+            <footer>2023, Investisseur dans XX</footer>
+        </blockquote>
+    </div>
+</div>
+<div class="row">
+    <div class="col-md-6 testimonial"><img class="lazyload"
+            src="https://storage.googleapis.com/swf-bucket/files/1697499038592-stars.png" alt="five stars"
+            width="200px">
+        <blockquote>“Produits proposés et accompagnement parfaits”
+            <br><br>
+            <footer>2023, Investisseur dans XX</footer>
+        </blockquote>
+    </div>
+    <div class="col-md-6 testimonial"><img class="lazyload"
+            src="https://storage.googleapis.com/swf-bucket/files/1697499038592-stars.png" alt="five stars"
+            width="200px">
+        <blockquote>“Très bonne équipe à l’écoute des partenaires. Large choix de sujets d’investissements.”
+            <br><br>
+            <footer>2023, Investisseur dans XX</footer>
+        </blockquote>
+    </div>
+</div>
+
+</div>`;
+
 function loadExternalCSS(filePath) {
     const body = document.body;
     const link = document.createElement('link');
@@ -347,7 +407,7 @@ removeElementsBySelector('body > ul.fixed-panel-layout.list-unstyled.print-hidde
 replaceImageByQuerySelector('img[alt~="logo"]', 'https://storage.googleapis.com/swf-bucket/new-logo/logo-swf@2x.png');
 
 //removes main link navbar
-// removeClassFromDivByPath('.mainLink', 'mainLink');
+removeClassFromDivByPath('.mainLink', 'mainLink');
 
 
 
@@ -386,7 +446,7 @@ function homeChanges() {
     // insertHTML('#content-page', '<div class="row full-viewport" id="track-record" height = 150px><div class="portrait"></div><div class="portrait"></div></div>');
     insertHTML('#content-page', '<div class="row " id="cta-home"><div class="text-center row"><a href="/startups" class="btn btn-primary btn-xl upper">Investir dès maintenant</a><br></div></div>');
     insertHTML('#content-page', '<div id="hero-container" class="row"><div id="hero"><h1 class="font-xxxl" ><span class="highlight">Investir</span> dans les <br>entreprises de demain</h1><p class = "font-md">Devenez actionnaire des startups les plus innovantes <br>aux côtés des professionnels de l’investissement. </p><p>Bénéficiez du support méthodique d’investissement <br>et de suivi des participations des équipes de Sowefund</p></div></div>');
-    insertHTML('#content-page > section:nth-child(5) > div', `<div class="row box-block"><h2 class="upper col-md-offset-1">Ils Aiment Sowefund</h2><br><div class="row"><div class="col-md-6 testimonial"><img class="lazyload" src="https://d3i3cp443mmogz.cloudfront.net/public/entrepreneur/logo-extracadabra.svg" alt="Logo Extracadabra" width="200px"><blockquote>" Cette levée de fonds a permis à Extracadabra de bénéficier de la forte communauté d'investisseurs engagés de Sowefund tout en permettant à nos clients restaurateurs de prendre part à cette belle aventure. Nous avons réuni plus de 400K€ en moins de 2 mois, en co-investissement avec les fonds Side Capital et Bpifrance via son fonds tourisme. Un succès rapide et efficace ! "<br><br><footer>Frederic Nardon, Extracadabra</footer></blockquote></div><div class="col-md-6 testimonial"><img class="lazyload" src="https://d3i3cp443mmogz.cloudfront.net/public/entrepreneur/logo-ekwateur.svg" alt="Logo Ekwateur" width="200px"><blockquote>" L’opération faite avec Sowefund était pour nous une évidence dans l’esprit collaboratif d’ekWateur. Ce que nous n’avions pas anticipé par contre, c’est l’engouement que cette campagne allait créer. On a plus que doublé l’objectif, avec 1,12 M€ levés alors qu’on tablait sur 0,5M€ ! "<br><br><footer>Julien Tchernia, Ekwateur</footer></blockquote></div></div></div>`);
+    insertHTML('#content-page > section:nth-child(5) > div', testimonials);
 
 
 }
