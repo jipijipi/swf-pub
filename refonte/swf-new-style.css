@@ -5103,7 +5103,7 @@ div#search-bar {
     width: 100%;
     vertical-align: middle;
     display: inline-block;
-    visibility: hidden;
+    /* visibility: hidden; */
     border-radius: var(--default-round) var(--default-round) 0 0;
 
 }
