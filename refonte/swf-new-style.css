@@ -2425,6 +2425,12 @@ table.table tbody tr.success {
     margin-bottom: .5rem;
 }
 
+form.row {
+    border: var(--default-border);
+    border-radius: var(--default-round);
+    padding: 2em;
+}
+
 .form {
     position: relative;
 }
