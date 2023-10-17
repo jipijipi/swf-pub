@@ -5074,7 +5074,7 @@ div#search-bar {
 }
 
 .vignette {
-    background: #f8f8f8;
+    /* background: #f8f8f8; */
     /* box-shadow: 3px 4px 7px 0px var(--light-grey); */
     display: inline-block;
     position: relative;
