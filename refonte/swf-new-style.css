@@ -366,7 +366,14 @@ nav>.menu>.menu-links>li:active {
 }
 
 
+.illustrationEntrepreneur {
+    margin: (4em auto);
+}
 
+.box-block>img {
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
 
 
 
