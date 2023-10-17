@@ -2007,13 +2007,13 @@ function homeChanges() {
     removeElementsBySelector('.container > .row-layout > h1.text-center');
     removeElementsBySelector('#carousel-home');
     removeElementsBySelector('#mobile-content-video');
-    removeElementsBySelector('.box-block');
+    // removeElementsBySelector('.box-block');
 
     //Header home
     insertHTML('#content-page', trackRecord);
     insertHTML('#content-page', '<div class="row " id="cta-home"><div class="text-center row"><a href="/startups" class="btn btn-primary btn-xl upper">Investir dès maintenant</a><br></div></div>');
     insertHTML('#content-page', '<div id="hero-container" class="row"><div id="hero"><h1 class="font-xxxl" ><span class="highlight">Investir</span> dans les <br>entreprises de demain</h1><p class = "font-md">Devenez actionnaire des startups les plus innovantes <br>aux côtés des professionnels de l’investissement. </p><p>Bénéficiez du support méthodique d’investissement <br>et de suivi des participations des équipes de Sowefund</p></div></div>');
-    insertHTML('#content-page > section:nth-child(5) > div', testimonials);
+    replaceElementWithHTML('.bg-info.row > .row.box-block', testimonials);
 
 
 }
