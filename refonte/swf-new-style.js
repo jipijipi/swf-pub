@@ -1568,7 +1568,7 @@ const trackRecord = `<div class="row" id="track-record">
 
 
 <section style="
-background-image: url('https://storage.googleapis.com/swf-bucket/vignettes-entrepreneurs/1697535483333-lunii.jpg');
+background-image: url('https://storage.googleapis.com/swf-bucket/vignettes-entrepreneurs/lunii-close-50.jpg');
 background-size: cover;
 height: 312px;
 background-position: center;" class="vignette vignette-move vignette-grid show-hide portrait"
@@ -1594,7 +1594,7 @@ background-position: center;" class="vignette vignette-move vignette-grid show-h
 </section>
 
 <section style="
-background-image: url('https://storage.googleapis.com/swf-bucket/vignettes-entrepreneurs/1697535481299-ekwateur.jpg');
+background-image: url('https://storage.googleapis.com/swf-bucket/vignettes-entrepreneurs/ekwateur-close-50.jpg');
 background-size: cover;
 height: 312px;
 background-position: center;" class="vignette vignette-move vignette-grid show-hide portrait"
@@ -1620,7 +1620,7 @@ background-position: center;" class="vignette vignette-move vignette-grid show-h
 </section>
 
 <section style="
-background-image: url('https://storage.googleapis.com/swf-bucket/vignettes-entrepreneurs/1697535475303-binge.jpg');
+background-image: url('https://storage.googleapis.com/swf-bucket/vignettes-entrepreneurs/binge-close-50.jpg');
 background-size: cover;
 height: 312px;
 background-position: center;" class="vignette vignette-move vignette-grid show-hide portrait"
@@ -1646,7 +1646,7 @@ background-position: center;" class="vignette vignette-move vignette-grid show-h
 </section>
 
 <section style="
-background-image: url('https://storage.googleapis.com/swf-bucket/vignettes-entrepreneurs/1697535476957-axioma.jpg');
+background-image: url('https://storage.googleapis.com/swf-bucket/vignettes-entrepreneurs/axioma-close-50.jpg');
 background-size: cover;
 height: 312px;
 background-position: center;" class="vignette vignette-move vignette-grid show-hide portrait"
