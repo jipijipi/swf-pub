@@ -497,6 +497,7 @@ triggerOnCertainURLs(['https://sowefund.com/qui-sommes-nous'], QsnChanges, true)
 //SOUMETTRE
 
 function soumettreChanges() {
+    removeElementsBySelector('#mobile-content-video');
     insertHTML('#content-page', heroSoum);
 }
 
