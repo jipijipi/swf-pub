@@ -300,14 +300,7 @@ nav>.menu>.menu-links>li:active {
     cursor: default;
 }
 
-.portrait {
-    border-radius: var(--default-rounding);
-    width: 100px;
-    background-color: var(--light-grey);
-    background-size: cover;
-    height: 312px;
-    background-position: center;
-}
+
 
 .font-xxxl {
     font-size: 350%;
@@ -381,6 +374,10 @@ nav>.menu>.menu-links>li:active {
     margin-bottom: 5em;
 }
 
+#tarifsroles h2 {
+    margin-top: 2em;
+    ;
+}
 
 
 /* FONTICONE */
@@ -5319,10 +5316,23 @@ div#search-bar {
     color: var(--dark-grey);
 }
 
+.portrait {
+    border-radius: var(--default-rounding);
+    width: 100px;
+    background-color: var(--light-grey);
+    background-size: cover;
+    height: 312px;
+    background-position: center;
+}
+
 .portrait.vignette-grid .box-head {
     height: 237px;
     line-height: 237px;
     visibility: hidden;
+}
+
+.portrait .box-body>p {
+    display: none;
 }
 
 .vignette-grid .box-head {
