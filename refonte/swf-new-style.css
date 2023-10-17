@@ -4572,15 +4572,15 @@ div#search-bar {
         margin-left: 0;
     }
 
-    .nav-project>a:only-of-type {
+    li>.nav-project>a:only-of-type {
         border-radius: var(--small-rounding);
     }
 
-    .nav-project>a:last-of-type {
+    li>.nav-project>a:last-of-type {
         border-radius: 0 var(--small-sharp) var(--small-round) 0;
     }
 
-    .nav-project>a:first-of-type {
+    li>.nav-project>a:first-of-type {
         border-radius: var(--small-round) 0 0 var(--small-round);
     }
 
