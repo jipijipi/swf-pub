@@ -3498,9 +3498,6 @@ a.text-white {
     border-image-slice: 41%;
     margin: 2em 0;
 
-    position: relative;
-    left: 50%;
-    transform: translateX(-50%);
 }
 
 .startup-filters~.box-over-under-framed {
