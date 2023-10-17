@@ -4464,6 +4464,22 @@ div#search-bar {
     width: 67%;
 }
 
+.investMini {
+    background: var(--light-set-primary);
+    color: #fff;
+    position: fixed;
+    bottom: 75px;
+    right: 10px;
+    border-radius: var(--small-rounding);
+    width: 70px;
+    height: 70px;
+    line-height: 2em;
+    font-size: 9px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .project .project-side {
     background-color: var(--light-set-secondary) !important;
     padding: 2rem !important;
