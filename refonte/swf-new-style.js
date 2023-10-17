@@ -1180,7 +1180,6 @@ const qsnContent = `<div class="container row" id="content-page">
         <div class="box-body font-xs">
             <h2 class="font-md">Georges VIGLIETTI</h2>
             <small>Co-fondateur | Président</small>
-            <p>Diplômé en management et en entrepreneuriat à l’ESCP Europe [+]</p>
         </div>
         <div class="box-foot font-xs text-right">
 
@@ -1207,7 +1206,6 @@ const qsnContent = `<div class="container row" id="content-page">
         <div class="box-body font-xs">
             <h2 class="font-md">Benjamin WATTINNE</h2>
             <small>Co-fondateur | Dir. Général</small>
-            <p>Serial Entrepreneur et jeune Business Angel, Benjamin a dirigé Gust [+]</p>
         </div>
         <div class="box-foot font-xs text-right">
 
@@ -1234,7 +1232,6 @@ const qsnContent = `<div class="container row" id="content-page">
         <div class="box-body font-xs">
             <h2 class="font-md">Jean-Philippe LEFLOT</h2>
             <small>Co-fondateur | Dir. Marketing</small>
-            <p>Spécialiste en marketing avec plus de 10 ans d’expérience [+]</p>
         </div>
         <div class="box-foot font-xs text-right">
 
@@ -1261,7 +1258,6 @@ const qsnContent = `<div class="container row" id="content-page">
         <div class="box-body font-xs">
             <h2 class="font-md">Anne PERRIN</h2>
             <small>Responsable Communication</small>
-            <p>Diplômée d’un Master en école de Communication et après plusieurs [+]</p>
         </div>
         <div class="box-foot font-xs text-right">
 
@@ -1288,7 +1284,6 @@ const qsnContent = `<div class="container row" id="content-page">
         <div class="box-body font-xs">
             <h2 class="font-md">Chloé BUVET</h2>
             <small>Customer Success Manager</small>
-            <p>Diplômée de la Sorbonne et suite à plusieurs expériences dans des startups [+]</p>
         </div>
         <div class="box-foot font-xs text-right">
 
@@ -1315,7 +1310,6 @@ const qsnContent = `<div class="container row" id="content-page">
         <div class="box-body font-xs">
             <h2 class="font-md">Gary COHEN</h2>
             <small>Responsable Commercial</small>
-            <p>En dernière année du Programme Grande Ecole à Audencia Business School [+]</p>
         </div>
         <div class="box-foot font-xs text-right">
 
@@ -1342,7 +1336,6 @@ const qsnContent = `<div class="container row" id="content-page">
         <div class="box-body font-xs">
             <h2 class="font-md">Yavna JAHADJEE</h2>
             <small>Directrice d'investissement</small>
-            <p>Diplômée d’un Master en Droit des affaires et issue du [+]</p>
         </div>
         <div class="box-foot font-xs text-right">
 
@@ -1369,8 +1362,6 @@ const qsnContent = `<div class="container row" id="content-page">
         <div class="box-body font-xs">
             <h2 class="font-md">Nelson LOPES</h2>
             <small>Responsable administratif et financier</small>
-            <p>Diplômé d'un master en Ingénierie Financière à la Sorbonne et suite à plusieurs expériences dans
-                l'écosystème [+]</p>
         </div>
         <div class="box-foot font-xs text-right">
 
@@ -1397,7 +1388,6 @@ const qsnContent = `<div class="container row" id="content-page">
         <div class="box-body font-xs">
             <h2 class="font-md">Mathilde FOURNIER</h2>
             <small>Responsable événementiel et partenariats</small>
-            <p>Diplômée d'un MBA en événementiel, Mathilde est chef de [+]</p>
         </div>
         <div class="box-foot font-xs text-right">
 
@@ -1424,7 +1414,6 @@ const qsnContent = `<div class="container row" id="content-page">
         <div class="box-body font-xs">
             <h2 class="font-md">Clarisse VIEL</h2>
             <small>Chargée de Communication</small>
-            <p>Diplômée d'un master en communication corporate, Clarisse est [+]</p>
         </div>
         <div class="box-foot font-xs text-right">
 
@@ -1451,7 +1440,6 @@ const qsnContent = `<div class="container row" id="content-page">
         <div class="box-body font-xs">
             <h2 class="font-md">Marlène FRITCHE</h2>
             <small>Account Manager</small>
-            <p>Diplômée d’un Master en Marketing et Communication et après [+]</p>
         </div>
         <div class="box-foot font-xs text-right">
 
@@ -1477,7 +1465,7 @@ const qsnContent = `<div class="container row" id="content-page">
         </div>
         <div class="box-body font-xs">
             <h2 class="font-md">Célia CALDEIRA</h2>
-            <small>Commerciale
+            <small>Commerciale</small>
         </div>
         <div class="box-foot font-xs text-right">
 
@@ -1503,7 +1491,7 @@ const qsnContent = `<div class="container row" id="content-page">
         </div>
         <div class="box-body font-xs">
             <h2 class="font-md">Leo SIBY</h2>
-            <small>Chargé de Relation Investisseurs
+            <small>Chargé de Relation Investisseurs</small>
         </div>
         <div class="box-foot font-xs text-right">
 
@@ -1530,7 +1518,6 @@ const qsnContent = `<div class="container row" id="content-page">
         <div class="box-body font-xs">
             <h2 class="font-md">Dorian FROUGNEUX</h2>
             <small>Chargé de Relation Investisseurs</small>
-            <p>Stage [+]</p>
         </div>
         <div class="box-foot font-xs text-right">
 
@@ -1556,7 +1543,7 @@ const qsnContent = `<div class="container row" id="content-page">
         </div>
         <div class="box-body font-xs">
             <h2 class="font-md">Emma SCHULDT</h2>
-            <small>Chargée de communication
+            <small>Chargée de communication</small>
         </div>
         <div class="box-foot font-xs text-right">
 
