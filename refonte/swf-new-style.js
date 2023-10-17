@@ -1756,7 +1756,7 @@ const filterHtml = `<div class="row startup-filters">
         </form>
     </div>
 </div>
-<script>toutes();</script>
+<script type="text/javascript">toutes();</script>
 </div>`;
 
 function loadExternalCSS(filePath) {
