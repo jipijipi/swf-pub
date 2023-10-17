@@ -5342,7 +5342,7 @@ div#search-bar {
     background-color: var(--light-grey);
     background-size: cover;
     height: 312px;
-    height: 220px;
+    width: 220px;
     background-position: center;
 }
 
