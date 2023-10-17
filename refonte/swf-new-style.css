@@ -3503,7 +3503,7 @@ a.text-white {
     transform: translateX(-50%);
 }
 
-#content-page>.box-over-under-framed {
+.startup-filters~.box-over-under-framed {
     position: relative;
     left: 50%;
     transform: translateX(-50%);
