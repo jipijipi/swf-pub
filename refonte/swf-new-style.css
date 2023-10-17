@@ -67,8 +67,12 @@
 }
 
 #teamPartnersLogos {
-    width: 100%;
-    background-image: url('https://storage.googleapis.com/swf-bucket/files/1697575684197-partnerTeams.svg');
+    height: 230px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url(https://storage.googleapis.com/swf-bucket/files/1697576279778-partnerTeams.png);
+}
 }
 
 /*expendable?*/
