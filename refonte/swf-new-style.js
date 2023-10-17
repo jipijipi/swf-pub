@@ -230,7 +230,7 @@ const soumettreContent = `<div class="container row" id="content-page">
 
             <img id="featuresImage" class="illustrationEntrepreneur lazyload"
                 src="https://storage.googleapis.com/swf-bucket/illustrations/entrepreneur-idee.png"
-                alt="Features entrepreneur" width="200px">
+                alt="Features entrepreneur" width="300px">
 
             <div class="corporateFeature row">
 
@@ -336,7 +336,7 @@ const soumettreContent = `<div class="container row" id="content-page">
 
             <img id="testimonialsImage" class="illustrationEntrepreneur lazyload"
                 src="https://storage.googleapis.com/swf-bucket/illustrations/collaboration-entrepreneur.png"
-                alt="testimonials entrepreneur" width="200px">
+                alt="testimonials entrepreneur" width="300px">
 
             <div class="row">
 
@@ -344,7 +344,7 @@ const soumettreContent = `<div class="container row" id="content-page">
                 <div class="col-md-6 testimonial">
                     <img class="lazyload"
                         src="https://d3i3cp443mmogz.cloudfront.net/public/entrepreneur/logo-ekwateur.svg"
-                        alt="Logo Ekwateur" width="200px">
+                        alt="Logo Ekwateur" width="300px">
                     <blockquote>
                         " L’opération faite avec Sowefund était pour nous une évidence dans l’esprit collaboratif
                         d’ekWateur. Ce que nous n’avions pas anticipé par contre, c’est l’engouement que cette
@@ -359,7 +359,7 @@ const soumettreContent = `<div class="container row" id="content-page">
                 <div class="col-md-6 testimonial">
                     <img class="lazyload"
                         src="https://d3i3cp443mmogz.cloudfront.net/public/entrepreneur/logo-agriloops.svg"
-                        alt="Logo Agriloops" width="200px">
+                        alt="Logo Agriloops" width="300px">
                     <blockquote>
                         " Avec Sowefund, nous avons eu la chance d’avoir une oreille attentive qui a su comprendre
                         nos besoins et cadencer notre levée de fonds pour en faire une réussite tant d’un point de
@@ -379,7 +379,7 @@ const soumettreContent = `<div class="container row" id="content-page">
                 <div class="col-md-6 testimonial">
                     <img class="lazyload"
                         src="https://d3i3cp443mmogz.cloudfront.net/public/entrepreneur/logo-lunii.svg"
-                        alt="Logo Lunii" width="200px">
+                        alt="Logo Lunii" width="300px">
                     <blockquote>
                         " Sowefund est un excellent moyen de rentrer dans la sphère investisseurs. L’accompagnement
                         de l’équipe est essentiel pour les enjeux représentés par une levée de fonds. "
@@ -392,7 +392,7 @@ const soumettreContent = `<div class="container row" id="content-page">
                 <div class="col-md-6 testimonial">
                     <img class="lazyload"
                         src="https://d3i3cp443mmogz.cloudfront.net/public/entrepreneur/logo-extracadabra.svg"
-                        alt="Logo Extracadabra" width="200px">
+                        alt="Logo Extracadabra" width="300px">
                     <blockquote>
                         " Aujourd'hui, nous faisons appel à Sowefund pour proposer un investissement collaboratif et
                         pour passer une étape importante, et nous sommes fiers d'avoir choisi une plateforme qui
@@ -421,7 +421,7 @@ const soumettreContent = `<div class="container row" id="content-page">
 
             <img class="lazyload" id="labelsImage"
                 src="https://storage.googleapis.com/swf-bucket/illustrations/investisseur-question.png"
-                alt="labels entrepreneur" width="200px">
+                alt="labels entrepreneur" width="300px">
 
             <div id="labels" class="text-center">
 
@@ -501,7 +501,7 @@ const soumettreContent = `<div class="container row" id="content-page">
 
             <img id="tarifsrolesImage" class="illustrationEntrepreneur lazyload"
                 src="https://storage.googleapis.com/swf-bucket/illustrations/presentation-entrepreneur-pitch.png"
-                alt="Roles Sowefund" width="200px">
+                alt="Roles Sowefund" width="300px">
 
             <div id="tarifs">
 
@@ -703,7 +703,7 @@ const qsnContent = `<div class="container row" id="content-page">
     <div class="box-block">
 
         <img alt="Qui sommes nous ?" srcset="
-        https://storage.googleapis.com/swf-bucket/illustrations/sowefund-team.pngg 2x,
+        https://storage.googleapis.com/swf-bucket/illustrations/sowefund-team.png 2x,
         https://storage.googleapis.com/swf-bucket/illustrations/sowefund-team.png 1x
   " src="https://storage.googleapis.com/swf-bucket/illustrations/sowefund-team.png" width="200" height="200">
 
