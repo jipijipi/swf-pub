@@ -5274,6 +5274,12 @@ div#search-bar {
     color: var(--dark-grey);
 }
 
+.portrait.vignette-grid .box-head {
+    height: 237px;
+    line-height: 237px;
+    visibility: hidden;
+}
+
 .vignette-grid .box-head {
     height: 149px;
     line-height: 149px;
