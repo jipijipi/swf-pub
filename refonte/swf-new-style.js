@@ -332,21 +332,6 @@ const soumettreContent = `<div id="hero-container" class="row">
 
         <div class="row">
 
-            <div class="col-md-6 testimonial">
-                <img class="lazyload"
-                    src="https://d3i3cp443mmogz.cloudfront.net/public/entrepreneur/logo-extracadabra.svg"
-                    alt="Logo Extracadabra" width="200px">
-                <blockquote>
-                    " Cette levée de fonds a permis à Extracadabra de bénéficier de la forte communauté
-                    d'investisseurs engagés de Sowefund tout en permettant à nos clients restaurateurs de
-                    prendre part à cette belle aventure. Nous avons réuni plus de 400K€ en
-                    moins de 2 mois, en co-investissement avec les fonds Side Capital et Bpifrance via son fonds
-                    tourisme. Un succès rapide et efficace ! "
-                    <br>
-                    <br>
-                    <footer>Frederic Nardon, Extracadabra</footer>
-                </blockquote>
-            </div>
 
             <div class="col-md-6 testimonial">
                 <img class="lazyload"
@@ -362,6 +347,22 @@ const soumettreContent = `<div id="hero-container" class="row">
                     <footer>Julien Tchernia, Ekwateur</footer>
                 </blockquote>
             </div>
+
+            <div class="col-md-6 testimonial">
+                <img class="lazyload"
+                    src="https://d3i3cp443mmogz.cloudfront.net/public/entrepreneur/logo-agriloops.svg"
+                    alt="Logo Agriloops" width="200px">
+                <blockquote>
+                    " Avec Sowefund, nous avons eu la chance d’avoir une oreille attentive qui a su comprendre
+                    nos besoins et cadencer notre levée de fonds pour en faire une réussite tant d’un point de
+                    vue communication que montant levé "
+                    <br>
+                    <br>
+                    <footer>Jeremy Cognard, Agriloops</footer>
+                </blockquote>
+            </div>
+
+
 
         </div>
 
@@ -381,17 +382,18 @@ const soumettreContent = `<div id="hero-container" class="row">
 
             <div class="col-md-6 testimonial">
                 <img class="lazyload"
-                    src="https://d3i3cp443mmogz.cloudfront.net/public/entrepreneur/logo-agriloops.svg"
-                    alt="Logo Agriloops" width="200px">
+                    src="https://d3i3cp443mmogz.cloudfront.net/public/entrepreneur/logo-extracadabra.svg"
+                    alt="Logo Extracadabra" width="200px">
                 <blockquote>
-                    " Avec Sowefund, nous avons eu la chance d’avoir une oreille attentive qui a su comprendre
-                    nos besoins et cadencer notre levée de fonds pour en faire une réussite tant d’un point de
-                    vue communication que montant levé "
+                    " Aujourd'hui, nous faisons appel à Sowefund pour proposer un investissement collaboratif et
+                    pour passer une étape importante, et nous sommes fiers d'avoir choisi une plateforme qui donne
+                    la priorité aux entreprises engagées pour le bien de la planète et des projets à impact. "
                     <br>
                     <br>
-                    <footer>Jeremy Cognard, Agriloops</footer>
+                    <footer>Hansel Schloupt, OPPI</footer>
                 </blockquote>
             </div>
+
 
         </div>
 
