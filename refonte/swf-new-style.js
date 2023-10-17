@@ -699,6 +699,82 @@ const soumettreContent = `<div class="container row" id="content-page">
 
 const qsnContent = `<div class="container row" id="content-page">
 
+<section class="box row-layout">
+    <h2 class="box-title">Qui sommes nous ?</h2>
+    <div class="box-block">
+
+        <img alt="Qui sommes nous ?" srcset="
+    https://d10ib5h62k7mu8.cloudfront.net/assets/img/picture-pages/who-are-we/81b245544e7728a0d8df017e204beab5-qui-sommes-nous@2x.png 2x,
+    https://d10ib5h62k7mu8.cloudfront.net/assets/img/picture-pages/who-are-we/0bc500d63d9c40e7166b79088f2038e3-qui-sommes-nous.png 1x
+  " src="https://d10ib5h62k7mu8.cloudfront.net/assets/img/picture-pages/who-are-we/0bc500d63d9c40e7166b79088f2038e3-qui-sommes-nous.png"
+            width="150" height="150">
+
+        <p>Depuis 2014, Sowefund est la plateforme pionni&egrave;re du financement participatif en France. Nous
+            permettons &agrave; tous de devenir actionnaires de startups prometteuses aux c&ocirc;t&eacute;s des
+            professionnels de l&rsquo;investissement (business angels, family offices et fonds
+            d&rsquo;investissement professionels).&nbsp;</span></p>
+        <p>Sowefund, c&rsquo;est avant tout une &eacute;quipe de passionn&eacute;s et de sp&eacute;cialistes du
+            financement de l&rsquo;innovation.</span></p>
+        <p><br></p>
+        <p>Apr&egrave;s avoir atteint la rentabilit&eacute;, d&eacute;pass&eacute; les 100 startups financ&eacute;es
+            et s&rsquo;&ecirc;tre impos&eacute; comme leader de l&rsquo;investissement en amor&ccedil;age, nous
+            rejoignons le groupe Founders en 2023 pour se donner les moyens de nos ambitions et vous apporter les
+            meilleures m&eacute;thodes et process d&rsquo;investissement.&nbsp;</span></p>
+        <p><br></p>
+        <p>Cette alliance marque un tournant crucial dans notre histoire. Nos fondateurs, Benjamin Wattinne et
+            Georges Viglietti, s&rsquo;associent ainsi &agrave; Marc M&eacute;nas&eacute;, entrepreneur et
+            l&rsquo;un des premiers business angels de France, pour accompagner toujours plus de startups dans leur
+            d&eacute;veloppement. C&rsquo;est le d&eacute;but d&rsquo;une nouvelle &egrave;re !&nbsp;</span></p>
+        <p><br></p>
+        <p>Notre nouveau groupe repr&eacute;sente :</span></p>
+        <ul>
+            <li style="list-style-type:disc;font-size:11pt;">
+                <p>plus de 250 soci&eacute;t&eacute;s financ&eacute;es</span></p>
+            </li>
+            <li style="list-style-type:disc;font-size:11pt;">
+                <p>plus de 300 millions d&rsquo;euros d&eacute;di&eacute;s aux entreprises de croissance &agrave; mi
+                    2023</span></p>
+            </li>
+            <li style="list-style-type:disc;font-size:11pt;">
+                <p>plus de 4000 employ&eacute;s dans les soci&eacute;t&eacute;s du portefeuille</span></p>
+            </li>
+            <li style="list-style-type:disc;font-size:11pt;">
+                <p>XXX M d&rsquo;euros lev&eacute;s aupr&egrave;s de plus de 500 co-investisseurs
+                    professionnels</span></p>
+            </li>
+        </ul>
+        <p><br></p>
+        <p>Ensemble, nous sommes d&eacute;j&agrave; &agrave; l&rsquo;origine du succ&egrave;s de startups comme
+            Lydia, Yuka, ekWateur, Teads, Lunii,Axioma, Agriloops ou Epicery.&nbsp;</span></p>
+        <p><br></p>
+        <p><strong>(bande de logos des startups ici)</span></strong></p>
+        <p><br></p>
+        <p>Notre mission est double :&nbsp;</span></p>
+        <p><br></p>
+        <ol>
+            <li style="list-style-type:decimal;font-size:11pt;">
+                <p>Pour vous investisseurs, vous permettre &agrave; tous de devenir actionnaires des entreprises
+                    innovantes les plus prometteuses, aux c&ocirc;t&eacute;s d&rsquo;investisseurs professionnels du
+                    march&eacute;. Le tout avec les m&eacute;thodes et la discipline dignes des meilleurs fonds
+                    d&rsquo;investissement.&nbsp;</span></p>
+            </li>
+        </ol>
+        <p><br></p>
+        <ol start="2">
+            <li style="list-style-type:decimal;font-size:11pt;">
+                <p>Nous sommes au service de la cr&eacute;ation de valeur en accompagnant les fondateurs
+                    d&rsquo;entreprises &nbsp;dans leur d&eacute;veloppement et en travaillant main dans la main
+                    avec les meilleurs r&eacute;seaux de business angels afin de venir en compl&eacute;ment de votre
+                    lev&eacute;e.&nbsp;</span></p>
+            </li>
+        </ol>
+        <p><br></p>
+        <p>Sowefund, c&rsquo;est l&rsquo;audace du capital-risque, la p&eacute;dagogie d&rsquo;une fintech
+            accessible &agrave; tous, l&rsquo;engagement d&rsquo;une &eacute;quipe passionn&eacute;e et la
+            fiabilit&eacute; d&rsquo;une solution agr&eacute;&eacute;e.</span></p>
+    </div>
+</section>
+
 <h1 class="row-layout" id="title-team">L'équipe Sowefund</h1>
 
 <div class="row our-cards team-4" style="display: none;">
@@ -1436,27 +1512,7 @@ const qsnContent = `<div class="container row" id="content-page">
 
 </div>
 
-<section class="box row-layout">
-    <h2 class="box-title">Qui sommes nous ?</h2>
-    <div class="box-block">
 
-        <img alt="Qui sommes nous ?" srcset="
-    https://d10ib5h62k7mu8.cloudfront.net/assets/img/picture-pages/who-are-we/81b245544e7728a0d8df017e204beab5-qui-sommes-nous@2x.png 2x,
-    https://d10ib5h62k7mu8.cloudfront.net/assets/img/picture-pages/who-are-we/0bc500d63d9c40e7166b79088f2038e3-qui-sommes-nous.png 1x
-  " src="https://d10ib5h62k7mu8.cloudfront.net/assets/img/picture-pages/who-are-we/0bc500d63d9c40e7166b79088f2038e3-qui-sommes-nous.png"
-            width="150" height="150">
-
-        <p>Créée en 2014, par une équipe de professionnels du financement de l’innovation et de l’investissement en
-            capital, Sowefund est la première plateforme de Co-Crowdfunding des start-up innovantes aux côtés de
-            professionnels de l'investissement (Business Angels, VC).</p>
-        <p>Le principe est simple, investissez aux côtés des professionnels investisseurs et profitez de leur
-            expérience et de leur expertise pour investir dans les projets de votre choix.</p>
-        <p>Avec Sowefund, vous êtes le seul à gérer votre portefeuille d'entreprises en suivant en temps réel les
-            levées de fonds.</p>
-        <p>Prenez part et découvrez dès maintenant les opportunités d’investissement présentes sur la plateforme.
-        </p>
-    </div>
-</section>
 
 <div class="row text-center">
     <a href="/register" class="btn btn-xl btn-primary link-next click-spinning" title="">S'inscrire gratuitement</a>
