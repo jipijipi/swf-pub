@@ -4348,6 +4348,7 @@ div#search-bar {
     border: 0;
     padding-left: 0.7em;
     border-radius: 1rem;
+    max-width: 120px;
 }
 
 
