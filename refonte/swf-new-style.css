@@ -4480,6 +4480,11 @@ div#search-bar {
     justify-content: center;
 }
 
+.investMini>a {
+    position: relative;
+    color: white;
+}
+
 .project .project-side {
     background-color: var(--light-set-secondary) !important;
     padding: 2rem !important;
@@ -5334,10 +5339,10 @@ div#search-bar {
 
 .portrait {
     border-radius: var(--default-rounding);
-    width: 100px;
     background-color: var(--light-grey);
     background-size: cover;
     height: 312px;
+    height: 220px;
     background-position: center;
 }
 
