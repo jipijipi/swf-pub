@@ -2851,6 +2851,15 @@ span.customSelect {
     display: none;
 }
 
+#bandeau-dossier {
+    margin: 0 auto;
+}
+
+#bandeau-dossier>div {
+    border: var(--default-border);
+    border-radius: var(--default-round);
+}
+
 .icon-etoile,
 .icon-etoile-tour:hover {
     color: var(--light-set-primary) !important;
