@@ -66,6 +66,7 @@
     line-height: 120%;
 }
 
+/* A mettre en dur asap */
 #teamPartnersLogos {
     height: 230px;
     background-size: contain;
@@ -5098,6 +5099,11 @@ div#search-bar {
 
     .vignette-grid:nth-child(4n+1),
     .vignette-grid:first-child {
+        margin-left: 0;
+    }
+
+    .vignette-grid.vignette:nth-child(4n+1),
+    .vignette-grid.vignette:first-child {
         margin-left: 0;
     }
 }
