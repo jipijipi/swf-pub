@@ -1161,10 +1161,14 @@ const qsnContent = `<div class="container row" id="content-page">
 
 <div class="row">
 
-    <section class="vignette vignette-move vignette-grid show-hide" data-showhide-no-doubletrigger=""
-        data-showhide-target=".team-4" data-gtm-vis-recent-on-screen10563913_87="193"
-        data-gtm-vis-first-on-screen10563913_87="193" data-gtm-vis-total-visible-time10563913_87="100"
-        data-gtm-vis-has-fired10563913_87="1">
+    <section style="
+    background-image: url('https://storage.googleapis.com/swf-prod-public/inputs/members/12f79bb0-2336-4118-bcb9-ad84d3818e88.jpg');
+    background-size: cover;
+    height: 312px;
+    background-position: center;" class="vignette vignette-move vignette-grid show-hide portrait"
+        data-showhide-no-doubletrigger="" data-showhide-target=".team-4"
+        data-gtm-vis-recent-on-screen10563913_87="193" data-gtm-vis-first-on-screen10563913_87="193"
+        data-gtm-vis-total-visible-time10563913_87="100" data-gtm-vis-has-fired10563913_87="1">
         <div class="box-head">
 
 
@@ -1186,8 +1190,12 @@ const qsnContent = `<div class="container row" id="content-page">
         </div>
     </section>
 
-    <section class="vignette vignette-move vignette-grid show-hide" data-showhide-no-doubletrigger=""
-        data-showhide-target=".team-5" data-gtm-vis-has-fired10563913_87="1">
+    <section style="
+    background-image: url('https://storage.googleapis.com/swf-prod-public/inputs/members/12f79bb0-2336-4118-bcb9-ad84d3818e88.jpg');
+    background-size: cover;
+    height: 312px;
+    background-position: center;" class="vignette vignette-move vignette-grid show-hide portrait"
+        data-showhide-no-doubletrigger="" data-showhide-target=".team-5" data-gtm-vis-has-fired10563913_87="1">
         <div class="box-head">
 
 
@@ -1209,8 +1217,12 @@ const qsnContent = `<div class="container row" id="content-page">
         </div>
     </section>
 
-    <section class="vignette vignette-move vignette-grid show-hide" data-showhide-no-doubletrigger=""
-        data-showhide-target=".team-6" data-gtm-vis-has-fired10563913_87="1">
+    <section style="
+    background-image: url('https://storage.googleapis.com/swf-prod-public/inputs/members/12f79bb0-2336-4118-bcb9-ad84d3818e88.jpg');
+    background-size: cover;
+    height: 312px;
+    background-position: center;" class="vignette vignette-move vignette-grid show-hide portrait"
+        data-showhide-no-doubletrigger="" data-showhide-target=".team-6" data-gtm-vis-has-fired10563913_87="1">
         <div class="box-head">
 
 
@@ -1232,8 +1244,12 @@ const qsnContent = `<div class="container row" id="content-page">
         </div>
     </section>
 
-    <section class="vignette vignette-move vignette-grid show-hide" data-showhide-no-doubletrigger=""
-        data-showhide-target=".team-132" data-gtm-vis-has-fired10563913_87="1">
+    <section style="
+    background-image: url('https://storage.googleapis.com/swf-prod-public/inputs/members/12f79bb0-2336-4118-bcb9-ad84d3818e88.jpg');
+    background-size: cover;
+    height: 312px;
+    background-position: center;" class="vignette vignette-move vignette-grid show-hide portrait"
+        data-showhide-no-doubletrigger="" data-showhide-target=".team-132" data-gtm-vis-has-fired10563913_87="1">
         <div class="box-head">
 
 
@@ -1255,8 +1271,12 @@ const qsnContent = `<div class="container row" id="content-page">
         </div>
     </section>
 
-    <section class="vignette vignette-move vignette-grid show-hide" data-showhide-no-doubletrigger=""
-        data-showhide-target=".team-37" data-gtm-vis-has-fired10563913_87="1">
+    <section style="
+    background-image: url('https://storage.googleapis.com/swf-prod-public/inputs/members/12f79bb0-2336-4118-bcb9-ad84d3818e88.jpg');
+    background-size: cover;
+    height: 312px;
+    background-position: center;" class="vignette vignette-move vignette-grid show-hide portrait"
+        data-showhide-no-doubletrigger="" data-showhide-target=".team-37" data-gtm-vis-has-fired10563913_87="1">
         <div class="box-head">
 
 
@@ -1278,8 +1298,12 @@ const qsnContent = `<div class="container row" id="content-page">
         </div>
     </section>
 
-    <section class="vignette vignette-move vignette-grid show-hide" data-showhide-no-doubletrigger=""
-        data-showhide-target=".team-485" data-gtm-vis-has-fired10563913_87="1">
+    <section style="
+    background-image: url('https://storage.googleapis.com/swf-prod-public/inputs/members/12f79bb0-2336-4118-bcb9-ad84d3818e88.jpg');
+    background-size: cover;
+    height: 312px;
+    background-position: center;" class="vignette vignette-move vignette-grid show-hide portrait"
+        data-showhide-no-doubletrigger="" data-showhide-target=".team-485" data-gtm-vis-has-fired10563913_87="1">
         <div class="box-head">
 
 
@@ -1301,8 +1325,12 @@ const qsnContent = `<div class="container row" id="content-page">
         </div>
     </section>
 
-    <section class="vignette vignette-move vignette-grid show-hide" data-showhide-no-doubletrigger=""
-        data-showhide-target=".team-9" data-gtm-vis-has-fired10563913_87="1">
+    <section style="
+    background-image: url('https://storage.googleapis.com/swf-prod-public/inputs/members/12f79bb0-2336-4118-bcb9-ad84d3818e88.jpg');
+    background-size: cover;
+    height: 312px;
+    background-position: center;" class="vignette vignette-move vignette-grid show-hide portrait"
+        data-showhide-no-doubletrigger="" data-showhide-target=".team-9" data-gtm-vis-has-fired10563913_87="1">
         <div class="box-head">
 
 
@@ -1324,8 +1352,12 @@ const qsnContent = `<div class="container row" id="content-page">
         </div>
     </section>
 
-    <section class="vignette vignette-move vignette-grid show-hide" data-showhide-no-doubletrigger=""
-        data-showhide-target=".team-935" data-gtm-vis-has-fired10563913_87="1">
+    <section style="
+    background-image: url('https://storage.googleapis.com/swf-prod-public/inputs/members/12f79bb0-2336-4118-bcb9-ad84d3818e88.jpg');
+    background-size: cover;
+    height: 312px;
+    background-position: center;" class="vignette vignette-move vignette-grid show-hide portrait"
+        data-showhide-no-doubletrigger="" data-showhide-target=".team-935" data-gtm-vis-has-fired10563913_87="1">
         <div class="box-head">
 
 
@@ -1348,8 +1380,12 @@ const qsnContent = `<div class="container row" id="content-page">
         </div>
     </section>
 
-    <section class="vignette vignette-move vignette-grid show-hide" data-showhide-no-doubletrigger=""
-        data-showhide-target=".team-1169" data-gtm-vis-has-fired10563913_87="1">
+    <section style="
+    background-image: url('https://storage.googleapis.com/swf-prod-public/inputs/members/12f79bb0-2336-4118-bcb9-ad84d3818e88.jpg');
+    background-size: cover;
+    height: 312px;
+    background-position: center;" class="vignette vignette-move vignette-grid show-hide portrait"
+        data-showhide-no-doubletrigger="" data-showhide-target=".team-1169" data-gtm-vis-has-fired10563913_87="1">
         <div class="box-head">
 
 
@@ -1371,8 +1407,12 @@ const qsnContent = `<div class="container row" id="content-page">
         </div>
     </section>
 
-    <section class="vignette vignette-move vignette-grid show-hide" data-showhide-no-doubletrigger=""
-        data-showhide-target=".team-1168" data-gtm-vis-has-fired10563913_87="1">
+    <section style="
+    background-image: url('https://storage.googleapis.com/swf-prod-public/inputs/members/12f79bb0-2336-4118-bcb9-ad84d3818e88.jpg');
+    background-size: cover;
+    height: 312px;
+    background-position: center;" class="vignette vignette-move vignette-grid show-hide portrait"
+        data-showhide-no-doubletrigger="" data-showhide-target=".team-1168" data-gtm-vis-has-fired10563913_87="1">
         <div class="box-head">
 
 
@@ -1394,8 +1434,12 @@ const qsnContent = `<div class="container row" id="content-page">
         </div>
     </section>
 
-    <section class="vignette vignette-move vignette-grid show-hide" data-showhide-no-doubletrigger=""
-        data-showhide-target=".team-1170" data-gtm-vis-has-fired10563913_87="1">
+    <section style="
+    background-image: url('https://storage.googleapis.com/swf-prod-public/inputs/members/12f79bb0-2336-4118-bcb9-ad84d3818e88.jpg');
+    background-size: cover;
+    height: 312px;
+    background-position: center;" class="vignette vignette-move vignette-grid show-hide portrait"
+        data-showhide-no-doubletrigger="" data-showhide-target=".team-1170" data-gtm-vis-has-fired10563913_87="1">
         <div class="box-head">
 
 
@@ -1417,8 +1461,12 @@ const qsnContent = `<div class="container row" id="content-page">
         </div>
     </section>
 
-    <section class="vignette vignette-move vignette-grid show-hide" data-showhide-no-doubletrigger=""
-        data-showhide-target=".team-1175" data-gtm-vis-has-fired10563913_87="1">
+    <section style="
+    background-image: url('https://storage.googleapis.com/swf-prod-public/inputs/members/12f79bb0-2336-4118-bcb9-ad84d3818e88.jpg');
+    background-size: cover;
+    height: 312px;
+    background-position: center;" class="vignette vignette-move vignette-grid show-hide portrait"
+        data-showhide-no-doubletrigger="" data-showhide-target=".team-1175" data-gtm-vis-has-fired10563913_87="1">
         <div class="box-head">
 
 
@@ -1429,8 +1477,7 @@ const qsnContent = `<div class="container row" id="content-page">
         </div>
         <div class="box-body font-xs">
             <h2 class="font-md">Célia CALDEIRA</h2>
-            <small>Commerciale</small>
-            <p>Alternance [+]</p>
+            <small>Commerciale
         </div>
         <div class="box-foot font-xs text-right">
 
@@ -1440,8 +1487,12 @@ const qsnContent = `<div class="container row" id="content-page">
         </div>
     </section>
 
-    <section class="vignette vignette-move vignette-grid show-hide" data-showhide-no-doubletrigger=""
-        data-showhide-target=".team-1173" data-gtm-vis-has-fired10563913_87="1">
+    <section style="
+    background-image: url('https://storage.googleapis.com/swf-prod-public/inputs/members/12f79bb0-2336-4118-bcb9-ad84d3818e88.jpg');
+    background-size: cover;
+    height: 312px;
+    background-position: center;" class="vignette vignette-move vignette-grid show-hide portrait"
+        data-showhide-no-doubletrigger="" data-showhide-target=".team-1173" data-gtm-vis-has-fired10563913_87="1">
         <div class="box-head">
 
 
@@ -1452,8 +1503,7 @@ const qsnContent = `<div class="container row" id="content-page">
         </div>
         <div class="box-body font-xs">
             <h2 class="font-md">Leo SIBY</h2>
-            <small>Chargé de Relation Investisseurs</small>
-            <p>Alternance [+]</p>
+            <small>Chargé de Relation Investisseurs
         </div>
         <div class="box-foot font-xs text-right">
 
@@ -1463,8 +1513,12 @@ const qsnContent = `<div class="container row" id="content-page">
         </div>
     </section>
 
-    <section class="vignette vignette-move vignette-grid show-hide" data-showhide-no-doubletrigger=""
-        data-showhide-target=".team-1171" data-gtm-vis-has-fired10563913_87="1">
+    <section style="
+    background-image: url('https://storage.googleapis.com/swf-prod-public/inputs/members/12f79bb0-2336-4118-bcb9-ad84d3818e88.jpg');
+    background-size: cover;
+    height: 312px;
+    background-position: center;" class="vignette vignette-move vignette-grid show-hide portrait"
+        data-showhide-no-doubletrigger="" data-showhide-target=".team-1171" data-gtm-vis-has-fired10563913_87="1">
         <div class="box-head">
 
 
@@ -1486,8 +1540,12 @@ const qsnContent = `<div class="container row" id="content-page">
         </div>
     </section>
 
-    <section class="vignette vignette-move vignette-grid show-hide" data-showhide-no-doubletrigger=""
-        data-showhide-target=".team-1172" data-gtm-vis-has-fired10563913_87="1">
+    <section style="
+    background-image: url('https://storage.googleapis.com/swf-prod-public/inputs/members/12f79bb0-2336-4118-bcb9-ad84d3818e88.jpg');
+    background-size: cover;
+    height: 312px;
+    background-position: center;" class="vignette vignette-move vignette-grid show-hide portrait"
+        data-showhide-no-doubletrigger="" data-showhide-target=".team-1172" data-gtm-vis-has-fired10563913_87="1">
         <div class="box-head">
 
 
@@ -1498,8 +1556,7 @@ const qsnContent = `<div class="container row" id="content-page">
         </div>
         <div class="box-body font-xs">
             <h2 class="font-md">Emma SCHULDT</h2>
-            <small>Chargée de communication</small>
-            <p>Alternance [+]</p>
+            <small>Chargée de communication
         </div>
         <div class="box-foot font-xs text-right">
 
