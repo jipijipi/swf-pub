@@ -361,6 +361,7 @@ nav>.menu>.menu-links>li:active {
     border-image-slice: 40%;
     border-image-width: 1;
     border-image-outset: 1;
+    display: inline-block;
 
 }
 
