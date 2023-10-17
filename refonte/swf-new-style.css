@@ -5172,7 +5172,7 @@ div#search-bar {
     margin: 0;
     max-height: 3.6rem;
     word-wrap: break-word;
-    color: var(--dark-grey);
+    color: var(--dark-set-primary);
 }
 
 .vignette .box-body h2.title,
