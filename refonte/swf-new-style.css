@@ -302,9 +302,11 @@ nav>.menu>.menu-links>li:active {
 
 .portrait {
     border-radius: var(--default-rounding);
-    height: 200px;
     width: 100px;
     background-color: var(--light-grey);
+    background-size: cover;
+    height: 312px;
+    background-position: center;
 }
 
 .font-xxxl {

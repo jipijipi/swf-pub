@@ -1568,10 +1568,7 @@ const trackRecord = `<div class="row" id="track-record">
 <h2>Success stories</h2>
 <section style="
 background-image: url('https://storage.googleapis.com/swf-bucket/vignettes-entrepreneurs/lunii-close-50.jpg');
-background-size: cover;
-height: 312px;
-background-position: center;" class="vignette vignette-move vignette-grid show-hide portrait"
-    data-showhide-no-doubletrigger="">
+" class="vignette vignette-move vignette-grid show-hide portrait" data-showhide-no-doubletrigger="">
     <div class="box-head">
 
 
@@ -1594,10 +1591,8 @@ background-position: center;" class="vignette vignette-move vignette-grid show-h
 
 <section style="
 background-image: url('https://storage.googleapis.com/swf-bucket/vignettes-entrepreneurs/ekwateur-close-50.jpg');
-background-size: cover;
-height: 312px;
-background-position: center;" class="vignette vignette-move vignette-grid show-hide portrait"
-    data-showhide-no-doubletrigger="" data-showhide-target=".team-1173">
+" class="vignette vignette-move vignette-grid show-hide portrait" data-showhide-no-doubletrigger=""
+    data-showhide-target=".team-1173">
     <div class="box-head">
 
 
@@ -1620,10 +1615,8 @@ background-position: center;" class="vignette vignette-move vignette-grid show-h
 
 <section style="
 background-image: url('https://storage.googleapis.com/swf-bucket/vignettes-entrepreneurs/binge-close-50.jpg');
-background-size: cover;
-height: 312px;
-background-position: center;" class="vignette vignette-move vignette-grid show-hide portrait"
-    data-showhide-no-doubletrigger="" data-showhide-target=".team-1171">
+" class="vignette vignette-move vignette-grid show-hide portrait" data-showhide-no-doubletrigger=""
+    data-showhide-target=".team-1171">
     <div class="box-head">
 
 
@@ -1646,10 +1639,8 @@ background-position: center;" class="vignette vignette-move vignette-grid show-h
 
 <section style="
 background-image: url('https://storage.googleapis.com/swf-bucket/vignettes-entrepreneurs/axioma-close-50.jpg');
-background-size: cover;
-height: 312px;
-background-position: center;" class="vignette vignette-move vignette-grid show-hide portrait"
-    data-showhide-no-doubletrigger="" data-showhide-target=".team-1172">
+" class="vignette vignette-move vignette-grid show-hide portrait" data-showhide-no-doubletrigger=""
+    data-showhide-target=".team-1172">
     <div class="box-head">
 
 
