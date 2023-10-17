@@ -703,10 +703,9 @@ const qsnContent = `<div class="container row" id="content-page">
     <div class="box-block">
 
         <img alt="Qui sommes nous ?" srcset="
-    https://d10ib5h62k7mu8.cloudfront.net/assets/img/picture-pages/who-are-we/81b245544e7728a0d8df017e204beab5-qui-sommes-nous@2x.png 2x,
-    https://d10ib5h62k7mu8.cloudfront.net/assets/img/picture-pages/who-are-we/0bc500d63d9c40e7166b79088f2038e3-qui-sommes-nous.png 1x
-  " src="https://d10ib5h62k7mu8.cloudfront.net/assets/img/picture-pages/who-are-we/0bc500d63d9c40e7166b79088f2038e3-qui-sommes-nous.png"
-            width="150" height="150">
+        https://storage.googleapis.com/swf-bucket/illustrations/sowefund-team.pngg 2x,
+        https://storage.googleapis.com/swf-bucket/illustrations/sowefund-team.png 1x
+  " src="https://storage.googleapis.com/swf-bucket/illustrations/sowefund-team.png" width="200" height="200">
 
         <p>Depuis 2014, Sowefund est la plateforme pionni&egrave;re du financement participatif en France. Nous
             permettons &agrave; tous de devenir actionnaires de startups prometteuses aux c&ocirc;t&eacute;s des
@@ -1673,7 +1672,7 @@ background-position: center;" class="vignette vignette-move vignette-grid show-h
 
 </div>`
 
-const filter = `<div class="row startup-filters">
+const filterHtml = `<div class="row startup-filters">
 <div id="filter-bar" class="col-xs-3">
     <div id="opportunity-filter" class="filter-group">
 
@@ -2025,7 +2024,7 @@ triggerOnCertainURLs(['https://sowefund.com/'], homeChanges, false);
 
 function startupsChanges() {
     // insertHTML('#content-page', `<div class="row startup-filters"><div id="filter-bar" class="col-xs-3" style=""><div id="opportunity-filter" class="filter-group"><p>Opportunités</p><div><div id="toutes" onclick="toutes()" class="filter-btn">Tout voir <img src="https://d3i3cp443mmogz.cloudfront.net/public/test/filtres/icon-tous.svg" alt="icone tous"></div></div></div><div id="focus-filter" class="filter-group"><p>Focus</p><div><div id="lastDays" onclick="lastDays()" style="" class="filter-btn">Derniers jours <img src="https://d3i3cp443mmogz.cloudfront.net/public/test/filtres/icon-lastdays.svg" alt="icone derniers jours"></div><div id="impact" onclick="impact()" class="filter-btn">Impact <img src="https://d3i3cp443mmogz.cloudfront.net/public/test/filtres/icon-impact.svg" alt="icone impact"></div></div></div><div id="maturity-filter" class="filter-group"><p>Maturité</p><div><div id="PreSeed" onclick="preSeed()" class="filter-btn">Pre-seed <img src="https://d3i3cp443mmogz.cloudfront.net/public/test/filtres/icon-preseed.svg" alt="icone pre-seed"></div><div id="Seed" onclick="seed()" class="filter-btn">Seed <img src="https://d3i3cp443mmogz.cloudfront.net/public/test/filtres/icon-seed.svg" alt="icone seed"></div><div id="PreSerieA" onclick="preSerieA()" class="filter-btn">Pre-série A <img src="https://d3i3cp443mmogz.cloudfront.net/public/test/filtres/icon-preseriea.svg" alt="icone pre-serie a"></div><div id="SerieA" onclick="serieA()" class="filter-btn">Série A <img src="https://d3i3cp443mmogz.cloudfront.net/public/test/filtres/icon-seriea.svg" alt="icone serie a"></div></div></div><div id="search-bar" class="filter-group"><p>Recherche</p><form action="#" id="control-filter-text" method="post"><div><input type="text" name="text-filter"><button name="submit"><span class="icon-loupe"></span></button></div></form></div></div></div>`);
-    replaceElementWithHTML('.startup-filters', filter);
+    replaceElementWithHTML('.startup-filters', filterHtml);
 
 }
 

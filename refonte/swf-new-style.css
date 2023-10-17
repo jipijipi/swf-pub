@@ -5331,7 +5331,7 @@ section.vignette {
 
 .vignette-grid.vignette {
     border: none;
-    background-color: #eee;
+    background-color: var(--light-set-secondary);
     border-radius: var(--default-rounding);
 
 }
