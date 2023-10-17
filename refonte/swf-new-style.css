@@ -1148,7 +1148,11 @@ h1:not(.box-title) small {
     line-height: 1em;
     margin: 1.5em 0;
     /* padding: 0.5em; */
+}
+
+#content-page>h1.extra-sm-bottom {
     color: var(--light-set-primary);
+
 }
 
 #content-page>h1>small {
