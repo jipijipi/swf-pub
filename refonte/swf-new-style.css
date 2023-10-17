@@ -4301,6 +4301,7 @@ div#filter-bar {
 
 .filter-group>p {
     border-bottom: solid 1px var(--light-grey);
+    border-bottom-style: dashed;
     color: var(--dark-set-primary);
 }
 
