@@ -2848,7 +2848,7 @@ span.customSelect {
 #popup .row:not(:last-child),
 #popup .project .project-side:not(:last-child),
 .project #popup .project-side:not(:last-child) {
-    margin-bottom: 3rem;
+    margin-bottom: 2rem;
 }
 
 #content-page {
