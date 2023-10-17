@@ -4572,7 +4572,7 @@ div#search-bar {
         margin-left: 0;
     }
 
-    li>.nav-project>a:only-of-type {
+    /*  li>.nav-project>a:only-of-type {
         border-radius: var(--small-rounding);
     }
 
@@ -4582,7 +4582,7 @@ div#search-bar {
 
     li>.nav-project>a:first-of-type {
         border-radius: var(--small-round) 0 0 var(--small-round);
-    }
+    } */
 
     .project .project-head li a {
         padding: .5rem;
