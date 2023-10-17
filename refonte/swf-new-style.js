@@ -984,9 +984,9 @@ triggerOnCertainURLs(['https://sowefund.com/qui-sommes-nous'], QsnChanges, true)
 //SOUMETTRE
 
 function soumettreChanges() {
-    removeElementsBySelector('h1');
-    removeElementsBySelector('#introEntrepreneur>div');
-    insertHTML('#content-page', soumettreContent);
+    // removeElementsBySelector('h1');
+    // removeElementsBySelector('#introEntrepreneur>div');
+    replaceElementWithHTML('#content-page', soumettreContent);
 }
 
 triggerOnCertainURLs(['https://sowefund.com/propose-project'], soumettreChanges, true);
