@@ -292,7 +292,9 @@ nav>.menu>.menu-links>li:active {
     left: calc(-50vw + 50%);
 }
 
-#track-record {}
+#track-record {
+    margin: 4em 0;
+}
 
 .portrait {
     border-radius: var(--default-rounding);
