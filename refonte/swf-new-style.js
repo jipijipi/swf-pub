@@ -229,7 +229,7 @@ const soumettreContent = `<div class="container row" id="content-page">
         <section id="featuresEntrepreneur">
 
             <img id="featuresImage" class="illustrationEntrepreneur lazyload"
-                src="https://d3i3cp443mmogz.cloudfront.net/public/entrepreneur/features-entrepreneur.svg"
+                src="https://storage.googleapis.com/swf-bucket/illustrations/entrepreneur-idee.png"
                 alt="Features entrepreneur" width="200px">
 
             <div class="corporateFeature row">
@@ -335,7 +335,7 @@ const soumettreContent = `<div class="container row" id="content-page">
         <section id="testimonialsEntrepreneur">
 
             <img id="testimonialsImage" class="illustrationEntrepreneur lazyload"
-                src="https://d3i3cp443mmogz.cloudfront.net/public/entrepreneur/testimonials-entrepreneur.svg"
+                src="https://storage.googleapis.com/swf-bucket/illustrations/collaboration-entrepreneur.png"
                 alt="testimonials entrepreneur" width="200px">
 
             <div class="row">
@@ -420,7 +420,7 @@ const soumettreContent = `<div class="container row" id="content-page">
         <section id="labelsEntrepreneur">
 
             <img class="lazyload" id="labelsImage"
-                src="https://d3i3cp443mmogz.cloudfront.net/public/entrepreneur/labels-entrepreneur.svg"
+                src="https://storage.googleapis.com/swf-bucket/illustrations/investisseur-question.png"
                 alt="labels entrepreneur" width="200px">
 
             <div id="labels" class="text-center">
@@ -500,7 +500,7 @@ const soumettreContent = `<div class="container row" id="content-page">
         <section id="tarifsroles">
 
             <img id="tarifsrolesImage" class="illustrationEntrepreneur lazyload"
-                src="https://d3i3cp443mmogz.cloudfront.net/public/entrepreneur/roles-entrepreneur.svg"
+                src="https://storage.googleapis.com/swf-bucket/illustrations/presentation-entrepreneur-pitch.png"
                 alt="Roles Sowefund" width="200px">
 
             <div id="tarifs">
