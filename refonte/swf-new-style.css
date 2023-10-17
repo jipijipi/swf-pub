@@ -307,6 +307,11 @@ nav>.menu>.menu-links>li:active {
     line-height: 120%;
 }
 
+#teamPartnersLogos {
+    width: 100%;
+    background-image: url('https://storage.googleapis.com/swf-bucket/files/1697575684197-partnerTeams.svg');
+}
+
 /*expendable?*/
 .highlight {
     color: var(--light-set-primary);
