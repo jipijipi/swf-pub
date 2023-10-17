@@ -1568,33 +1568,33 @@ const trackRecord = `<div class="row" id="track-record">
 
 
 <section style="
-background-image: url('https://storage.googleapis.com/swf-prod-public/inputs/members/056c0871-6de6-4cea-adae-17cdf6df757c.jpg');
+background-image: url('https://storage.googleapis.com/swf-bucket/vignettes-entrepreneurs/1697535483333-lunii.jpg');
 background-size: cover;
 height: 312px;
 background-position: center;" class="vignette vignette-move vignette-grid show-hide portrait"
-    data-showhide-no-doubletrigger="" data-showhide-target=".team-1175" data-gtm-vis-has-fired10563913_87="1">
+    data-showhide-no-doubletrigger="" data-gtm-vis-has-fired10563913_87="1">
     <div class="box-head">
 
 
-        <img alt="Célia CALDEIRA"
-            src="https://storage.googleapis.com/swf-prod-public/inputs/members/056c0871-6de6-4cea-adae-17cdf6df757c.jpg">
+        <img alt="Maelle CHASSARD"
+            src="https://storage.googleapis.com/swf-bucket/vignettes-entrepreneurs/1697535483333-lunii.jpg">
 
 
     </div>
     <div class="box-body font-xs">
-        <h2 class="font-md">Célia CALDEIRA</h2>
-        <small>Commerciale</small>
+        <h2 class="font-md">Maëlle CHASSARD</h2>
+        <small>Fondatrice - Lunii</small>
     </div>
     <div class="box-foot font-xs text-right">
 
-        Depuis 2023
+        &nbsp;
 
 
     </div>
 </section>
 
 <section style="
-background-image: url('https://storage.googleapis.com/swf-prod-public/inputs/members/64a83af7-8895-4c0e-bdb0-e9f134dac879.jpg');
+background-image: url('https://storage.googleapis.com/swf-bucket/vignettes-entrepreneurs/1697535481299-ekwateur.jpg');
 background-size: cover;
 height: 312px;
 background-position: center;" class="vignette vignette-move vignette-grid show-hide portrait"
@@ -1602,25 +1602,25 @@ background-position: center;" class="vignette vignette-move vignette-grid show-h
     <div class="box-head">
 
 
-        <img alt="Leo SIBY"
-            src="https://storage.googleapis.com/swf-prod-public/inputs/members/64a83af7-8895-4c0e-bdb0-e9f134dac879.jpg">
+        <img alt="Julien TCHERNIA"
+            src="https://storage.googleapis.com/swf-bucket/vignettes-entrepreneurs/1697535481299-ekwateur.jpg">
 
 
     </div>
     <div class="box-body font-xs">
-        <h2 class="font-md">Leo SIBY</h2>
-        <small>Chargé de Relation Investisseurs</small>
+        <h2 class="font-md">julien TCHERNIA</h2>
+        <small>Fondateur - ekWateur</small>
     </div>
     <div class="box-foot font-xs text-right">
 
-        Depuis 2023
+        &nbsp;
 
 
     </div>
 </section>
 
 <section style="
-background-image: url('https://storage.googleapis.com/swf-prod-public/inputs/members/a7173c01-a1f0-4312-b8e2-cdc4758f3ee6.jpg');
+background-image: url('https://storage.googleapis.com/swf-bucket/vignettes-entrepreneurs/1697535475303-binge.jpg');
 background-size: cover;
 height: 312px;
 background-position: center;" class="vignette vignette-move vignette-grid show-hide portrait"
@@ -1628,25 +1628,25 @@ background-position: center;" class="vignette vignette-move vignette-grid show-h
     <div class="box-head">
 
 
-        <img alt="Dorian FROUGNEUX"
-            src="https://storage.googleapis.com/swf-prod-public/inputs/members/a7173c01-a1f0-4312-b8e2-cdc4758f3ee6.jpg">
+        <img alt="Gabrielle BOERI"
+            src="https://storage.googleapis.com/swf-bucket/vignettes-entrepreneurs/1697535475303-binge.jpg">
 
 
     </div>
     <div class="box-body font-xs">
-        <h2 class="font-md">Dorian FROUGNEUX</h2>
-        <small>Chargé de Relation Investisseurs</small>
+        <h2 class="font-md">Gabrielle BOERI</h2>
+        <small>Fondatrice - Binge Audio</small>
     </div>
     <div class="box-foot font-xs text-right">
 
-        Depuis 2023
+        &nbsp;
 
 
     </div>
 </section>
 
 <section style="
-background-image: url('https://storage.googleapis.com/swf-prod-public/inputs/members/12f79bb0-2336-4118-bcb9-ad84d3818e88.jpg');
+background-image: url('https://storage.googleapis.com/swf-bucket/vignettes-entrepreneurs/1697535476957-axioma.jpg');
 background-size: cover;
 height: 312px;
 background-position: center;" class="vignette vignette-move vignette-grid show-hide portrait"
@@ -1654,18 +1654,18 @@ background-position: center;" class="vignette vignette-move vignette-grid show-h
     <div class="box-head">
 
 
-        <img alt="Emma SCHULDT"
-            src="https://storage.googleapis.com/swf-prod-public/inputs/members/12f79bb0-2336-4118-bcb9-ad84d3818e88.jpg">
+        <img alt="Anthony Bugeat"
+            src="https://storage.googleapis.com/swf-bucket/vignettes-entrepreneurs/1697535476957-axioma.jpg">
 
 
     </div>
     <div class="box-body font-xs">
-        <h2 class="font-md">Emma SCHULDT</h2>
-        <small>Chargée de communication</small>
+        <h2 class="font-md">Anthony BUGEAT</h2>
+        <small>Fondateur - Axioma</small>
     </div>
     <div class="box-foot font-xs text-right">
 
-        Depuis 2023
+        &nbsp;
 
 
     </div>
