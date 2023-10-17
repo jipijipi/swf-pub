@@ -191,13 +191,498 @@ const testimonials = `<div class="row box-block">
 
 </div>`;
 
-const heroSoum = `<div id="hero-container" class="row">
+const soumettreContent = `<div id="hero-container" class="row">
 <div id="hero">
     <h1 class="font-xxxl"><span class="highlight">Financez votre croissance</span><br> avec Sowefund.</h1>
     <p class="font-md">Nous vous accompagnons à chaque étape de votre campagne de <br>financement participatif pour
         lever des fonds auprès du grand public</p>
 </div>
-</div>`;
+</div>
+<a href="/propose-project/step1" class="btn btn-primary upper row">Envoyer son dossier</a>
+<div class="row">
+<div class="col-md-4 box-over-under-framed text-center">
+    <span class="font-xxl number-highlight">1&nbsp;849&nbsp;€</span>
+    <br><span data-gtm-vis-recent-on-screen10563913_50="194" data-gtm-vis-first-on-screen10563913_50="194"
+        data-gtm-vis-total-visible-time10563913_50="100" data-gtm-vis-has-fired10563913_50="1">ticket moyen</span>
+</div>
+<div class="col-md-4 box-over-under-framed text-center">
+    <span class="font-xxl number-highlight">783&nbsp;000&nbsp;€</span>
+    <br><span data-gtm-vis-has-fired10563913_50="1">montant moyen : 783 K€</span>
+</div>
+<div class="col-md-4 box-over-under-framed text-center">
+    <span class="font-xxl number-highlight">70%</span>
+    <br><span data-gtm-vis-has-fired10563913_50="1">levées réussies</span>
+</div>
+</div>
+
+<section class="box">
+
+<div class="box-block">
+
+    <section id="featuresEntrepreneur">
+
+        <img id="featuresImage" class="illustrationEntrepreneur lazyload"
+            src="https://d3i3cp443mmogz.cloudfront.net/public/entrepreneur/features-entrepreneur.svg"
+            alt="Features entrepreneur" width="200px">
+
+        <div class="corporateFeature row">
+
+            <div class="imageFeature col-xs-2 col-md-offset-1 text-center">
+                <h3>
+                    <img class="lazyload"
+                        src="https://d3i3cp443mmogz.cloudfront.net/public/entrepreneur/communaute.svg"
+                        alt="communauté sowefund" width="60px">
+                </h3>
+            </div>
+
+            <div class="contentFeature col-md-7">
+                <h3 class="titleFeature upper">CONTRÔLE</h3>
+                <p class="paragraphFeature">Une alternative de financement fléxible et durable</p>
+            </div>
+
+        </div>
+
+        <div class="corporateFeature row">
+
+            <div class="imageFeature col-xs-2 col-md-offset-1 text-center">
+                <h3>
+                    <img class="lazyload"
+                        src="https://d3i3cp443mmogz.cloudfront.net/public/entrepreneur/financement.svg"
+                        alt="financement sowefund" width="60px">
+                </h3>
+            </div>
+
+            <div class="contentFeature col-md-7">
+                <h3 class="titleFeature upper">COMPLÉMENT</h3>
+                <p class="paragraphFeature">Un complément de liquidité à votre levée </p>
+            </div>
+
+        </div>
+
+        <div class="corporateFeature row">
+
+            <div class="imageFeature col-xs-2 col-md-offset-1 text-center">
+                <h3>
+                    <img class="lazyload"
+                        src="https://d3i3cp443mmogz.cloudfront.net/public/entrepreneur/communication.svg"
+                        alt="communication sowefund" width="60px">
+                </h3>
+            </div>
+
+            <div class="contentFeature col-md-7">
+                <h3 class="titleFeature upper">FIDÉLISATION</h3>
+                <p class="paragraphFeature">Le meilleur moyen d’impliquer et de fidéliser votre communauté : vos
+                    investisseurs sont vos ambassadeurs ! On mobilise notre communauté de plus de 110 000
+                    investisseurs engagés dans votre projet</p>
+            </div>
+
+        </div>
+
+        <div class="corporateFeature row">
+
+            <div class="imageFeature col-xs-2 col-md-offset-1 text-center">
+                <h3>
+                    <img class="lazyload"
+                        src="https://d3i3cp443mmogz.cloudfront.net/public/entrepreneur/interlocuteur.svg"
+                        alt="interlocuteur sowefund" width="60px">
+                </h3>
+            </div>
+
+            <div class="contentFeature col-md-7">
+                <h3 class="titleFeature upper">ACCOMPAGNEMENT</h3>
+                <p class="paragraphFeature">Un accompagnement professionnel à toutes les étapes de votre campagne :
+                    stratégie de communication, marketing et acquisition, gestion des investissements, suivi
+                    administratif et juridique…</p>
+            </div>
+
+        </div>
+
+        <div class="corporateFeature row">
+
+            <div class="imageFeature col-xs-2 col-md-offset-1 text-center">
+                <h3>
+                    <img class="lazyload"
+                        src="https://d3i3cp443mmogz.cloudfront.net/public/entrepreneur/accompagnement.svg"
+                        alt="accompagnement sowefund" width="60px">
+                </h3>
+            </div>
+
+            <div class="contentFeature col-md-7">
+                <h3 class="titleFeature upper">TRANQUILITÉ</h3>
+                <p class="paragraphFeature">Une gestion clé en main de l'ensemble des investisseurs devenus
+                    actionnaires de votre entreprise.</p>
+            </div>
+
+        </div>
+
+
+    </section>
+
+
+
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+
+
+    <section id="testimonialsEntrepreneur">
+
+        <img id="testimonialsImage" class="illustrationEntrepreneur lazyload"
+            src="https://d3i3cp443mmogz.cloudfront.net/public/entrepreneur/testimonials-entrepreneur.svg"
+            alt="testimonials entrepreneur" width="200px">
+
+        <div class="row">
+
+            <div class="col-md-6 testimonial">
+                <img class="lazyload"
+                    src="https://d3i3cp443mmogz.cloudfront.net/public/entrepreneur/logo-extracadabra.svg"
+                    alt="Logo Extracadabra" width="200px">
+                <blockquote>
+                    " Cette levée de fonds a permis à Extracadabra de bénéficier de la forte communauté
+                    d'investisseurs engagés de Sowefund tout en permettant à nos clients restaurateurs de
+                    prendre part à cette belle aventure. Nous avons réuni plus de 400K€ en
+                    moins de 2 mois, en co-investissement avec les fonds Side Capital et Bpifrance via son fonds
+                    tourisme. Un succès rapide et efficace ! "
+                    <br>
+                    <br>
+                    <footer>Frederic Nardon, Extracadabra</footer>
+                </blockquote>
+            </div>
+
+            <div class="col-md-6 testimonial">
+                <img class="lazyload"
+                    src="https://d3i3cp443mmogz.cloudfront.net/public/entrepreneur/logo-ekwateur.svg"
+                    alt="Logo Ekwateur" width="200px">
+                <blockquote>
+                    " L’opération faite avec Sowefund était pour nous une évidence dans l’esprit collaboratif
+                    d’ekWateur. Ce que nous n’avions pas anticipé par contre, c’est l’engouement que cette
+                    campagne allait créer. On a plus que doublé l’objectif, avec
+                    1,12 M€ levés alors qu’on tablait sur 0,5M€ ! "
+                    <br>
+                    <br>
+                    <footer>Julien Tchernia, Ekwateur</footer>
+                </blockquote>
+            </div>
+
+        </div>
+
+        <div class="row">
+
+            <div class="col-md-6 testimonial">
+                <img class="lazyload" src="https://d3i3cp443mmogz.cloudfront.net/public/entrepreneur/logo-lunii.svg"
+                    alt="Logo Lunii" width="200px">
+                <blockquote>
+                    " Sowefund est un excellent moyen de rentrer dans la sphère investisseurs. L’accompagnement
+                    de l’équipe est essentiel pour les enjeux représentés par une levée de fonds. "
+                    <br>
+                    <br>
+                    <footer>Maelle Chassard, Lunii</footer>
+                </blockquote>
+            </div>
+
+            <div class="col-md-6 testimonial">
+                <img class="lazyload"
+                    src="https://d3i3cp443mmogz.cloudfront.net/public/entrepreneur/logo-agriloops.svg"
+                    alt="Logo Agriloops" width="200px">
+                <blockquote>
+                    " Avec Sowefund, nous avons eu la chance d’avoir une oreille attentive qui a su comprendre
+                    nos besoins et cadencer notre levée de fonds pour en faire une réussite tant d’un point de
+                    vue communication que montant levé "
+                    <br>
+                    <br>
+                    <footer>Jeremy Cognard, Agriloops</footer>
+                </blockquote>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+
+
+
+
+
+    <section id="labelsEntrepreneur">
+
+        <img class="lazyload" id="labelsImage"
+            src="https://d3i3cp443mmogz.cloudfront.net/public/entrepreneur/labels-entrepreneur.svg"
+            alt="labels entrepreneur" width="200px">
+
+        <div id="labels" class="text-center">
+
+            <a href="https://www.orias.fr" target="_blank">
+                <img class="lazyload" alt="Conseiller agréé en Investissement Participatif"
+                    src="https://d3i3cp443mmogz.cloudfront.net/public/entrepreneur/cip.svg" width="120"
+                    height="120">
+            </a>
+
+            <a href="http://www.finance-innovation.org" target="_blank">
+                <img class="lazyload" alt="Finance Innovation"
+                    src="https://d3i3cp443mmogz.cloudfront.net/public/entrepreneur/finance-innovation.svg"
+                    width="120" height="120">
+            </a>
+
+            <a href="https://www.amf-france.org/" target="_blank">
+                <img class="lazyload" alt="AMF"
+                    src="https://d3i3cp443mmogz.cloudfront.net/public/entrepreneur/amf.svg" width="120"
+                    height="120">
+            </a>
+
+            <a href="https://www.orias.fr" target="_blank">
+                <img class="lazyload" alt="Agréé Orias"
+                    src="https://d3i3cp443mmogz.cloudfront.net/public/entrepreneur/orias.svg" width="120"
+                    height="120">
+            </a>
+
+            <a href="http://www.franceangels.org" target="_blank">
+                <img class="lazyload" alt="France Angels"
+                    src="https://d3i3cp443mmogz.cloudfront.net/public/entrepreneur/france-angels.svg" width="120"
+                    height="120">
+            </a>
+
+            <a href="/guide-crowdfunding/financement-croissance-verte" target="_blank">
+                <img class="lazyload" alt="Croissante verte"
+                    src="https://d3i3cp443mmogz.cloudfront.net/public/entrepreneur/croissance-verte.svg" width="120"
+                    height="120">
+            </a>
+
+            <a href="http://tousnosprojets.bpifrance.fr" target="_blank">
+                <img class="lazyload" alt="BPI France"
+                    src="https://d3i3cp443mmogz.cloudfront.net/public/entrepreneur/bpi.svg" width="120"
+                    height="120">
+            </a>
+
+            <a href="http://www.lafrenchtech.com" target="_blank">
+                <img class="lazyload" alt="La French Tech"
+                    src="https://d3i3cp443mmogz.cloudfront.net/public/entrepreneur/ftseed.svg" width="120"
+                    height="120">
+            </a>
+
+            <a href="/guide-crowdfunding/impact-investing" target="_blank">
+                <img class="lazyload" alt="Sowefund Impact Investing"
+                    src="https://d3i3cp443mmogz.cloudfront.net/public/entrepreneur/impact.svg" width="120"
+                    height="120">
+            </a>
+
+            <div id="labelsDescription">
+                <p>Sowefund a été parmi les premières plateformes agréées par l'AMF et l'ORIAS en tant que <abbr
+                        title="Conseiller en Investissement Participatif">CIP</abbr>. Sowefund est également
+                    reconnu comme investisseur avisé par Frenchtech Seed. De
+                    plus, le Ministère de la Transition Ecologique et Solidaire a accordé à Sowefund le droit de
+                    labelliser les projets pour la Croissance Verte, dont l'activité est orientée vers des
+                    solutions de transition écologique et énergétique.</p>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+
+
+    <section id="tarifsroles">
+
+        <img id="tarifsrolesImage" class="illustrationEntrepreneur lazyload"
+            src="https://d3i3cp443mmogz.cloudfront.net/public/entrepreneur/roles-entrepreneur.svg"
+            alt="Roles Sowefund" width="200px">
+
+        <div id="tarifs">
+
+            <h2 class="text-center">NOS TARIFS</h2>
+
+            <p>&nbsp;</p>
+
+            <div class="tarif row">
+
+                <div class="iconTarif col-xs-1 col-md-offset-2 text-center align-middle">
+                    <img src="https://d3i3cp443mmogz.cloudfront.net/public/entrepreneur/checkblue.svg"
+                        alt="checkmark" width="25px">
+                </div>
+                <div class="contentTarifs col-md-7">
+                    <span class="titleTarifs font-md">Des frais fixes raisonnés pour la mise en ligne et la
+                        gestion post-levée</span>
+                </div>
+            </div>
+
+            <div class="tarif row">
+
+                <div class="iconTarif col-xs-1 col-md-offset-2 text-center align-middle">
+                    <img src="https://d3i3cp443mmogz.cloudfront.net/public/entrepreneur/checkblue.svg"
+                        alt="checkmark" width="25px">
+                </div>
+                <div class="contentTarifs col-md-7">
+                    <span class="titleTarifs font-md">Des frais variables uniquement au succés</span>
+                </div>
+            </div>
+
+        </div>
+
+        <div id="roles">
+
+            <h2 class="text-center">NOS RÔLES</h2>
+
+            <p>&nbsp;</p>
+
+            <div class="role row">
+
+                <div class="iconRoles col-xs-1 col-md-offset-2 text-center align-middle">
+                    <img src="https://d3i3cp443mmogz.cloudfront.net/public/entrepreneur/checklightfit.svg"
+                        alt="checkmark" width="25px">
+                </div>
+
+                <div class="contentRoles col-md-7">
+                    <span class="titleRoles font-md">Due diligence complète</span>
+                </div>
+            </div>
+
+            <div class="role row">
+
+                <div class="iconRoles col-xs-1 col-md-offset-2 text-center align-middle">
+                    <img src="https://d3i3cp443mmogz.cloudfront.net/public/entrepreneur/checklightfit.svg"
+                        alt="checkmark" width="25px">
+                </div>
+
+                <div class="contentRoles col-md-7">
+                    <span class="titleRoles font-md">Accompagnement sur la préparation de documentation
+                        juridique relative à l'opération (LOI, Pacte d’actionnaires, mise en place du véhicule
+                        d’investissement).</span>
+                </div>
+            </div>
+
+            <div class="role row">
+
+                <div class="iconRoles col-xs-1 col-md-offset-2 text-center align-middle">
+                    <img src="https://d3i3cp443mmogz.cloudfront.net/public/entrepreneur/checklightfit.svg"
+                        alt="checkmark" width="25px">
+                </div>
+
+                <div class="contentRoles col-md-7">
+                    <span class="titleRoles font-md">Revue financière de la documentation de présentation</span>
+                </div>
+            </div>
+
+            <div class="role row">
+
+                <div class="iconRoles col-xs-1 col-md-offset-2 text-center align-middle">
+                    <img src="https://d3i3cp443mmogz.cloudfront.net/public/entrepreneur/checklightfit.svg"
+                        alt="checkmark" width="25px">
+                </div>
+
+                <div class="contentRoles col-md-7">
+                    <span class="titleRoles font-md">Conseil à la rédaction et mise en page de
+                        l’argumentaire</span>
+                </div>
+            </div>
+
+            <div class="role row">
+
+                <div class="iconRoles col-xs-1 col-md-offset-2 text-center align-middle">
+                    <img src="https://d3i3cp443mmogz.cloudfront.net/public/entrepreneur/checklightfit.svg"
+                        alt="checkmark" width="25px">
+                </div>
+
+                <div class="contentRoles col-md-7">
+                    <span class="titleRoles font-md">Design d’un plan de communication sur mesure, ajustable à
+                        tout moment de la campagne</span>
+                </div>
+            </div>
+
+            <div class="role row">
+
+                <div class="iconRoles col-xs-1 col-md-offset-2 text-center align-middle">
+                    <img src="https://d3i3cp443mmogz.cloudfront.net/public/entrepreneur/checklightfit.svg"
+                        alt="checkmark" width="25px">
+                </div>
+
+                <div class="contentRoles col-md-7">
+                    <span class="titleRoles font-md">Une vidéo de campagne</span>
+                </div>
+            </div>
+
+            <div class="role row">
+
+                <div class="iconRoles col-xs-1 col-md-offset-2 text-center align-middle">
+                    <img src="https://d3i3cp443mmogz.cloudfront.net/public/entrepreneur/checklightfit.svg"
+                        alt="checkmark" width="25px">
+                </div>
+
+                <div class="contentRoles col-md-7">
+                    <span class="titleRoles font-md">Pilotage et gestion des promesses d’investissement</span>
+                </div>
+            </div>
+
+            <div class="role row">
+
+                <div class="iconRoles col-xs-1 col-md-offset-2 text-center align-middle">
+                    <img src="https://d3i3cp443mmogz.cloudfront.net/public/entrepreneur/checklightfit.svg"
+                        alt="checkmark" width="25px">
+                </div>
+
+                <div class="contentRoles col-md-7">
+                    <span class="titleRoles font-md">Rapports hebdomadaires des investissements</span>
+                </div>
+            </div>
+
+            <div class="role row">
+
+                <div class="iconRoles col-xs-1 col-md-offset-2 text-center align-middle">
+                    <img src="https://d3i3cp443mmogz.cloudfront.net/public/entrepreneur/checklightfit.svg"
+                        alt="checkmark" width="25px">
+                </div>
+
+                <div class="contentRoles col-md-7">
+                    <span class="titleRoles font-md">Support et suivi des investisseurs pendant et après la
+                        campagne</span>
+                </div>
+            </div>
+
+            <div class="role row">
+
+                <div class="iconRoles col-xs-1 col-md-offset-2 text-center align-middle">
+                    <img src="https://d3i3cp443mmogz.cloudfront.net/public/entrepreneur/checklightfit.svg"
+                        alt="checkmark" width="25px">
+                </div>
+
+                <div class="contentRoles col-md-7">
+                    <span class="titleRoles font-md">Relance systématique de chaque promesse
+                        d’investissement</span>
+                </div>
+            </div>
+
+            <div class="role row">
+
+                <div class="iconRoles col-xs-1 col-md-offset-2 text-center align-middle">
+                    <img src="https://d3i3cp443mmogz.cloudfront.net/public/entrepreneur/checklightfit.svg"
+                        alt="checkmark" width="25px">
+                </div>
+
+                <div class="contentRoles col-md-7">
+                    <span class="titleRoles font-md">Création et gestion administrative de la holding</span>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+    <p>&nbsp;</p>
+
+    <p>Pour toutes questions, n'hésitez pas à joindre nos équipes sur <a
+            href="mailto:contact@sowefund.com">contact@sowefund.com</a> ou au 01 42 40 54 45</p>
+
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+
+    <div class="row text-center">
+        <a href="/propose-project/step1" class="btn btn-primary upper">Envoyer son dossier</a>
+    </div>
+</div>
+</section>`;
 
 function loadExternalCSS(filePath) {
     const body = document.body;
@@ -499,7 +984,7 @@ triggerOnCertainURLs(['https://sowefund.com/qui-sommes-nous'], QsnChanges, true)
 function soumettreChanges() {
     removeElementsBySelector('h1');
     removeElementsBySelector('#introEntrepreneur>div');
-    insertHTML('#content-page', heroSoum);
+    insertHTML('#content-page', soumettreContent);
 }
 
 triggerOnCertainURLs(['https://sowefund.com/propose-project'], soumettreChanges, true);
