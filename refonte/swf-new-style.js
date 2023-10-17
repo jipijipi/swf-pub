@@ -1564,6 +1564,115 @@ const qsnContent = `<div class="container row" id="content-page">
 
 </div>`;
 
+const trackRecord = `<div class="row" id="track-record">
+
+
+<section style="
+background-image: url('https://storage.googleapis.com/swf-prod-public/inputs/members/056c0871-6de6-4cea-adae-17cdf6df757c.jpg');
+background-size: cover;
+height: 312px;
+background-position: center;" class="vignette vignette-move vignette-grid show-hide portrait"
+    data-showhide-no-doubletrigger="" data-showhide-target=".team-1175" data-gtm-vis-has-fired10563913_87="1">
+    <div class="box-head">
+
+
+        <img alt="Célia CALDEIRA"
+            src="https://storage.googleapis.com/swf-prod-public/inputs/members/056c0871-6de6-4cea-adae-17cdf6df757c.jpg">
+
+
+    </div>
+    <div class="box-body font-xs">
+        <h2 class="font-md">Célia CALDEIRA</h2>
+        <small>Commerciale</small>
+    </div>
+    <div class="box-foot font-xs text-right">
+
+        Depuis 2023
+
+
+    </div>
+</section>
+
+<section style="
+background-image: url('https://storage.googleapis.com/swf-prod-public/inputs/members/64a83af7-8895-4c0e-bdb0-e9f134dac879.jpg');
+background-size: cover;
+height: 312px;
+background-position: center;" class="vignette vignette-move vignette-grid show-hide portrait"
+    data-showhide-no-doubletrigger="" data-showhide-target=".team-1173" data-gtm-vis-has-fired10563913_87="1">
+    <div class="box-head">
+
+
+        <img alt="Leo SIBY"
+            src="https://storage.googleapis.com/swf-prod-public/inputs/members/64a83af7-8895-4c0e-bdb0-e9f134dac879.jpg">
+
+
+    </div>
+    <div class="box-body font-xs">
+        <h2 class="font-md">Leo SIBY</h2>
+        <small>Chargé de Relation Investisseurs</small>
+    </div>
+    <div class="box-foot font-xs text-right">
+
+        Depuis 2023
+
+
+    </div>
+</section>
+
+<section style="
+background-image: url('https://storage.googleapis.com/swf-prod-public/inputs/members/a7173c01-a1f0-4312-b8e2-cdc4758f3ee6.jpg');
+background-size: cover;
+height: 312px;
+background-position: center;" class="vignette vignette-move vignette-grid show-hide portrait"
+    data-showhide-no-doubletrigger="" data-showhide-target=".team-1171" data-gtm-vis-has-fired10563913_87="1">
+    <div class="box-head">
+
+
+        <img alt="Dorian FROUGNEUX"
+            src="https://storage.googleapis.com/swf-prod-public/inputs/members/a7173c01-a1f0-4312-b8e2-cdc4758f3ee6.jpg">
+
+
+    </div>
+    <div class="box-body font-xs">
+        <h2 class="font-md">Dorian FROUGNEUX</h2>
+        <small>Chargé de Relation Investisseurs</small>
+    </div>
+    <div class="box-foot font-xs text-right">
+
+        Depuis 2023
+
+
+    </div>
+</section>
+
+<section style="
+background-image: url('https://storage.googleapis.com/swf-prod-public/inputs/members/12f79bb0-2336-4118-bcb9-ad84d3818e88.jpg');
+background-size: cover;
+height: 312px;
+background-position: center;" class="vignette vignette-move vignette-grid show-hide portrait"
+    data-showhide-no-doubletrigger="" data-showhide-target=".team-1172" data-gtm-vis-has-fired10563913_87="1">
+    <div class="box-head">
+
+
+        <img alt="Emma SCHULDT"
+            src="https://storage.googleapis.com/swf-prod-public/inputs/members/12f79bb0-2336-4118-bcb9-ad84d3818e88.jpg">
+
+
+    </div>
+    <div class="box-body font-xs">
+        <h2 class="font-md">Emma SCHULDT</h2>
+        <small>Chargée de communication</small>
+    </div>
+    <div class="box-foot font-xs text-right">
+
+        Depuis 2023
+
+
+    </div>
+</section>
+
+</div>`
+
 function loadExternalCSS(filePath) {
     const body = document.body;
     const link = document.createElement('link');
@@ -1816,7 +1925,7 @@ function homeChanges() {
     removeElementsBySelector('.box-block');
 
     //Header home
-    // insertHTML('#content-page', '<div class="row full-viewport" id="track-record" height = 150px><div class="portrait"></div><div class="portrait"></div></div>');
+    insertHTML('#content-page', trackRecord);
     insertHTML('#content-page', '<div class="row " id="cta-home"><div class="text-center row"><a href="/startups" class="btn btn-primary btn-xl upper">Investir dès maintenant</a><br></div></div>');
     insertHTML('#content-page', '<div id="hero-container" class="row"><div id="hero"><h1 class="font-xxxl" ><span class="highlight">Investir</span> dans les <br>entreprises de demain</h1><p class = "font-md">Devenez actionnaire des startups les plus innovantes <br>aux côtés des professionnels de l’investissement. </p><p>Bénéficiez du support méthodique d’investissement <br>et de suivi des participations des équipes de Sowefund</p></div></div>');
     insertHTML('#content-page > section:nth-child(5) > div', testimonials);
