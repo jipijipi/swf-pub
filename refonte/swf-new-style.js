@@ -1809,7 +1809,7 @@ triggerOnCertainURLs(['https://sowefund.com/projet'], projectChanges, true);
 //QSN
 
 function QsnChanges() {
-    moveElement('#content-page > section', '#content-page', false)
+    // moveElement('#content-page > section', '#content-page', false)
     replaceElementWithHTML('#content-page', qsnContent);
 }
 
