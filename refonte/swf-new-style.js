@@ -80,7 +80,7 @@ const homeArgs = `<div class="bg-info row">
         <p>
             On vous guide en
             toute transparence, vous choisissez les projets qui vous correspondent.
-        </p><a href="https://sowefund.com/startups?categories=547"
+        </p><a href="https://sowefund.com/startups?filter=Seed"
             title="Les investissements impact investing Sowefund"> Découvrez dès maintenant nos projets
             "impact"</a>.
     </div>
