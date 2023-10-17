@@ -700,7 +700,6 @@ const soumettreContent = `<div class="container row" id="content-page">
 const qsnContent = `<div class="container row" id="content-page">
 
 <section class="box row-layout">
-    <h2 class="box-title">Qui sommes nous ?</h2>
     <div class="box-block">
 
         <img alt="Qui sommes nous ?" srcset="
@@ -728,17 +727,17 @@ const qsnContent = `<div class="container row" id="content-page">
         <p><br></p>
         <p>Notre nouveau groupe repr&eacute;sente :</span></p>
         <ul>
-            <li style="list-style-type:disc;font-size:11pt;">
+            <li>
                 <p>plus de 250 soci&eacute;t&eacute;s financ&eacute;es</span></p>
             </li>
-            <li style="list-style-type:disc;font-size:11pt;">
+            <li>
                 <p>plus de 300 millions d&rsquo;euros d&eacute;di&eacute;s aux entreprises de croissance &agrave; mi
                     2023</span></p>
             </li>
-            <li style="list-style-type:disc;font-size:11pt;">
+            <li>
                 <p>plus de 4000 employ&eacute;s dans les soci&eacute;t&eacute;s du portefeuille</span></p>
             </li>
-            <li style="list-style-type:disc;font-size:11pt;">
+            <li>
                 <p>XXX M d&rsquo;euros lev&eacute;s aupr&egrave;s de plus de 500 co-investisseurs
                     professionnels</span></p>
             </li>
@@ -752,7 +751,7 @@ const qsnContent = `<div class="container row" id="content-page">
         <p>Notre mission est double :&nbsp;</span></p>
         <p><br></p>
         <ol>
-            <li style="list-style-type:decimal;font-size:11pt;">
+            <li>
                 <p>Pour vous investisseurs, vous permettre &agrave; tous de devenir actionnaires des entreprises
                     innovantes les plus prometteuses, aux c&ocirc;t&eacute;s d&rsquo;investisseurs professionnels du
                     march&eacute;. Le tout avec les m&eacute;thodes et la discipline dignes des meilleurs fonds
