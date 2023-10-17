@@ -191,6 +191,14 @@ const testimonials = `<div class="row box-block">
 
 </div>`;
 
+const heroSoum = `<div id="hero-container" class="row">
+<div id="hero">
+    <h1 class="font-xxxl"><span class="highlight">Financez votre croissance</span><br> avec Sowefund.</h1>
+    <p class="font-md">Nous vous accompagnons à chaque étape de votre campagne de <br>financement participatif pour
+        lever des fonds auprès du grand public</p>
+</div>
+</div>`;
+
 function loadExternalCSS(filePath) {
     const body = document.body;
     const link = document.createElement('link');
@@ -485,6 +493,17 @@ function QsnChanges() {
 triggerOnCertainURLs(['https://sowefund.com/qui-sommes-nous'], QsnChanges, true);
 
 
+
+//SOUMETTRE
+
+function soumettreChanges() {
+    insertHTML('#content-page', heroSoum);
+}
+
+triggerOnCertainURLs(['https://sowefund.com/propose-project'], soumettreChanges, true);
+
+
+//END TASKS
 //favicons
 appendToHead('link', { 'rel': 'manifest', 'href': 'https://storage.googleapis.com/swf-bucket/favicon/manifest.webmanifest' });
 appendToHead('link', { 'rel': 'icon', 'href': 'https://storage.googleapis.com/swf-bucket/favicon/favicon.ico', 'sizes': '32x32' });
