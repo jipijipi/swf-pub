@@ -140,7 +140,7 @@ const testimonials = `<div class="row box-block">
         <blockquote>“Des entreprises innovantes, des tickets accessibles permettant une bonne diversification, des
             perspectives de marges financières motivantes, une équipe très accessible et de bons conseils !”
             <br><br>
-            <footer>2023, Investisseur dans XX</footer>
+            <footer>J.D., 37 investissements depuis 2017</footer>
         </blockquote>
     </div>
     <div class="col-md-6 testimonial"><img class="lazyload"
@@ -148,7 +148,7 @@ const testimonials = `<div class="row box-block">
             width="200px">
         <blockquote>“De belles opportunités d'investissement et un professionnalisme fort.”
             <br><br>
-            <footer>2023, Investisseur dans XX</footer>
+            <footer>J.B., 12 investissements depuis 2015</footer>
         </blockquote>
     </div>
 </div>
@@ -158,7 +158,7 @@ const testimonials = `<div class="row box-block">
             width="200px">
         <blockquote>“Efficace, professionnel, pédagogue et humain”
             <br><br>
-            <footer>2023, Investisseur dans XX</footer>
+            <footer>JF.S., 2 investissements depuis 2016</footer>
         </blockquote>
     </div>
     <div class="col-md-6 testimonial"><img class="lazyload"
@@ -166,7 +166,7 @@ const testimonials = `<div class="row box-block">
             width="200px">
         <blockquote>“Très bon contact et excellente communication sur les suivis.”
             <br><br>
-            <footer>2023, Investisseur dans XX</footer>
+            <footer>S.G., 8 investissements depuis 2016</footer>
         </blockquote>
     </div>
 </div>
@@ -176,7 +176,7 @@ const testimonials = `<div class="row box-block">
             width="200px">
         <blockquote>“Produits proposés et accompagnement parfaits”
             <br><br>
-            <footer>2023, Investisseur dans XX</footer>
+            <footer>JM.T, 1 investissements depuis 2014</footer>
         </blockquote>
     </div>
     <div class="col-md-6 testimonial"><img class="lazyload"
@@ -184,7 +184,7 @@ const testimonials = `<div class="row box-block">
             width="200px">
         <blockquote>“Très bonne équipe à l’écoute des partenaires. Large choix de sujets d’investissements.”
             <br><br>
-            <footer>2023, Investisseur dans XX</footer>
+            <footer>O.R, 19 investissements depuis 2015</footer>
         </blockquote>
     </div>
 </div>
