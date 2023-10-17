@@ -4299,6 +4299,11 @@ div#filter-bar {
     margin-left: 2px;
 }
 
+.filter-group>p {
+    border-bottom: solid 1px var(--light-grey);
+    color: var(--dark-set-primary);
+}
+
 div#opportunity-filter {
     flex-grow: 1;
 }
