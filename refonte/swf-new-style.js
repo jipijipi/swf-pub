@@ -742,8 +742,8 @@ const qsnContent = `<div class="container row" id="content-page">
             </li>
         </ul>
         <p><br></p>
-        <p>Ensemble, nous sommes d&eacute;j&agrave; &agrave; l&rsquo;origine du succ&egrave;s de startups comme
-            Lydia, Yuka, ekWateur, Teads, Lunii,Axioma, Agriloops ou Epicery.&nbsp;</span></p>
+        <p>Avec le groupe Founders Future, nous sommes déjà à l’origine du succès de startups comme Lydia, Yuka,
+            ekWateur, Teads, Lunii,Axioma, Agriloops ou Epicery.&nbsp;</span></p>
         <p><br></p>
         <p><strong>(bande de logos des startups ici)</span></strong></p>
         <p><br></p>
