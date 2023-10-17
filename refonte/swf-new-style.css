@@ -296,6 +296,10 @@ nav>.menu>.menu-links>li:active {
     margin: 4em 0;
 }
 
+#track-record a {
+    cursor: default;
+}
+
 .portrait {
     border-radius: var(--default-rounding);
     height: 200px;

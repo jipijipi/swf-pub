@@ -1565,13 +1565,13 @@ const qsnContent = `<div class="container row" id="content-page">
 
 const trackRecord = `<div class="row" id="track-record">
 
-
+<h2>Success stories</h2>
 <section style="
 background-image: url('https://storage.googleapis.com/swf-bucket/vignettes-entrepreneurs/lunii-close-50.jpg');
 background-size: cover;
 height: 312px;
 background-position: center;" class="vignette vignette-move vignette-grid show-hide portrait"
-    data-showhide-no-doubletrigger="" data-gtm-vis-has-fired10563913_87="1">
+    data-showhide-no-doubletrigger="">
     <div class="box-head">
 
 
@@ -1597,7 +1597,7 @@ background-image: url('https://storage.googleapis.com/swf-bucket/vignettes-entre
 background-size: cover;
 height: 312px;
 background-position: center;" class="vignette vignette-move vignette-grid show-hide portrait"
-    data-showhide-no-doubletrigger="" data-showhide-target=".team-1173" data-gtm-vis-has-fired10563913_87="1">
+    data-showhide-no-doubletrigger="" data-showhide-target=".team-1173">
     <div class="box-head">
 
 
@@ -1623,7 +1623,7 @@ background-image: url('https://storage.googleapis.com/swf-bucket/vignettes-entre
 background-size: cover;
 height: 312px;
 background-position: center;" class="vignette vignette-move vignette-grid show-hide portrait"
-    data-showhide-no-doubletrigger="" data-showhide-target=".team-1171" data-gtm-vis-has-fired10563913_87="1">
+    data-showhide-no-doubletrigger="" data-showhide-target=".team-1171">
     <div class="box-head">
 
 
@@ -1649,7 +1649,7 @@ background-image: url('https://storage.googleapis.com/swf-bucket/vignettes-entre
 background-size: cover;
 height: 312px;
 background-position: center;" class="vignette vignette-move vignette-grid show-hide portrait"
-    data-showhide-no-doubletrigger="" data-showhide-target=".team-1172" data-gtm-vis-has-fired10563913_87="1">
+    data-showhide-no-doubletrigger="" data-showhide-target=".team-1172">
     <div class="box-head">
 
 
