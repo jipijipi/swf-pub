@@ -2894,6 +2894,10 @@ a.text-white {
     border-bottom: 1px solid var(--light-set-primary) !important;
 }
 
+a.pull-right.matter {
+    color: black !important;
+}
+
 .opacity {
     opacity: .6;
     -webkit-transition: opacity 0.3s ease-in-out;
@@ -3526,6 +3530,10 @@ a.text-white {
     .header .nav-header .menu .menu-links .account:hover ul {
         right: -webkit-calc(100% - 5rem);
         right: calc(100% - 5rem);
+    }
+
+    .font-xxxl {
+        font-size: 250%;
     }
 }
 
