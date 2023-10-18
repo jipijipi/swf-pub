@@ -4138,6 +4138,7 @@ div#maturity-filter {
 
 aside .btn {
     border: var(--default-border);
+    margin: 0 0 2em 0;
 }
 
 div#search-bar {
