@@ -4136,6 +4136,10 @@ div#maturity-filter {
     border-color: var(--dark-set-secondary);
 }
 
+aside .btn {
+    border: var(--default-border);
+}
+
 div#search-bar {
     flex-grow: 2;
 }
