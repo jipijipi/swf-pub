@@ -864,7 +864,7 @@ strong,
 b,
 .lead,
 .btn {
-    font-weight: 600;
+    font-weight: 700;
 }
 
 h1,
@@ -987,7 +987,7 @@ a:not(.btn):hover strong {
 }
 
 a strong {
-    font-weight: 100;
+    font-weight: 700;
 }
 
 img {
